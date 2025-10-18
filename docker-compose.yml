@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  plotcortex:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: plotcortex
+    volumes:
+      - ./data:/app/data
+    environment:
+      - APP_PATH=/app
+      - DATA_DIR_PATH=/app/data
+    restart: unless-stopped
