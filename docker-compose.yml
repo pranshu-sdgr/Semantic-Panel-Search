@@ -1,14 +1,24 @@
-version: '3.8'
-
 services:
-  plotcortex:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    container_name: plotcortex
+  qdrant:
+    image: qdrant/qdrant:latest
+    container_name: plotcortex_vdb
+    ports:
+      - "6333:6333" # API port
+      - "6334:6334" # gRPC port
     volumes:
-      - ./data:/app/data
-    environment:
-      - APP_PATH=/app
-      - DATA_DIR_PATH=/app/data
-    restart: unless-stopped
+      - ./qdrant_storage:/qdrant/storage # Persists data on your local disk
+    restart: always
+
+  api:
+    container_name: plotcortex_api
+    build: ./api # Tells Docker to build the image from the 'api' directory
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data # Mounts your local data folder into the container
+    depends_on:
+      - qdrant # Ensures qdrant starts before the api
+    restart: always
+
+volumes:
+  qdrant_storage:

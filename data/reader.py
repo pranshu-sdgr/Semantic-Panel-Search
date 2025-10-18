@@ -1,6 +1,7 @@
 import csv
-from typing import List, Dict
 import os
+from typing import Dict, List
+
 
 def read_csv(file_path: str) -> List[Dict[str, str]]:
     """
