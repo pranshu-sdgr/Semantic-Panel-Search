@@ -4,7 +4,8 @@ from contextlib import asynccontextmanager
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from qdrant_client import QdrantClient
-from routes import search
+from routes import ingest, search
+from scripts.ingestion import ingest_movies_to_vdb
 from sentence_transformers import SentenceTransformer
 
 
@@ -26,6 +27,7 @@ app = FastAPI(
 )
 
 app.include_router(search.router, prefix="/api/v1/search", tags=["search"])
+app.include_router(ingest.router, prefix="/api/v1/ingest", tags=["ingest"])
 
 
 @app.get("/")
