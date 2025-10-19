@@ -17,6 +17,12 @@ class TransformerModel:
         """
         return self.model.encode(text).tolist()
 
+    def getModel(self) -> SentenceTransformer:
+        """
+        Get the underlying SentenceTransformer model.
+        """
+        return self.model
+
 model = None
 
 def get_transformer_model() -> TransformerModel:
