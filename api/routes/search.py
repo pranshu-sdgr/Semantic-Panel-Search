@@ -43,3 +43,28 @@ async def search_movies(request: SearchRequest):
         "results": results,
         "response_time": response_time
     }
+
+@router.post("/custom-query")
+async def search_custom_dataset(request: SearchRequest):
+    # Placeholder implementation for custom dataset search
+    start = datetime.now()
+    try:
+        transformer = get_transformer_model()
+        query_vector = transformer.encode(request.query)
+        search_result = vdao.get_top_k_similar_movies(query_vector, top_k=request.top_k, collection_name=request.collection_name)
+    except Exception as e:
+        raise HTTPException(status_code=http.HTTPStatus.INTERNAL_SERVER_ERROR, detail=str(e))
+    end = datetime.now()
+    response_time = (end - start).total_seconds()
+    results = [
+            {
+                "id": hit.id,
+                "score": hit.score,
+                "payload": hit.payload,
+            }
+            for hit in search_result
+        ]
+    return {
+        "results": results,
+        "response_time": response_time
+    }

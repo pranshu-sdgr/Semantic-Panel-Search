@@ -3,3 +3,4 @@ uvicorn[standard]
 qdrant-client
 sentence-transformers
 pandas
+python-multipart
