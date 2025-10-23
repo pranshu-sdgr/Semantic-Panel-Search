@@ -15,9 +15,9 @@ def get_qdrant_client() -> QdrantClient:
         client = QdrantClient(host="qdrant", port=6333)
     return client
 
-def get_top_k_similar_movies(embedding: List[float], top_k: int, collection_name: str) -> List[models.ScoredPoint]:
+def get_top_k_similar_vectors(embedding: List[float], top_k: int, collection_name: str) -> List[models.ScoredPoint]:
     """
-    Searches for similar movies in the Qdrant collection based on the provided embedding.
+    Searches for similar vectors in the Qdrant collection based on the provided embedding.
     """
     try:
         client = get_qdrant_client()

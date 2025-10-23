@@ -5,8 +5,6 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from qdrant_client import QdrantClient
 from routes import ingest, search
-from scripts.ingestion import ingest_movies_to_vdb
-from sentence_transformers import SentenceTransformer
 
 
 @asynccontextmanager

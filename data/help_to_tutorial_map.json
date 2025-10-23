@@ -1,0 +1,775 @@
+{
+    "MATERIALS_SCIENCE_META_WORKFLOW_BUILDER": {
+        "TUTORIAL_META_WORKFLOW": "Meta Workflow"
+    },
+    "MATERIALS_SCIENCE_RUN_META_WORKFLOW": {
+        "TUTORIAL_META_WORKFLOW": "Meta Workflow"
+    },
+    "MATERIALS_SCIENCE_NEW_MOLECULAR_DEPOSITION": {
+        "TUTORIAL_MOLECULAR_DEPOSITION": "Molecular Deposition"
+    },
+    "MATERIALS_SCIENCE_POLYMER_BUILDER": {
+        "TUTORIAL_BUILDERS_POLYMER": "Building, Equilibrating and Analyzing Amorphous Polymers",
+        "TUTORIAL_BUILDERS_POLYMER_POLYMER_INTERFACE": "Building a Polymer-Polymer Interface Model",
+        "TUTORIAL_BUILDERS_CARBOHYDRATE": "Building a Carbohydrate Polymer"
+    },
+    "MATERIALS_SCIENCE_DESMOND_MULTISTAGE_SIMULATION_GUI": {
+        "TUTORIAL_BUILDERS_POLYMER": "Building, Equilibrating and Analyzing Amorphous Polymers",
+        "TUTORIAL_BUILDERS_SEMICRYSTALLINE_POLYMER": "Building a Semicrystalline Polymer",
+        "TUTORIAL_SEI": "Solid Electrolyte Interphase Calculations",
+        "TUTORIAL_DOSB_MD": "Disordered System Building and Molecular Dynamics Multistage Workflows",
+        "TUTORIAL_CG_NANOEMULSIONS": "Nanoemulsions with Automated DPD Parameterization"
+    },
+    "MS_DESMOND_SIMULATION_INTERACTIONS_DIAGRAM": {
+        "TUTORIAL_BUILDERS_POLYMER": "Building, Equilibrating and Analyzing Amorphous Polymers",
+        "TUTORIAL_API_MISCIBILITY": "Molecular Dynamics Simulations for Active Pharmaceutical Ingredient (API) Miscibility",
+        "TUTORIAL_BUILDERS_SEMICRYSTALLINE_POLYMER": "Building a Semicrystalline Polymer",
+        "TUTORIAL_DOSB_MD": "Disordered System Building and Molecular Dynamics Multistage Workflows"
+    },
+    "MATERIALS_SCIENCE_PERSISTENCE_LENGTH": {
+        "TUTORIAL_BUILDERS_POLYMER": "Building, Equilibrating and Analyzing Amorphous Polymers"
+    },
+    "MATERIAL_SCIENCE_PERSISTENCE_LENGTH_VIEWER": {
+        "TUTORIAL_BUILDERS_POLYMER": "Building, Equilibrating and Analyzing Amorphous Polymers"
+    },
+    "MATERIALS_SCIENCE_CROSSLINK_POLYMERS": {
+        "TUTORIAL_CROSSLINK_POLYMERS": "Crosslinking Polymers"
+    },
+    "MATERIALS_SCIENCE_CROSSLINK_POLYMERS_VIEWER": {
+        "TUTORIAL_CROSSLINK_POLYMERS": "Crosslinking Polymers"
+    },
+    "MATERIALS_SCIENCE_THERMOPHYSICAL_PROPERTIES": {
+        "TUTORIAL_POLYMER_PROPERTY_PREDICTION": "Polymer Property Prediction",
+        "TUTORIAL_API_TG": "Glass Transition Temperatures for Active Pharmaceutical Ingredients (API)"
+    },
+    "MATERIALS_SCIENCE_THERMOPHYSICAL_PROPERTIES_ANALYSIS": {
+        "TUTORIAL_POLYMER_PROPERTY_PREDICTION": "Polymer Property Prediction",
+        "TUTORIAL_API_TG": "Glass Transition Temperatures for Active Pharmaceutical Ingredients (API)"
+    },
+    "MATERIALS_SCIENCE_UNCERTAINTY_QUANTIFICATION": {
+        "TUTORIAL_POLYMER_PROPERTY_PREDICTION": "Polymer Property Prediction"
+    },
+    "MATERIALS_SCIENCE_UNCERTAINTY_QUANTIFICATION_VIEWER": {
+        "TUTORIAL_POLYMER_PROPERTY_PREDICTION": "Polymer Property Prediction"
+    },
+    "MATERIALS_SCIENCE_STRESS_STRAIN": {
+        "TUTORIAL_POLYMER_PROPERTY_PREDICTION": "Polymer Property Prediction",
+        "TUTORIAL_CYCLIC_STRESS_STRAIN": "Cyclic Stress Strain"
+    },
+    "MATERIALS_SCIENCE_STRESS_STRAIN_VIEWER": {
+        "TUTORIAL_POLYMER_PROPERTY_PREDICTION": "Polymer Property Prediction",
+        "TUTORIAL_CYCLIC_STRESS_STRAIN": "Cyclic Stress Strain"
+    },
+    "MATERIALS_SCIENCE_FREE_VOLUME_ANALYSIS": {
+        "TUTORIAL_POLYMER_PROPERTY_PREDICTION": "Polymer Property Prediction",
+        "TUTORIAL_FREE_VOLUME": "Free Volume"
+    },
+    "MATERIALS_SCIENCE_FREE_VOLUME_ANALYSIS_VIEWER": {
+        "TUTORIAL_POLYMER_PROPERTY_PREDICTION": "Polymer Property Prediction",
+        "TUTORIAL_FREE_VOLUME": "Free Volume"
+    },
+    "MATERIALS_SCIENCE_MECHANICAL_PROPERTIES": {
+        "TUTORIAL_POLYMER_PROPERTY_PREDICTION": "Polymer Property Prediction"
+    },
+    "MATERIALS_SCIENCE_ELASTIC_CONSTANTS_VIEWER": {
+        "TUTORIAL_POLYMER_PROPERTY_PREDICTION": "Polymer Property Prediction"
+    },
+    "MATERIALS_SCIENCE_CLUSTER_ANALYSIS": {
+        "TUTORIAL_CLUSTER_ANALYSIS": "Cluster Analysis",
+        "TUTORIAL_ELECTROLYTE_PROPERTIES_2": "Liquid Electrolyte Properties: Part 2",
+        "TUTORIAL_IBUPROFEN_MARTINI": "Ibuprofen Cyclodextrin Inclusion Complexes with the Martini Coarse-Grained Force Field"
+    },
+    "MATERIALS_SCIENCE_CLUSTER_ANALYSIS_VIEWER": {
+        "TUTORIAL_CLUSTER_ANALYSIS": "Cluster Analysis",
+        "TUTORIAL_ELECTROLYTE_PROPERTIES_2": "Liquid Electrolyte Properties: Part 2",
+        "TUTORIAL_IBUPROFEN_MARTINI": "Ibuprofen Cyclodextrin Inclusion Complexes with the Martini Coarse-Grained Force Field"
+    },
+    "MATERIALS_SCIENCE_PENETRANT_LOADING": {
+        "TUTORIAL_PENETRANT_LOADING": "Penetrant Loading"
+    },
+    "MATERIALS_SCIENCE_PENETRANT_LOADING_VIEWER": {
+        "TUTORIAL_PENETRANT_LOADING": "Penetrant Loading"
+    },
+    "MATERIALS_SCIENCE_DROPLET_CONTACT_ANALYSIS": {
+        "TUTORIAL_DROPLET_CONTACT": "Droplet Contact Analysis"
+    },
+    "MATERIALS_SCIENCE_DROPLET_CONTACT_ANALYSIS_VIEWER": {
+        "TUTORIAL_DROPLET_CONTACT": "Droplet Contact Analysis"
+    },
+    "MATERIALS_SCIENCE_DIFFUSION_COEFFICIENT": {
+        "TUTORIAL_DIFFUSION": "Diffusion",
+        "TUTORIAL_ELECTROLYTE_PROPERTIES_2": "Liquid Electrolyte Properties: Part 2",
+        "TUTORIAL_AIMD": "Ab initio Molecular Dynamics Simulations of Li-ion Diffusion in Solid State Electrolytes"
+    },
+    "MATERIALS_SCIENCE_DIFFUSION_COEFFICIENT_VIEWER": {
+        "TUTORIAL_DIFFUSION": "Diffusion",
+        "TUTORIAL_ELECTROLYTE_PROPERTIES_2": "Liquid Electrolyte Properties: Part 2",
+        "TUTORIAL_AIMD": "Ab initio Molecular Dynamics Simulations of Li-ion Diffusion in Solid State Electrolytes"
+    },
+    "MATERIALS_SCIENCE_SOLVATION_BUILDER": {
+        "TUTORIAL_SOLVATION_BUILDER": "Building Solvated Systems"
+    },
+    "MATERIALS_SCIENCE_STRUCTURED_LIQUID": {
+        "TUTORIAL_SURFACTANT_TILT": "Calculating Surfactant Tilt and Electrostatic Potential of a Bilayer System",
+        "TUTORIAL_AA_SKIN": "Adsorption of Panthenol on Skin with All-Atom Molecular Dynamics"
+    },
+    "MATERIALS_SCIENCE_SURFACE_TILT": {
+        "TUTORIAL_SURFACTANT_TILT": "Calculating Surfactant Tilt and Electrostatic Potential of a Bilayer System"
+    },
+    "MATERIALS_SCIENCE_SURFACE_TILT_VIEWER": {
+        "TUTORIAL_SURFACTANT_TILT": "Calculating Surfactant Tilt and Electrostatic Potential of a Bilayer System"
+    },
+    "MATERIALS_SCIENCE_TRAJECTORY_ESP_ANALYSIS": {
+        "TUTORIAL_SURFACTANT_TILT": "Calculating Surfactant Tilt and Electrostatic Potential of a Bilayer System"
+    },
+    "MATERIALS_SCIENCE_TRAJECTORY_ESP_ANALYSIS_VIEWER": {
+        "TUTORIAL_SURFACTANT_TILT": "Calculating Surfactant Tilt and Electrostatic Potential of a Bilayer System"
+    },
+    "MATERIALS_SCIENCE_ELECTROPORATION": {
+        "TUTORIAL_ELECTROPORATION": "Electroporation"
+    },
+    "MATERIALS_SCIENCE_SHEAR_VISCOSITY": {
+        "TUTORIAL_VISCOSITY": "Viscosity",
+        "TUTORIAL_ELECTROLYTE_PROPERTIES_1": "Liquid Electrolyte Properties: Part 1"
+    },
+    "MATERIALS_SCIENCE_SHEAR_VISCOSITY_VIEWER": {
+        "TUTORIAL_VISCOSITY": "Viscosity",
+        "TUTORIAL_ELECTROLYTE_PROPERTIES_1": "Liquid Electrolyte Properties: Part 1"
+    },
+    "MATERIALS_SCIENCE_SURFACE_TENSION": {
+        "TUTORIAL_SURFACE_TENSION": "Surface Tension"
+    },
+    "MATERIALS_SCIENCE_SURFACE_TENSION_VIEWER": {
+        "TUTORIAL_SURFACE_TENSION": "Surface Tension"
+    },
+    "MATERIALS_SCIENCE_ADD_BARRIER": {
+        "TUTORIAL_MD_POTENTIAL_BARRIER": "Applying Barrier Potentials for Molecular Dynamics Simulations",
+        "TUTORIAL_SEI": "Solid Electrolyte Interphase Calculations"
+    },
+    "MATERIALS_SCIENCE_THERMAL_CONDUCTIVITY_VIEWER": {
+        "TUTORIAL_THERMAL_CONDUCTIVITY": "Thermal Conductivity"
+    },
+    "MATERIALS_SCIENCE_THERMAL_CONDUCTIVITY": {
+        "TUTORIAL_THERMAL_CONDUCTIVITY": "Thermal Conductivity"
+    },
+    "MATERIALS_SCIENCE_CRYSTAL_MORPHOLOGY": {
+        "TUTORIAL_CRYSTAL_MORPHOLOGY": "Crystal Morphology"
+    },
+    "MATERIALS_SCIENCE_WULFF_VIEWER": {
+        "TUTORIAL_CRYSTAL_MORPHOLOGY": "Crystal Morphology"
+    },
+    "MATERIALS_SCIENCE_NANOSTRUCTURE_BUILDER": {
+        "TUTORIAL_BUILDERS_POLYMER_POLYMER_INTERFACE": "Building a Polymer-Polymer Interface Model",
+        "TUTORIAL_SEI": "Solid Electrolyte Interphase Calculations"
+    },
+    "MATERIALS_SCIENCE_DISORDERED_SYSTEM_BUILDER": {
+        "TUTORIAL_BUILDERS_POLYMER_POLYMER_INTERFACE": "Building a Polymer-Polymer Interface Model",
+        "TUTORIAL_SEI": "Solid Electrolyte Interphase Calculations",
+        "TUTORIAL_DOSB_MD": "Disordered System Building and Molecular Dynamics Multistage Workflows",
+        "TUTORIAL_CG_NANOEMULSIONS": "Nanoemulsions with Automated DPD Parameterization"
+    },
+    "MATERIALS_SCIENCE_DENSITY_PROFILE": {
+        "TUTORIAL_BUILDERS_POLYMER_POLYMER_INTERFACE": "Building a Polymer-Polymer Interface Model"
+    },
+    "MATERIALS_SCIENCE_TORSIONAL_PROFILE_ANALYSIS": {
+        "TUTORIAL_BUILDERS_CARBOHYDRATE": "Building a Carbohydrate Polymer"
+    },
+    "MATERIALS_SCIENCE_TORSIONAL_PROFILE_ANALYSIS_VIEWER": {
+        "TUTORIAL_BUILDERS_CARBOHYDRATE": "Building a Carbohydrate Polymer"
+    },
+    "MATERIALS_SCIENCE_SEMI_CRYSTAL_BUILDER": {
+        "TUTORIAL_BUILDERS_SEMICRYSTALLINE_POLYMER": "Building a Semicrystalline Polymer"
+    },
+    "MATERIALS_SCIENCE_TRAJECTORY_DENSITY_ANALYSIS": {
+        "TUTORIAL_BUILDERS_SEMICRYSTALLINE_POLYMER": "Building a Semicrystalline Polymer"
+    },
+    "MATERIALS_SCIENCE_TRAJECTORY_DENSITY_ANALYSIS_VIEWER": {
+        "TUTORIAL_BUILDERS_SEMICRYSTALLINE_POLYMER": "Building a Semicrystalline Polymer"
+    },
+    "MATERIALS_SCIENCE_ELECTROLYTE_ANALYSIS": {
+        "TUTORIAL_POLYMER_ELECTROLYTE_ANALYSIS": "Polymer Electrolyte Analysis"
+    },
+    "MATERIALS_SCIENCE_ELECTROLYTE_ANALYSIS_VIEWER": {
+        "TUTORIAL_POLYMER_ELECTROLYTE_ANALYSIS": "Polymer Electrolyte Analysis"
+    },
+    "MATERIALS_SCIENCE_AMORPHOUS_DIELECTRIC_PROPERTIES": {
+        "TUTORIAL_ELECTROLYTE_PROPERTIES_1": "Liquid Electrolyte Properties: Part 1",
+        "TUTORIAL_DIELECTRIC": "Dielectric Properties"
+    },
+    "MATERIALS_SCIENCE_AMORPHOUS_DIELECTRIC_VIEWER": {
+        "TUTORIAL_ELECTROLYTE_PROPERTIES_1": "Liquid Electrolyte Properties: Part 1",
+        "TUTORIAL_DIELECTRIC": "Dielectric Properties"
+    },
+    "MATERIALS_SCIENCE_RADIAL_DISTRIBUTION_FUNCTION": {
+        "TUTORIAL_ELECTROLYTE_PROPERTIES_1": "Liquid Electrolyte Properties: Part 1",
+        "TUTORIAL_ELECTROLYTE_PROPERTIES_2": "Liquid Electrolyte Properties: Part 2",
+        "TUTORIAL_IBUPROFEN_MARTINI": "Ibuprofen Cyclodextrin Inclusion Complexes with the Martini Coarse-Grained Force Field",
+        "TUTORIAL_PEG_COARSEGRAINED_MARTINI": "Building a Coarse-Grained Surfactant Model with Martini Force Field"
+    },
+    "MATERIALS_SCIENCE_SOLID_ELECTROLYTE_INTERPHASE": {
+        "TUTORIAL_SEI": "Solid Electrolyte Interphase Calculations"
+    },
+    "MATERIALS_SCIENCE_SOLID_ELECTROLYTE_INTERPHASE_VIEWER": {
+        "TUTORIAL_SEI": "Solid Electrolyte Interphase Calculations"
+    },
+    "MATERIALS_SCIENCE_REDEFINE_LATTICE": {
+        "TUTORIAL_SEI": "Solid Electrolyte Interphase Calculations",
+        "TUTORIAL_BUILDERS_CRYSTALS": "Building and Manipulating Crystal Structures",
+        "TUTORIAL_ALD": "Atomic Layer Deposition"
+    },
+    "MATERIALS_THIN_PLANE_SHEAR": {
+        "TUTORIAL_THIN_SHEAR": "Thin Plane Shear"
+    },
+    "MATERIALS_THIN_PLANE_SHEAR_VIEWER": {
+        "TUTORIAL_THIN_SHEAR": "Thin Plane Shear"
+    },
+    "MATERIALS_SCIENCE_EVAPORATION_VIEWER": {
+        "TUTORIAL_EVAPORATION": "Evaporation"
+    },
+    "MATERIALS_SCIENCE_EVAPORATION": {
+        "TUTORIAL_EVAPORATION": "Evaporation"
+    },
+    "MATERIALS_SCIENCE_POLYMER_DESCRIPTORS": {
+        "TUTORIAL_POLYMER_DESCRIPTORS": "Polymer Descriptors for Machine Learning"
+    },
+    "AUTOQSAR": {
+        "TUTORIAL_POLYMER_DESCRIPTORS": "Polymer Descriptors for Machine Learning",
+        "TUTORIAL_ML_MATERIALSSCIENCE": "Machine Learning for Materials Science",
+        "TUTORIAL_ML_IONIC_CONDUCTIVITY": "Machine Learning for Ionic Conductivity",
+        "TUTORIAL_PERIODIC_DESCRIPTORS_INORGANIC": "Periodic Descriptors for Inorganic Solids",
+        "TUTORIAL_DEEPAUTOQSAR": "Training and Evaluating ADMET Models with DeepAutoQSAR"
+    },
+    "MATERIALS_SCIENCE_MD_DESCRIPTORS": {
+        "TUTORIAL_MD_DESCRIPTORS": "Molecular Dynamics Descriptors for Machine Learning"
+    },
+    "DEEPCHEM_AUTOQSAR": {
+        "TUTORIAL_MD_DESCRIPTORS": "Molecular Dynamics Descriptors for Machine Learning",
+        "TUTORIAL_SWEETNESS_ML": "Machine Learning for Sweetness",
+        "TUTORIAL_CATALYSIS_ML": "Cheminformatics Machine Learning for Homogeneous Catalysis",
+        "TUTORIAL_DEEPAUTOQSAR": "Training and Evaluating ADMET Models with DeepAutoQSAR"
+    },
+    "MATERIALS_SCIENCE_COARSE_GRAIN_FF_BUILDER": {
+        "TUTORIAL_AUTODPD": "Automated Dissipative Particle Dynamics (DPD) Parameterization",
+        "TUTORIAL_AUTOMARTINI": "Automated Martini Fitting for Coarse-Grained Simulations",
+        "TUTORIAL_CG_NANOEMULSIONS": "Nanoemulsions with Automated DPD Parameterization"
+    },
+    "MATERIALS_SCIENCE_COARSE_GRAIN_SKETCHER": {
+        "TUTORIAL_IBUPROFEN_MARTINI": "Ibuprofen Cyclodextrin Inclusion Complexes with the Martini Coarse-Grained Force Field",
+        "TUTORIAL_PEG_COARSEGRAINED_MARTINI": "Building a Coarse-Grained Surfactant Model with Martini Force Field",
+        "TUTORIAL_BUILDERS_COARSEGRAINED": "Building a Coarse-Grained Polymer Model using Dissipative Particle Dynamics",
+        "TUTORIAL_CG_SKIN": "Building a Coarse-Grained Skin Model using Martini Force Field"
+    },
+    "MATERIALS_SCIENCE_COARSE_GRAIN_FF_ASSIGNMENT": {
+        "TUTORIAL_IBUPROFEN_MARTINI": "Ibuprofen Cyclodextrin Inclusion Complexes with the Martini Coarse-Grained Force Field",
+        "TUTORIAL_PEG_COARSEGRAINED_MARTINI": "Building a Coarse-Grained Surfactant Model with Martini Force Field",
+        "TUTORIAL_BUILDERS_COARSEGRAINED": "Building a Coarse-Grained Polymer Model using Dissipative Particle Dynamics",
+        "TUTORIAL_CG_SKIN": "Building a Coarse-Grained Skin Model using Martini Force Field",
+        "TUTORIAL_CG_NANOEMULSIONS": "Nanoemulsions with Automated DPD Parameterization"
+    },
+    "MATERIALS_SCIENCE_COARSE_GRAIN_IMPORT_STRUCTURES": {
+        "TUTORIAL_IBUPROFEN_MARTINI": "Ibuprofen Cyclodextrin Inclusion Complexes with the Martini Coarse-Grained Force Field",
+        "TUTORIAL_PEG_COARSEGRAINED_MARTINI": "Building a Coarse-Grained Surfactant Model with Martini Force Field",
+        "TUTORIAL_CG_SKIN": "Building a Coarse-Grained Skin Model using Martini Force Field"
+    },
+    "MATERIALS_SCIENCE_COARSE_GRAIN_FORCEFIELD_BUILDER_VIEWER": {
+        "TUTORIAL_CG_NANOEMULSIONS": "Nanoemulsions with Automated DPD Parameterization"
+    },
+    "MATERIALS_SCIENCE_FORMULATIONS_ML": {
+        "TUTORIAL_ML_FORMULATIONS": "Machine Learning for Formulations",
+        "TUTORIAL_ML_FORMULATIONS_APPLIED": "Applied Machine Learning for Formulations"
+    },
+    "MATERIALS_SCIENCE_ML_PROPERTY_PREDICTION": {
+        "TUTORIAL_ML_PROPERTY_PREDICTION": "Machine Learning Property Prediction"
+    },
+    "MATERIALS_SCIENCE_FORMULATIONS_OPTIMIZATION_ML": {
+        "TUTORIAL_FORMULATION_OPTIMIZATION": "Optimization of Formulations Using Machine Learning"
+    },
+    "OLED_DEVICE_FORMULATIONS_MACHINE_LEARNING": {
+        "TUTORIAL_OLED_ML": "Machine Learning for OLED Device Design"
+    },
+    "MATERIALS_SCIENCE_JAGUAR_MULTISTAGE_WORKFLOW": {
+        "TUTORIAL_QM_GO": "Introduction to Geometry Optimizations, Functionals and Basis Sets",
+        "TUTORIAL_QM_MULTISTAGE": "Introduction to Multistage Quantum Mechanical Workflows",
+        "TUTORIAL_REACTION_ENERGY": "Calculating Reaction Energetics for Molecular Systems",
+        "TUTORIAL_ELEMENTAL_ENUMERATION": "Elemental Enumeration"
+    },
+    "JAGUAR_OPTIMIZATION_PANEL": {
+        "TUTORIAL_QM_GO": "Introduction to Geometry Optimizations, Functionals and Basis Sets"
+    },
+    "MATERIALS_SCIENCE_ALCHEMICAL_ENUMERATION": {
+        "TUTORIAL_QM_MULTISTAGE": "Introduction to Multistage Quantum Mechanical Workflows",
+        "TUTORIAL_ELEMENTAL_ENUMERATION": "Elemental Enumeration"
+    },
+    "MATERIALS_SCIENCE_REACTION_PROFILE_VIEWER": {
+        "TUTORIAL_REACTION_ENERGY": "Calculating Reaction Energetics for Molecular Systems",
+        "TUTORIAL_QM_TRANSITION_STATES": "Locating Transition States: Part 1",
+        "TUTORIAL_ALD": "Atomic Layer Deposition"
+    },
+    "JAGUAR_AUTOTS": {
+        "TUTORIAL_QM_TRANSITION_STATES": "Locating Transition States: Part 1",
+        "TUTORIAL_TRANSITION_STATES_PLUS": "Locating Transition States: Part 2"
+    },
+    "JAGUAR_AUTOTS_VIEWER": {
+        "TUTORIAL_QM_TRANSITION_STATES": "Locating Transition States: Part 1",
+        "TUTORIAL_TRANSITION_STATES_PLUS": "Locating Transition States: Part 2"
+    },
+    "MATERIALS_SCIENCE_MATERIALS_CONFORMATIONAL_SEARCH": {
+        "TUTORIAL_TRANSITION_STATES_PLUS": "Locating Transition States: Part 2"
+    },
+    "MATERIALS_SCIENCE_BOND_DISSOCIATION_ENERGY": {
+        "TUTORIAL_BOND_LIGAND_DISSOCIATION_ENERGY": "Bond and Ligand Dissociation Energy"
+    },
+    "MATERIALS_SCIENCE_OPTOELECTRONICS_CALCULATIONS": {
+        "TUTORIAL_OPTOELECTRONICS": "Optoelectronics"
+    },
+    "MATERIALS_SCIENCE_RESULTS": {
+        "TUTORIAL_OPTOELECTRONICS": "Optoelectronics"
+    },
+    "MATERIALS_SCIENCE_SINGLE_COMPLEX_BUILDER": {
+        "TUTORIAL_BUILDERS_ORGANOMETALLIC": "Organometallic Complexes"
+    },
+    "MATERIALS_SCIENCE_COMPLEX_ENUMERATION": {
+        "TUTORIAL_BUILDERS_ORGANOMETALLIC": "Organometallic Complexes"
+    },
+    "MATERIALS_SCIENCE_NANOREACTOR": {
+        "TUTORIAL_NANOREACTOR": "Nanoreactor"
+    },
+    "MATERIALS_SCIENCE_NANOREACTOR_VIEWER": {
+        "TUTORIAL_NANOREACTOR": "Nanoreactor"
+    },
+    "MATERIALS_SCIENCE_SWAP_FRAGMENTS": {
+        "TUTORIAL_RXNPROFILER": "RxnProfiler for Polyethene Insertion"
+    },
+    "MATERIALS_SCIENCE_RXN_WF_INPUT": {
+        "TUTORIAL_RXNPROFILER": "RxnProfiler for Polyethene Insertion"
+    },
+    "MATERIALS_SCIENCE_RXN_WF": {
+        "TUTORIAL_RXNPROFILER": "RxnProfiler for Polyethene Insertion",
+        "TUTORIAL_RXNENUMPROFILER": "Design of Asymmetric Catalysts with Reaction Network Enumeration Profiler"
+    },
+    "MATERIALS_SCIENCE_AUTO_RXNWF": {
+        "TUTORIAL_RXNENUMPROFILER": "Design of Asymmetric Catalysts with Reaction Network Enumeration Profiler"
+    },
+    "MATERIALS_SCIENCE_BANDSHAPE": {
+        "TUTORIAL_BAND_SHAPE": "Band Shape"
+    },
+    "JAGUAR_SPECTRUM_PLOT": {
+        "TUTORIAL_BAND_SHAPE": "Band Shape",
+        "TUTORIAL_VCD": "Vibrational Circular Dichroism (VCD)",
+        "TUTORIAL_NMR": "NMR Spectra Prediction"
+    },
+    "MATERIALS_SCIENCE_EXCITED_STATE_ANALYSIS": {
+        "TUTORIAL_EXCITED_STATE_ANALYSIS": "Excited State Analysis"
+    },
+    "MATERIALS_SCIENCE_EXCITED_STATE_ANALYSIS_VIEWER": {
+        "TUTORIAL_EXCITED_STATE_ANALYSIS": "Excited State Analysis"
+    },
+    "MATERIALS_SCIENCE_BETA_ELIMINATION": {
+        "TUTORIAL_ELIMINATION_REACTIONS": "Beta Elimination Reactions"
+    },
+    "MATERIALS_SCIENCE_OPTO_FILM_PROPS": {
+        "TUTORIAL_DIPOLE_MOMENT": "Calculating Transition Dipole Moments (TDM), TDM Distributions, and Order Parameter",
+        "TUTORIAL_SEET": "Singlet Excitation Energy Transfer",
+        "TUTORIAL_ISC": "Singlet-Triplet Intersystem Crossing Rate",
+        "TUTORIAL_ELLIPSOMETRY": "Computational Ellipsometry"
+    },
+    "MATERIALS_SCIENCE_OPTO_FILM_PROPS_VIEWER": {
+        "TUTORIAL_DIPOLE_MOMENT": "Calculating Transition Dipole Moments (TDM), TDM Distributions, and Order Parameter"
+    },
+    "MATERIALS_SCIENCE_VISUALIZE_TRANSITION_MOMENT": {
+        "TUTORIAL_DIPOLE_MOMENT": "Calculating Transition Dipole Moments (TDM), TDM Distributions, and Order Parameter"
+    },
+    "JAGUAR_VCD_WORKFLOW": {
+        "TUTORIAL_VCD": "Vibrational Circular Dichroism (VCD)",
+        "TUTORIAL_NMR": "NMR Spectra Prediction"
+    },
+    "MATERIALS_SCIENCE_PERIODIC_DFT": {
+        "TUTORIAL_NMR": "NMR Spectra Prediction",
+        "TUTORIAL_MLFF": "Machine Learning Force Field",
+        "TUTORIAL_QE_BASIC_RUTILE": "Electronic Structure Calculations of Bulk Crystals Using Quantum ESPRESSO",
+        "TUTORIAL_SURFACES_SLABS": "Modeling Surfaces",
+        "TUTORIAL_INTERCALATION": "Calculating Voltage Curves of Spinel Intercalation Compounds",
+        "TUTORIAL_AIMD": "Ab initio Molecular Dynamics Simulations of Li-ion Diffusion in Solid State Electrolytes"
+    },
+    "MATERIALS_SCIENCE_NMR_VIEWER": {
+        "TUTORIAL_NMR": "NMR Spectra Prediction"
+    },
+    "MATERIALS_SCIENCE_AMORPHOUS_NMR_SETUP": {
+        "TUTORIAL_NMR": "NMR Spectra Prediction"
+    },
+    "PLOT_COORDINATE_SCAN": {
+        "TUTORIAL_QM_COORDINATE_SCANS": "Rigid and Relaxed Coordinate Scans",
+        "TUTORIAL_DYNAMIC_SCANS": "Dynamic Relaxed Coordinate Scans"
+    },
+    "MATERIALS_SCIENCE_NEW_KMC_COMPUTE_CHARGE_MOBILITY": {
+        "TUTORIAL_KMC": "Kinetic Monte Carlo (KMC) Charge Mobility"
+    },
+    "MATERIALS_SCIENCE_PLOT_KMC_CHARGE_MOBILITY": {
+        "TUTORIAL_KMC": "Kinetic Monte Carlo (KMC) Charge Mobility"
+    },
+    "MATERIALS_SCIENCE_VISUALIZE_KMC_CHARGE_TRANSPORT": {
+        "TUTORIAL_KMC": "Kinetic Monte Carlo (KMC) Charge Mobility"
+    },
+    "MATERIALS_SCIENCE_KMC_ANALYZE_ENERGETIC_DISORDER": {
+        "TUTORIAL_KMC": "Kinetic Monte Carlo (KMC) Charge Mobility"
+    },
+    "MATERIALS_SCIENCE_SLAB_INTERFACE_BUILDER": {
+        "TUTORIAL_MLFF": "Machine Learning Force Field",
+        "TUTORIAL_SURFACES_SLABS": "Modeling Surfaces"
+    },
+    "MATERIALS_SCIENCE_ENUMERATE_ADSORBATES": {
+        "TUTORIAL_MLFF": "Machine Learning Force Field",
+        "TUTORIAL_SURFACES_SLABS": "Modeling Surfaces",
+        "TUTORIAL_ALD": "Atomic Layer Deposition"
+    },
+    "MATERIALS_SCIENCE_ADSORPTION_ENERGY_GUI": {
+        "TUTORIAL_MLFF": "Machine Learning Force Field",
+        "TUTORIAL_SURFACES_SLABS": "Modeling Surfaces",
+        "TUTORIAL_ALD": "Atomic Layer Deposition"
+    },
+    "MATERIALSCIENCE_THERMOCHEMISTRY_VIEWER": {
+        "TUTORIAL_MLFF": "Machine Learning Force Field",
+        "TUTORIAL_SURFACES_SLABS": "Modeling Surfaces"
+    },
+    "MATERIALS_SCIENCE_SURFACE_ENERGY_DFT": {
+        "TUTORIAL_MLFF": "Machine Learning Force Field",
+        "TUTORIAL_SURFACES_SLABS": "Modeling Surfaces"
+    },
+    "MATERIALS_SCIENCE_OPTOELECTRONICS_AL_TRAIN": {
+        "TUTORIAL_OPTO_AL": "Optoelectronics Active Learning"
+    },
+    "MATERIALS_SCIENCE_OPTOELECTRONICS_AL_PREDICT": {
+        "TUTORIAL_OPTO_AL": "Optoelectronics Active Learning"
+    },
+    "MATERIALS_SCIENCE_MICROKINETICS": {
+        "TUTORIAL_MICROKINETIC_MODELING": "Microkinetic Modeling"
+    },
+    "MATERIALS_SCIENCE_MICROKINETICS_VIEWER": {
+        "TUTORIAL_MICROKINETIC_MODELING": "Microkinetic Modeling"
+    },
+    "MATERIALS_SCIENCE_CRYSTAL_BUILDER_PANEL": {
+        "TUTORIAL_BUILDERS_CRYSTALS": "Building and Manipulating Crystal Structures"
+    },
+    "MATERIALS_SCIENCE_BAND_STRUCTURE_VIEWER": {
+        "TUTORIAL_QE_BASIC_RUTILE": "Electronic Structure Calculations of Bulk Crystals Using Quantum ESPRESSO"
+    },
+    "MATERIALS_SCIENCE_DOS_VIEWER": {
+        "TUTORIAL_QE_BASIC_RUTILE": "Electronic Structure Calculations of Bulk Crystals Using Quantum ESPRESSO"
+    },
+    "MATERIALS_SCIENCE_PDOS_VIEWER": {
+        "TUTORIAL_QE_BASIC_RUTILE": "Electronic Structure Calculations of Bulk Crystals Using Quantum ESPRESSO"
+    },
+    "MATERIALS_SCIENCE_CONVERGENCE_TESTS_VIEWER": {
+        "TUTORIAL_QE_BASIC_RUTILE": "Electronic Structure Calculations of Bulk Crystals Using Quantum ESPRESSO"
+    },
+    "MATERIALS_SCIENCE_IMPORT_SLABS": {
+        "TUTORIAL_ALD": "Atomic Layer Deposition"
+    },
+    "MATERIALS_SCIENCE_PERIODIC_DESCRIPTORS": {
+        "TUTORIAL_PERIODIC_DESCRIPTORS_INORGANIC": "Periodic Descriptors for Inorganic Solids"
+    },
+    "MATERIALS_SCIENCE_PHASE_DIAGRAM_VIEWER": {
+        "TUTORIAL_PHASE_DIAGRAMS": "Phase Diagrams"
+    },
+    "MATERIALS_SCIENCE_DEFECT_SETUP_PERIODIC_DFT": {
+        "TUTORIAL_DEFECT_CORRECTION": "Defect Energy Calculation"
+    },
+    "MATERIALS_SCIENCE_DEFECT_CORRECTION_GUI": {
+        "TUTORIAL_DEFECT_CORRECTION": "Defect Energy Calculation"
+    },
+    "CUSTOM_RGROUP_ENUMERATION": {
+        "TUTORIAL_BUILDERS_RGROUP_ENUMERATION": "R-group enumeration with the Materials Science Suite",
+        "TUTORIAL_LIBRARY_DESIGN": "Enumeration Tools for Library Design"
+    },
+    "R_GROUP_CREATOR": {
+        "TUTORIAL_BUILDERS_RGROUP_ENUMERATION": "R-group enumeration with the Materials Science Suite",
+        "TUTORIAL_LIBRARY_DESIGN": "Enumeration Tools for Library Design"
+    },
+    "MATERIALS_SCIENCE_OPTOELECTRONICS_GA_OPTIMIZATION": {
+        "TUTORIAL_GENETIC_OPTIMIZATION": "Genetic Optimization"
+    },
+    "MATERIALS_SCIENCE_OPTOELECTRONICS_GO_VIEWER": {
+        "TUTORIAL_GENETIC_OPTIMIZATION": "Genetic Optimization"
+    },
+    "MM_TOPIC_LIGPREP": {
+        "TUTORIAL_OLFACTORY_RECEPTOR_BINDING": "Modeling Receptor Binding in an Olfactory Protein",
+        "TUTORIAL_VISUALIZATION_PREPARATION": "Introduction to Structure Preparation and Visualization"
+    },
+    "PROTEIN_PREPARATION_WORKFLOW_SUBSTRUCTURES": {
+        "TUTORIAL_OLFACTORY_RECEPTOR_BINDING": "Modeling Receptor Binding in an Olfactory Protein",
+        "TUTORIAL_VISUALIZATION_PREPARATION": "Introduction to Structure Preparation and Visualization",
+        "TUTORIAL_DESMOND_INTRO": "Introduction to MD Simulations with Desmond",
+        "TUTORIAL_TCR_MODELING": "Introduction to T Cell Receptor \nModeling with BioLuminate",
+        "TUTORIAL_PREPARATION_NUCLEIC_ACID": "Preparing Nucleic Acid Structures"
+    },
+    "IMP_TOPIC_GLIDE": {
+        "TUTORIAL_OLFACTORY_RECEPTOR_BINDING": "Modeling Receptor Binding in an Olfactory Protein",
+        "TUTORIAL_SBVS_GLIDE": "Structure-Based Virtual Screening using Glide"
+    },
+    "IMP_TOPIC_GLIDE_GRIDS": {
+        "TUTORIAL_OLFACTORY_RECEPTOR_BINDING": "Modeling Receptor Binding in an Olfactory Protein",
+        "TUTORIAL_SBVS_GLIDE": "Structure-Based Virtual Screening using Glide",
+        "TUTORIAL_IFD_TUTORIAL": "Approximating Protein Flexibility without Molecular Dynamics"
+    },
+    "IMP_TOPIC_GLIDE_DOCK_CORE": {
+        "TUTORIAL_OLFACTORY_RECEPTOR_BINDING": "Modeling Receptor Binding in an Olfactory Protein",
+        "TUTORIAL_SBVS_GLIDE": "Structure-Based Virtual Screening using Glide",
+        "TUTORIAL_MMGBSA_RESCORE": "Re-scoring Docked Ligands with MM-GBSA",
+        "TUTORIAL_COVDOCK": "Covalent Docking for Virtual Screening and Pose Prediction",
+        "TUTORIAL_DRUG_DEVELOPMENT_MACROCYCLES": "Drug Development with Macrocycles",
+        "TUTORIAL_DOCKING_NUCLEIC_ACID": "Small Molecule \u2013 Oligonucleotide Docking with Glide"
+    },
+    "BIOLUMINATE_RESIDUE_SCANNING": {
+        "TUTORIAL_OLFACTORY_RECEPTOR_BINDING": "Modeling Receptor Binding in an Olfactory Protein",
+        "TUTORIAL_PEPTIDEMODELING_BL": "Peptide Modeling with BioLuminate",
+        "TUTORIAL_ANTIBODY_BIOLUMINATE": "Antibody Visualization and Modeling in BioLuminate",
+        "TUTORIAL_TCR_MODELING": "Introduction to T Cell Receptor \nModeling with BioLuminate"
+    },
+    "FEP_SOLUBILITY": {
+        "TUTORIAL_FEP_SOLUBILITY": "FEP Solubility"
+    },
+    "DESMOND_FEP_PLUS_GUI": {
+        "TUTORIAL_FEP_SOLUBILITY": "FEP Solubility",
+        "TUTORIAL_FEP_BACE1": "BACE1 Inhibitor Design Using Free Energy Perturbation",
+        "TUTORIAL_FEP_POSE": "Ligand Binding Pose Prediction for FEP+ using Core-Constrained Docking",
+        "TUTORIAL_AB-FEP_JAK2": "Absolute Binding Free Energy Perturbation to Postprocess Docking Results",
+        "TUTORIAL_DRUG_DEVELOPMENT_MACROCYCLES": "Drug Development with Macrocycles",
+        "TUTORIAL_FEP_PROTEIN_THERMOSTABILITY": "Introduction to Protein Thermostability Prediction using Protein FEP+",
+        "TUTORIAL_MEMBRANE-BOUND_FEP_A2A": "Membrane-Bound FEP+ with A2A",
+        "TUTORIAL_PROTEIN_FEP_THERMOSTABILITY": "Obtaining Protein Free Energy Perturbation Thermostability Predictions for Single Point Mutations",
+        "TUTORIAL_FEP_NUCLEIC_ACID": "Potency Predictions for RNA-Binding Small Molecules Using RB-FEP"
+    },
+    "MATERIAL_SCIENCE_OPTOELECTRONICS_DEVICE_DESIGNER": {
+        "TUTORIAL_OPTO_DEVICE_DESIGN": "Optoelectronic Device Designer"
+    },
+    "EDIT_MENU_2D_SKETCHER": {
+        "TUTORIAL_ACHEMISTSGUIDETOMAESTRO": "A Chemist's Guide to Maestro"
+    },
+    "MM_TOPIC_CONFORMATIONAL_SEARCH": {
+        "TUTORIAL_ACHEMISTSGUIDETOMAESTRO": "A Chemist's Guide to Maestro"
+    },
+    "MM_TOPIC_SUPER_PANEL": {
+        "TUTORIAL_ACHEMISTSGUIDETOMAESTRO": "A Chemist's Guide to Maestro",
+        "TUTORIAL_DRUG_DEVELOPMENT_MACROCYCLES": "Drug Development with Macrocycles",
+        "TUTORIAL_MACROMODEL_CONFGEN": "Conformational Analysis for Small Molecules Using MacroModel and ConfGen"
+    },
+    "TOOLS_LIGAND_ALIGNMENT": {
+        "TUTORIAL_ACHEMISTSGUIDETOMAESTRO": "A Chemist's Guide to Maestro"
+    },
+    "MM_TOPIC_STRUCTALIGN_PANEL": {
+        "TUTORIAL_ACHEMISTSGUIDETOMAESTRO": "A Chemist's Guide to Maestro",
+        "TUTORIAL_TARGET_FLEXIBILITY": "Understanding and Visualizing Target Flexibility"
+    },
+    "LIGAND_DESIGNER": {
+        "TUTORIAL_ACHEMISTSGUIDETOMAESTRO": "A Chemist's Guide to Maestro",
+        "TUTORIAL_DRUG_DEVELOPMENT_MACROCYCLES": "Drug Development with Macrocycles",
+        "TUTORIAL_LIGAND_DESIGNER_INTERACTIONS": "Forming Protein-Ligand Interactions with the Ligand Designer",
+        "TUTORIAL_LIGAND_DESIGNER_WM": "WaterMap-Guided Lead Optimization with the Ligand Designer",
+        "TUTORIAL_LIGANDDESIGNER_NUCLEIC_ACID": "Forming RNA \u2013 Ligand Interactions with Ligand Designer"
+    },
+    "WORKFLOWS_COVALENT_DOCKING": {
+        "TUTORIAL_SBVS_GLIDE": "Structure-Based Virtual Screening using Glide",
+        "TUTORIAL_COVDOCK": "Covalent Docking for Virtual Screening and Pose Prediction"
+    },
+    "MM_TOPIC_SITEMAP_PANEL": {
+        "TUTORIAL_SBVS_GLIDE": "Structure-Based Virtual Screening using Glide",
+        "TUTORIAL_TARGET_ANALYSIS": "Target Analysis with SiteMap and WaterMap",
+        "TUTORIAL_SITEMAP_NUCLEIC_ACID": "Analyzing Binding Sites of Nucleic Acids with SiteMap"
+    },
+    "PHASE_LIGAND_SCREENING": {
+        "TUTORIAL_LBVS_PHASE_LIGAND": "Ligand-Based Virtual Screening Using Phase",
+        "TUTORIAL_SBVS_PHASE": "Structure-Based Virtual Screening Using Phase"
+    },
+    "PHASE_GENERATE_DATABASE": {
+        "TUTORIAL_LBVS_PHASE_LIGAND": "Ligand-Based Virtual Screening Using Phase"
+    },
+    "PHASE_DEVELOP_PHARMACOPHORE_MODEL": {
+        "TUTORIAL_LBVS_PHASE_LIGAND": "Ligand-Based Virtual Screening Using Phase"
+    },
+    "PHASE_DEFINE_ACTIVES_INACTIVES": {
+        "TUTORIAL_LBVS_PHASE_LIGAND": "Ligand-Based Virtual Screening Using Phase"
+    },
+    "PHASE_HYPOTHESIS_SETTINGS": {
+        "TUTORIAL_LBVS_PHASE_LIGAND": "Ligand-Based Virtual Screening Using Phase"
+    },
+    "TOOLS_MENU_ALIGN_BINDING_SITES": {
+        "TUTORIAL_SBVS_PHASE": "Structure-Based Virtual Screening Using Phase",
+        "TUTORIAL_TARGET_FLEXIBILITY": "Understanding and Visualizing Target Flexibility"
+    },
+    "PHASE_SHAPE_BASED_SCREENING": {
+        "TUTORIAL_GPU_SHAPE": "Rapid Screening of Chemical Libraries with GPU Shape",
+        "TUTORIAL_QUICKSHAPE": "Ligand-based Screening for Ultra-Large Libraries with Quick Shape and the Hit Analyzer"
+    },
+    "SCRIPTS_ENRICHMENT_CALCULATOR": {
+        "TUTORIAL_GPU_SHAPE": "Rapid Screening of Chemical Libraries with GPU Shape"
+    },
+    "SCRIPTS_CANVAS_CLUSTER": {
+        "TUTORIAL_GPU_SHAPE": "Rapid Screening of Chemical Libraries with GPU Shape"
+    },
+    "PHASE_SHAPE_DATA_FILE": {
+        "TUTORIAL_GPU_SHAPE": "Rapid Screening of Chemical Libraries with GPU Shape"
+    },
+    "ACTIVE_LEARNING_GLIDE": {
+        "TUTORIAL_AL-GLIDE_D4-ENAMINE": "Evaluating Large Ligand Libraries with Active Learning Glide"
+    },
+    "SCRIPTS_VOLUME_CLUSTER": {
+        "TUTORIAL_AL-GLIDE_D4-ENAMINE": "Evaluating Large Ligand Libraries with Active Learning Glide"
+    },
+    "HIT_ANALYZER": {
+        "TUTORIAL_QUICKSHAPE": "Ligand-based Screening for Ultra-Large Libraries with Quick Shape and the Hit Analyzer"
+    },
+    "PRIME_PRIME_MMGBSA_PANEL": {
+        "TUTORIAL_MMGBSA_RESCORE": "Re-scoring Docked Ligands with MM-GBSA"
+    },
+    "REACTION_ENUMERATION": {
+        "TUTORIAL_LIBRARY_DESIGN": "Enumeration Tools for Library Design"
+    },
+    "TOOLS_MENU_LIGFILTER": {
+        "TUTORIAL_LIBRARY_DESIGN": "Enumeration Tools for Library Design"
+    },
+    "BIOISOSTERE_REPLACEMENT": {
+        "TUTORIAL_LIBRARY_DESIGN": "Enumeration Tools for Library Design"
+    },
+    "FEP_PLUS_ADVANCED_OPTIONS": {
+        "TUTORIAL_AB-FEP_JAK2": "Absolute Binding Free Energy Perturbation to Postprocess Docking Results"
+    },
+    "WSCORE_DOCKING": {
+        "TUTORIAL_GLIDEWS_HSP90": "Glide WS Evaluation of HSP90 Ligands"
+    },
+    "WSCORE_VISUALIZATION": {
+        "TUTORIAL_GLIDEWS_HSP90": "Glide WS Evaluation of HSP90 Ligands"
+    },
+    "IFD_MD": {
+        "TUTORIAL_IFD_TUTORIAL": "Approximating Protein Flexibility without Molecular Dynamics",
+        "TUTORIAL_IFD-MD_CROSS-DOCKING": "Cross-Docking with IFD-MD",
+        "TUTORIAL_IFD-MD_HOMOLOGY_MODELING": "Homology Modeling of Protein-Ligand Binding Sites with IFD-MD",
+        "TUTORIAL_MEMBRANE_IFD-MD": "Using IFD-MD on a Membrane-bound protein",
+        "TUTORIAL_COVALENT_IFD-MD": "Using IFD-MD on a Covalently Bound Ligand",
+        "TUTORIAL_CONSENSUS_IFD-MD": "Designing Out Common ADMET Liabilities using Consensus IFD-MD"
+    },
+    "WATERMAP_LIGAND_INTERACTION_DIAGRAM": {
+        "TUTORIAL_VISUALIZATION_PREPARATION": "Introduction to Structure Preparation and Visualization",
+        "TUTORIAL_VISUALIZATION_NUCLEIC_ACID": "Structure Visualization and Interaction Analysis in Nucleic Acids"
+    },
+    "TOOLS_MENU_PROTEIN_RELIABILITY": {
+        "TUTORIAL_VISUALIZATION_PREPARATION": "Introduction to Structure Preparation and Visualization",
+        "TUTORIAL_HM_MSV": "Building Homology Models with the Multiple Sequence Viewer/Editor",
+        "TUTORIAL_ANTIBODY_BIOLUMINATE": "Antibody Visualization and Modeling in BioLuminate"
+    },
+    "PRIME_MACROCYCLE_SAMPLING": {
+        "TUTORIAL_DRUG_DEVELOPMENT_MACROCYCLES": "Drug Development with Macrocycles"
+    },
+    "GLIDE_VIEW_POSES": {
+        "TUTORIAL_DRUG_DEVELOPMENT_MACROCYCLES": "Drug Development with Macrocycles"
+    },
+    "MEMBRANE_PERMEABILITY": {
+        "TUTORIAL_DRUG_DEVELOPMENT_MACROCYCLES": "Drug Development with Macrocycles",
+        "TUTORIAL_MEMBRANE_PERMEABILITY": "Small Molecule Membrane Permeability"
+    },
+    "PRIME_MACROCYCLE_STABILITY": {
+        "TUTORIAL_DRUG_DEVELOPMENT_MACROCYCLES": "Drug Development with Macrocycles"
+    },
+    "IMP_TOPIC_QMMM": {
+        "TUTORIAL_QSITE_DEFINE_REGIONS": "Defining QM and MM regions in QSite"
+    },
+    "CONFGENX": {
+        "TUTORIAL_MACROMODEL_CONFGEN": "Conformational Analysis for Small Molecules Using MacroModel and ConfGen"
+    },
+    "MM_TOPIC_DIHEDRAL_DRIVE": {
+        "TUTORIAL_MACROMODEL_CONFGEN": "Conformational Analysis for Small Molecules Using MacroModel and ConfGen"
+    },
+    "WATERMAP_PERFORM_CALCULATION": {
+        "TUTORIAL_LIGAND_DESIGNER_WM": "WaterMap-Guided Lead Optimization with the Ligand Designer",
+        "TUTORIAL_WATERMAP_BINDINGSITE_LEADOPT": "Identifying Binding Site Requirements and Lead Optimization with WaterMap",
+        "TUTORIAL_TARGET_ANALYSIS": "Target Analysis with SiteMap and WaterMap"
+    },
+    "MSV_BUILD_HOMOLOGY_MODEL": {
+        "TUTORIAL_IFD-MD_HOMOLOGY_MODELING": "Homology Modeling of Protein-Ligand Binding Sites with IFD-MD",
+        "TUTORIAL_CHIMERIC_HOMOLOGY_BUILDING": "Chimeric Homology Modeling Using the Multiple Sequence Viewer/Editor",
+        "TUTORIAL_HM_MSV": "Building Homology Models with the Multiple Sequence Viewer/Editor",
+        "TUTORIAL_BATCH_HOMOLOGY": "Batch Homology Modeling Using the Multiple Sequence Viewer/Editor",
+        "TUTORIAL_HETEROMULTIMER_MSV": "Heteromultimer Homology Modeling with the Multiple Sequence Viewer/Editor",
+        "TUTORIAL_INTRO_BIOLUMINATE": "Introduction to BioLuminate and the Multiple Sequence Viewer/Editor"
+    },
+    "DESMOND_SYSTEM_BUILDER": {
+        "TUTORIAL_DESMOND_INTRO": "Introduction to MD Simulations with Desmond"
+    },
+    "DESMOND_MOLECULAR_DYNAMICS_PANEL": {
+        "TUTORIAL_DESMOND_INTRO": "Introduction to MD Simulations with Desmond"
+    },
+    "DESMOND_SIMULATION_QUALITY_ANALYSIS": {
+        "TUTORIAL_DESMOND_INTRO": "Introduction to MD Simulations with Desmond"
+    },
+    "TRAJECTORY_PLAYER": {
+        "TUTORIAL_DESMOND_INTRO": "Introduction to MD Simulations with Desmond",
+        "TUTORIAL_DESMOND_TRJ_ANALYSIS": "Introduction to MD Trajectory Analysis with Desmond"
+    },
+    "DESMOND_SIMULATION_INTERACTIONS_DIAGRAM": {
+        "TUTORIAL_DESMOND_TRJ_ANALYSIS": "Introduction to MD Trajectory Analysis with Desmond"
+    },
+    "CONSTANT_PH_SIMULATIONS": {
+        "TUTORIAL_CPHMD": "Protein pKa Prediction with Constant pH Molecular Dynamics"
+    },
+    "MXMD_HELP_TOPIC": {
+        "TUTORIAL_MXMD": "Exploring Protein Binding Sites with Mixed-Solvent Molecular Dynamics"
+    },
+    "MSV_MAIN_WINDOW": {
+        "TUTORIAL_CHIMERIC_HOMOLOGY_BUILDING": "Chimeric Homology Modeling Using the Multiple Sequence Viewer/Editor",
+        "TUTORIAL_HM_MSV": "Building Homology Models with the Multiple Sequence Viewer/Editor",
+        "TUTORIAL_BATCH_HOMOLOGY": "Batch Homology Modeling Using the Multiple Sequence Viewer/Editor",
+        "TUTORIAL_HETEROMULTIMER_MSV": "Heteromultimer Homology Modeling with the Multiple Sequence Viewer/Editor",
+        "TUTORIAL_ANTIBODY_ANNOTATION": "Sequence Annotation of Antibodies with the Multiple Sequence Viewer/Editor",
+        "TUTORIAL_INTRO_BIOLUMINATE": "Introduction to BioLuminate and the Multiple Sequence Viewer/Editor",
+        "TUTORIAL_TCR_MODELING": "Introduction to T Cell Receptor \nModeling with BioLuminate"
+    },
+    "MSV_COMPUTE_SEQUENCE_DESCRIPTORS": {
+        "TUTORIAL_BATCH_HOMOLOGY": "Batch Homology Modeling Using the Multiple Sequence Viewer/Editor"
+    },
+    "FEP_PROTEIN_MUTATION": {
+        "TUTORIAL_PROTEIN_FEP_THERMOSTABILITY": "Obtaining Protein Free Energy Perturbation Thermostability Predictions for Single Point Mutations"
+    },
+    "BIOLUMINATE_CYSTEINE_MUTATION": {
+        "TUTORIAL_DISULFIDE_BOND_ENGINEERING": "Disulfide Bond Engineering"
+    },
+    "BIOLUMINATE_PEPTIDE_DOCKING": {
+        "TUTORIAL_PEPTIDEMODELING_BL": "Peptide Modeling with BioLuminate"
+    },
+    "BIOLUMINATE_PEPTIDE_QSAR": {
+        "TUTORIAL_PEPTIDEMODELING_BL": "Peptide Modeling with BioLuminate"
+    },
+    "BIOLUMINATE_ANTIBODY_MODELING": {
+        "TUTORIAL_ANTIBODY_BIOLUMINATE": "Antibody Visualization and Modeling in BioLuminate"
+    },
+    "BIOLUMINATE_PROTEIN_SURFACE_PATCHES": {
+        "TUTORIAL_ANTIBODY_BIOLUMINATE": "Antibody Visualization and Modeling in BioLuminate",
+        "TUTORIAL_LIABILITY_ANALYSIS_BIOLOGICS": "Liability Analysis for Biologics",
+        "TUTORIAL_ANTIBODY_ANNOTATION": "Sequence Annotation of Antibodies with the Multiple Sequence Viewer/Editor",
+        "TUTORIAL_TCR_MODELING": "Introduction to T Cell Receptor \nModeling with BioLuminate"
+    },
+    "BIOLUMINATE_ANTIBODY_CDR_GRAFTING": {
+        "TUTORIAL_ANTIBODY_BIOLUMINATE": "Antibody Visualization and Modeling in BioLuminate"
+    },
+    "BIOLUMINATE_PROTEIN_PROTEIN_DOCKING": {
+        "TUTORIAL_ANTIBODY_BIOLUMINATE": "Antibody Visualization and Modeling in BioLuminate",
+        "TUTORIAL_TCR_MODELING": "Introduction to T Cell Receptor \nModeling with BioLuminate"
+    },
+    "SCRIPTS_INTERACTION_FINGERPRINTS": {
+        "TUTORIAL_ANTIBODY_BIOLUMINATE": "Antibody Visualization and Modeling in BioLuminate"
+    },
+    "BIOLUMINATE_RESIDUE_LOOP_MUTATION": {
+        "TUTORIAL_LIABILITY_ANALYSIS_BIOLOGICS": "Liability Analysis for Biologics"
+    },
+    "BIOLUMINATE_AGGREGATION_PROFILES": {
+        "TUTORIAL_LIABILITY_ANALYSIS_BIOLOGICS": "Liability Analysis for Biologics"
+    },
+    "WORKSPACE_BINDING_SITE_SURFACE_SETTINGS_DB": {
+        "TUTORIAL_INTRO_BIOLUMINATE": "Introduction to BioLuminate and the Multiple Sequence Viewer/Editor"
+    },
+    "PROTEIN_INTERACTION_ANALYSIS_V2": {
+        "TUTORIAL_TCR_MODELING": "Introduction to T Cell Receptor \nModeling with BioLuminate",
+        "TUTORIAL_VISUALIZATION_NUCLEIC_ACID": "Structure Visualization and Interaction Analysis in Nucleic Acids"
+    },
+    "FEP_POSE_BUILDER_PANEL": {
+        "TUTORIAL_FEP_NUCLEIC_ACID": "Potency Predictions for RNA-Binding Small Molecules Using RB-FEP"
+    }
+}
