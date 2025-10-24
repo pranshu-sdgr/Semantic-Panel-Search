@@ -180,6 +180,8 @@ def merge_converted_csvs(paths, clean_up=True):
                     merged_df.loc[merged_df['action'] == action, col] = row[col]
     # sort by action
     merged_df = merged_df.sort_values(by='action').reset_index(drop=True)
+    # print total number of rows
+    print(f"Total number of rows in merged dataset: {len(merged_df)}")
     merged_df.to_csv(result_path, index=False)
     if clean_up:
         for path in paths:

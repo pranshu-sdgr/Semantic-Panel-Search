@@ -26,14 +26,13 @@ def ingest_custom_dataset_to_vdb(csv_file_path, batch_size, collection_name, pay
 
     print(f"Loading data from {csv_file_path}...")
     df = pd.read_csv(csv_file_path)
-    df.dropna(subset=embedding_columns, inplace=True)
-    df = df.head(1000000)  # Limit to first million records for ingestion
 
     print(f"Starting ingestion of {len(df)} records...")
     for i in range(0, len(df), batch_size):
         batch_size_df = df.iloc[i:i + batch_size]
         # Combine embedding columns into a single text for embedding generation
-        combined_texts = batch_size_df[embedding_columns].astype(str).agg(' '.join, axis=1).tolist()
+        # If column is null, convert to empty string
+        combined_texts = batch_size_df[embedding_columns].fillna('').agg(' '.join, axis=1).tolist()
         embeddings = transformer.getModel().encode(combined_texts, show_progress_bar=False).tolist()
         payloads = batch_size_df[payload_columns].to_dict('records')
         points = [
