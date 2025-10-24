@@ -1,37 +1,10 @@
 import http
 import tempfile
 
-from fastapi import (APIRouter, BackgroundTasks, File, Form, HTTPException,
-                     UploadFile)
-from pydantic import BaseModel
-from scripts.ingestion import (ingest_custom_dataset_to_vdb,
-                               ingest_movies_to_vdb)
+from fastapi import (APIRouter, BackgroundTasks, File, Form, UploadFile)
+from scripts.ingestion import (ingest_custom_dataset_to_vdb)
 
 router = APIRouter()
-
-class IngestRequest(BaseModel):
-    csv_file_path: str
-    batch_size: int
-    collection_name: str
-
-@router.post("/default-dataset/")
-async def ingest_movies(
-    request: IngestRequest,
-    background_tasks: BackgroundTasks
-):
-    try:
-        background_tasks.add_task(
-            ingest_movies_to_vdb,
-            request.csv_file_path,
-            request.batch_size,
-            request.collection_name
-        )
-        return {
-            "status": http.HTTPStatus.ACCEPTED,
-            "message": "Ingestion started in the background."
-        }
-    except Exception as e:
-        raise HTTPException(status_code=http.HTTPStatus.INTERNAL_SERVER_ERROR, detail=str(e))
 
 @router.post("/custom-dataset/")
 async def ingest_custom_dataset(

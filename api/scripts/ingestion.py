@@ -6,60 +6,6 @@ from database import vdao
 from model.transformer import get_transformer_model
 from qdrant_client import models
 
-
-def ingest_movies_to_vdb(csv_file_path, batch_size, collection_name):
-    """
-    Ingests movie data from a CSV file into the Qdrant vector database.
-    """
-    print("Initializing Model and Client...")
-    transformer = get_transformer_model()
-    client = vdao.get_qdrant_client()
-
-    print(f"Creating Collection {collection_name} in Qdrant...")
-    vector_size = transformer.getModel().get_sentence_embedding_dimension()
-
-    client.recreate_collection(
-        collection_name=collection_name,
-        vectors_config=models.VectorParams(
-            size=vector_size,
-            distance=models.Distance.COSINE
-        )
-    )
-
-    print(f"Loading data from {csv_file_path}...")
-    df = pd.read_csv(csv_file_path)
-    df.dropna(subset=['description'], inplace=True)
-    df = df.head(1000000)  # Limit to first million records for ingestion
-
-    print(f"Starting ingestion of {len(df)} records...")
-    for i in range(0, len(df), batch_size):
-        batch_df = df.iloc[i:i + batch_size]
-
-        # Generate embeddings for the batch
-        embeddings = transformer.getModel().encode(batch_df['description'].tolist(), show_progress_bar=False).tolist()
-
-        # Prepare payloads (metadata)
-        payloads = batch_df[['title', 'description', 'year', 'date_published', 'genre', 'actors']].to_dict('records')
-
-        # Prepare points for upsert
-        points = [
-            models.PointStruct(
-                id=str(uuid.uuid4()),
-                vector=vector,
-                payload=payload
-            ) for vector, payload in zip(embeddings, payloads)
-        ]
-
-        # Upsert points to Qdrant
-        client.upsert(
-            collection_name=collection_name,
-            points=points,
-            wait=False
-        )
-        print(f"Ingested batch {i // batch_size + 1} / {(len(df) + batch_size - 1) // batch_size}")
-
-    print("Ingestion completed!")
-
 def ingest_custom_dataset_to_vdb(csv_file_path, batch_size, collection_name, payload_columns, embedding_columns):
     """
     Ingests a custom dataset from a CSV file into the Qdrant vector database and processes specified columns for embeddings and payloads.
@@ -80,14 +26,13 @@ def ingest_custom_dataset_to_vdb(csv_file_path, batch_size, collection_name, pay
 
     print(f"Loading data from {csv_file_path}...")
     df = pd.read_csv(csv_file_path)
-    df.dropna(subset=embedding_columns, inplace=True)
-    df = df.head(1000000)  # Limit to first million records for ingestion
 
     print(f"Starting ingestion of {len(df)} records...")
     for i in range(0, len(df), batch_size):
         batch_size_df = df.iloc[i:i + batch_size]
         # Combine embedding columns into a single text for embedding generation
-        combined_texts = batch_size_df[embedding_columns].astype(str).agg(' '.join, axis=1).tolist()
+        # If column is null, convert to empty string
+        combined_texts = batch_size_df[embedding_columns].fillna('').agg(' '.join, axis=1).tolist()
         embeddings = transformer.getModel().encode(combined_texts, show_progress_bar=False).tolist()
         payloads = batch_size_df[payload_columns].to_dict('records')
         points = [

@@ -1,13 +1,8 @@
 import http
 from contextlib import asynccontextmanager
 
-from fastapi import FastAPI, HTTPException
-from pydantic import BaseModel
-from qdrant_client import QdrantClient
+from fastapi import FastAPI
 from routes import ingest, search
-from scripts.ingestion import ingest_movies_to_vdb
-from sentence_transformers import SentenceTransformer
-
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
@@ -21,7 +16,7 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(
     title="PlotCortex API",
-    description="API for searching movies by their plot using embeddings and vector search.",
+    description="API for searching panels using vector search techniques.",
     version="1.0.0",
     lifespan=lifespan
 )
@@ -34,5 +29,5 @@ app.include_router(ingest.router, prefix="/api/v1/ingest", tags=["ingest"])
 async def root():
     return {
         "status": http.HTTPStatus.OK,
-        "message": "Welcome to the PlotCortex API"
+        "message": "Welcome to the Semantic Panel Search API!"
     }
