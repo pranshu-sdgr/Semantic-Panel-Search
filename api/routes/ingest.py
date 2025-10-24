@@ -1,9 +1,7 @@
 import http
 import tempfile
 
-from fastapi import (APIRouter, BackgroundTasks, File, Form, HTTPException,
-                     UploadFile)
-from pydantic import BaseModel
+from fastapi import (APIRouter, BackgroundTasks, File, Form, UploadFile)
 from scripts.ingestion import (ingest_custom_dataset_to_vdb)
 
 router = APIRouter()

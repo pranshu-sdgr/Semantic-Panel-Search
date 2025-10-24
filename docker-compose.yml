@@ -18,7 +18,15 @@ services:
       - ./data:/app/data # Mounts your local data folder into the container
     depends_on:
       - qdrant # Ensures qdrant starts before the api
+      - etl # Ensures etl on panel dataset is done before api starts
     restart: always
+
+  etl:
+    container_name: etl_panel
+    build: ./etl-panel
+    volumes:
+      - ./data:/app/data # Mounts your local data folder into the container
+    restart: no
 
 volumes:
   qdrant_storage:
