@@ -15,7 +15,7 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(
-    title="PlotCortex API",
+    title="Semantic Panel Search API",
     description="API for searching panels using vector search techniques.",
     version="1.0.0",
     lifespan=lifespan
