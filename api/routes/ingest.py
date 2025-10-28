@@ -3,6 +3,7 @@ import tempfile
 
 from fastapi import (APIRouter, BackgroundTasks, File, Form, UploadFile)
 from scripts.ingestion import (ingest_custom_dataset_to_vdb)
+from scripts.vectors import create_vector_mappings
 
 router = APIRouter()
 
@@ -38,4 +39,31 @@ async def ingest_custom_dataset(
     return {
         "status": http.HTTPStatus.ACCEPTED,
         "message": "Ingestion started in the background."
+    }
+
+@router.post("/local-vector-mapping/create/")
+async def create_local_vector_mapping(
+    background_tasks: BackgroundTasks,
+    source_path: str = Form('/app/data/conversions/dataset.csv', description="Path to the source CSV file"),
+    payload_columns: str = Form(..., description="Comma-separated names of the payload columns"),
+    embedding_columns: str = Form(..., description="Comma-separated names of the embedding columns"),
+    output_path: str = Form('/app/data/vectors/mappings.json', description="Path to save the output vector mappings JSON file")
+):
+    """
+    Create local vector mappings from a CSV file and save to a JSON file.
+    """
+    payload_cols = [col.strip() for col in payload_columns.split(",")]
+    embedding_cols = [col.strip() for col in embedding_columns.split(",")]
+
+    background_tasks.add_task(
+        create_vector_mappings,
+        source_path,
+        payload_cols,
+        embedding_cols,
+        output_path
+    )
+
+    return {
+        "status": http.HTTPStatus.ACCEPTED,
+        "message": "Vector mapping creation started in the background."
     }

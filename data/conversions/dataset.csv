@@ -14,7 +14,8 @@ adjust_residue_numbering,,,,Adjust Residue Numbering...,Workspace Operations
 adjust_residue_numbering_panel.panel,,,Renumber residues in multiple proteins based on a mapping derived from structural alignment to a template structure.<br/>Opens the Adjust Residue Numbering panel.,,
 adme_amphiphilic_moment,ADME/tox,,,Amphiphilic Moment...,Other Applications
 adme_membrane_permeability,ADME/tox,,,Membrane Permeability...,Other Applications
-adsorbant_enumeration_gui.panel,,,"<!-- enumerate, adsorbate-->Build chemically reasonable initial adsorbate geometries for all combinations of a set of molecules on a set of surfaces.",,
+adsorbant_enumeration_gui.panel,,,"<!-- enumerate, adsorbate-->Build chemically reasonable initial adsorbate geometries for all combinations of a set of molecules on a set of surfaces.",Adsorption...,Enumeration
+adsorption_energy_gui,,,,Adsorption Energy...,Workflows
 adsorption_energy_gui.panel,,,"Calculate the adsorption energies of molecules on substrates at 0 K and 1 atm, and the adsorption free energy at a range of temperatures and pressures.<br/>Opens the Adsorption Energy Calculations Panel.",,
 advanced_loop_model_gui.panel,,,Predict CDR loops in an antibody using Prime loop prediction.<br/>Opens the Antibody Loop Modeling Panel.,Antibody Loop Refinement...,Biologics
 align_binding_sites,"alignment, superimpose, superpose, superimposition",,,Binding Site Alignment...,Structure Alignment
@@ -25,7 +26,7 @@ alldist.panel,,,Display all distances between a selected atom or atoms in a sele
 alt_positions,,,"For protein structures with partial occupancies, display the atoms for all occupancies. The alternate positions are displayed as ghost atoms.",,
 amorphous_nmr,,amorphous_nmr_gui.panel,,,
 amorphous_nmr_gui.panel,,,"Calculate NMR shieldings for molecules in an amorphous structure, taking into account the immediate environment of each molecule.<br/>Opens the Amorphous NMR Calculations panel.",,
-amorphous_properties,"QM, quantum mechanics",,,Amorphous Properties...,Quantum Mechanics
+amorphous_properties,"QM, quantum mechanics",,,Amorphous Properties...,Workflows
 amphiphilic_moment_gui.panel,,,"<!-- phospholipidosis -->Calculate the amphiphilic moment of a set of molecules, which must be positively charged.<br/>Opens the Amphiphilic Moment panel.",,
 analyzeenergy,,,"<!-- protein -->
 Evaluate the energy of a structure, and decompose the total energy into its components for visualization using the Prime Energy Visualizer panel.<br/>Opens the Analyze Energy panel.",,
@@ -38,7 +39,7 @@ antibody_prediction_gui.panel,,,"Predict the variable loop (CDR) region of an an
 app_desmond_fep_leadopt,,,"Build a perturbation scheme for FEP calculations on a set of congeneric ligands, and run the job to perform the calculations of the relative binding free energy.<br/>Opens the FEP Mapper panel.<!-- desmond -->",,
 app_desmond_ligand_fep,,,"<!-- desmond, free energy, mutation -->
 Calculate the change in binding energy of a ligand to a receptor when a ligand functional group is mutated to a different functional groups, using molecular dynamics free-energy perturbation. The functional group must be attached by a single bond to the ligand.<br/>Opens the Ligand Functional Group Mutation by FEP panel.",,
-app_desmond_rebuild_system,Desmond,,Rebuild a model system for molecular dynamics simulation after editing the entry that contains the full model system.,Model System Regeneration...,Classical Simulation
+app_desmond_rebuild_system,Desmond,,Rebuild a model system for molecular dynamics simulation after editing the entry that contains the full model system.,Model System Regeneration...,More MD Tasks
 app_desmond_ring_atom_fep,,,"<!-- desmond, FEP -->
 Calculate the change in binding energy of a ligand to a receptor when an atom in the ligand is mutated to a different element, preserving the hybridization, using molecular dynamics free-energy perturbation.<br/>Opens the Atom Mutation by FEP panel.",,
 app_jaguar_counterpoise,,jaguar_gui.counterpoise_panel,,,
@@ -53,7 +54,7 @@ app_jaguar_relaxed,,jaguar_gui.relaxed_scan_panel,,,
 app_jaguar_rigid,,jaguar_gui.rigid_scan_panel,,,
 app_jaguar_runbatch,,,Run a Jaguar batch job with a selected batch script. The batch script can specify a sequence of quantum mechanical calculations.<br/>Opens the Jaguar &mdash; Run Batch File panel.,,
 app_jaguar_runfile,,,Run quantum mechanical calculations from a set of Jaguar input files.<br/>Opens the Jaguar &mdash; Run Input Files panel.,,
-app_jaguar_spectraplot,"QM, quantum mechanics, Jaguar",,,Plot Spectra...,Quantum Mechanics
+app_jaguar_spectraplot,"QM, quantum mechanics, Jaguar",,,Plot Spectra...,More Molecular QM Tasks
 app_jaguar_transition,,jaguar_gui.transition_state_panel,,,
 app_mcpro_analyze,,,"<!-- mcpro, MC, mc -->
 Plot thermodynamic and energetic quantities that are generated from Monte Carlo simulations with MCPRO+<br/>Opens the MCPRO+ Analyze FEP panel.",,
@@ -73,26 +74,28 @@ applications_task_view,,,Switch from Applications menu to Tasks menu.,,
 assign bond orders,,,"Assign bond orders to structures that do not have the correct bond orders, based on a range of factors, including connectivity, bond length, bond angles and dihedral angles.",,
 assign force field types,,,Assign atom types from the force field to the Workspace atoms.,,
 assign partial charges,,,Assign partial charges to the Workspace atoms using the current force field.,,
+assign_spg,,,,Assign Space Group...,Tools
 assign_spg_gui.panel,,,Assign the space group for one or more crystal structures in the project.<br/>Opens the Assign Space Group panel.,,
 assignsecondary,,,"Assign secondary structure to a protein, by identifying inter-backbone hydrogen bonds and searching for hydrogen-bonding patterns representing helices and strands.",,
 atom_energy_color.panel,,,"Color atoms in the Workspace or entries using a color ramp based on a numeric property, such as an energy.<br/>Opens the Atom Energy Coloring panel.",,
 atom_energy_coloring,"protein analysis, small molecule analysis",,,Atom Energy Coloring...,Structure Analysis
-auto_enum_gui.panel,,,"Enumerate compounds based on multiple synthetic routes, with filtering on similarity to a reference compound, on properties, and functional groups.<br/>Opens the Automated Reaction-Based Enumeration panel.",Automated Reaction-Based Enumeration...,Enumeration and Ideation
-auto_reaction_workflow_gui.panel,,,"Set up and run a set of optimizations with Jaguar on structures that are reactants, transition states, intermediates, or products in a in a reaction network enumeration, with an optional conformational search.<br/>Opens the Reaction Network Enumeration Profiler Panel.",,
+auto_enum_gui.panel,,,"Enumerate compounds based on multiple synthetic routes, with filtering on similarity to a reference compound, on properties, and functional groups.<br/>Opens the Automated Reaction-Based Enumeration panel.",Automated Reaction-Based Enumeration...,Enumeration
+auto_reaction_workflow_gui.panel,,,"Set up and run a set of optimizations with Jaguar on structures that are reactants, transition states, intermediates, or products in a in a reaction network enumeration, with an optional conformational search.<br/>Opens the Reaction Network Enumeration Profiler Panel.",Reaction Network Enumeration Profiler Calculations...,Reaction Network
 autoconf_gui.panel,,,"Generate the lowest energy tautomers or conformers for a set of structures, with optional protonation or deprotonation.<br/>Opens the QM Conformer &amp; Tautomer Predictor panel",,
-autoqsar_gui.panel,QSAR,,"Generate QSAR models for a chosen property of a set of compounds, and apply the QSAR model to other compounds, with either traditional QSAR methods or DeepChem deep learning methods.<br/>Opens the AutoQSAR panel.",AutoQSAR...,Biologics
-autots_gui.panel,"automated, transition state, autoTS, QM, reaction path",,Run transition state searches in an automated fashion for a provided set of reactant and product structures.<br/>Opens the AutoTS: Perform Calculations panel.,AutoTS...,Quantum Mechanics
-autots_viewer_gui.panel,autoTS,,"Display a summary of the results of a transition state search, including a diagram of the reaction path, list of structures, and summary of energies.<br/>Opens the AutoTS: View Results panel.",AutoTS Results...,Quantum Mechanics
+autoqsar_gui.panel,QSAR,,"Generate QSAR models for a chosen property of a set of compounds, and apply the QSAR model to other compounds, with either traditional QSAR methods or DeepChem deep learning methods.<br/>Opens the AutoQSAR panel.",AutoQSAR...,Informatics
+autots_gui.panel,"automated, transition state, autoTS, QM, reaction path",,Run transition state searches in an automated fashion for a provided set of reactant and product structures.<br/>Opens the AutoTS: Perform Calculations panel.,Perform Calculations...,More Molecular QM Tasks
+autots_viewer_gui.panel,autoTS,,"Display a summary of the results of a transition state search, including a diagram of the reaction path, list of structures, and summary of energies.<br/>Opens the AutoTS: View Results panel.",View Results...,More Molecular QM Tasks
 average_structure,small molecule analysis,,,Average Structure...,Structure Analysis
 average_structure.panel,,,Calculate the weighted average structure from a set of conformers selected in the Project Table.<br/>Opens the Calculate Average Structure panel.,,
 band_structure_viewer_gui.panel,periodic dft,,"<!-- qe -->
-Plot the band structure from a periodic DFT calculation.<br/>Opens the Band Structure Viewer panel.",,
-bandshape_gui.panel,,,"Calculate the spectrum of an electronic transition between the ground state and the lowest singlet or triplet state, including the vibrational envelope, at multiple temperatures.<br/>Opens the Calculate Band Shape panel.",,
+Plot the band structure from a periodic DFT calculation.<br/>Opens the Band Structure Viewer panel.",Band Structure Viewer...,Quantum ESPRESSO
+bandshape_gui.panel,,,"Calculate the spectrum of an electronic transition between the ground state and the lowest singlet or triplet state, including the vibrational envelope, at multiple temperatures.<br/>Opens the Calculate Band Shape panel.",Band Shape Calculations...,Band Shape
 beta_elimination_gui.panel,,,"Calculate energies of beta hydrogen elimination reactions (1,2 elimination) and return product and unoptimized intermediate structures.<br/>Opens the Beta Elimination Reactions Panel.",,
+beta_elimination_reactions,,,,Beta Elimination Reactions...,Workflows
 binding_pose_metadynamics_gui.panel,,,"Run a series of metadynamics MD simulations on a set of binding configurations of a single ligand in a single binding site, to rank the poses and predict the correct binding pose.<br/>Opens the Binding Pose Metadynamics panel. ",Binding Pose Metadynamics...,Receptor-Based Virtual Screening
 binding_site_detection,"binding, protein analysis, allosteric site, characterize binding site, find pocket",,,Binding Site Detection...,Structure Analysis
 binding_surface_area,"binding, protein analysis, area",,,Binding Surface Area Analysis...,Structure Analysis
-bioisostere_replacement,"scaffold, enumeration, bioisoster",,,Bioisostere Replacement...,Enumeration and Ideation
+bioisostere_replacement,"scaffold, enumeration, bioisoster",,,Bioisostere Replacement...,Enumeration
 bioisostere_replacement_gui.panel,,,"Replace functional groups on a set of ligands with the corresponding bioisosteres, generating all single replacements.<br/>Opens the Bioisostere Replacement panel.",,
 biologics_antibody_database_management,"antibody modeling, Ab, Ab DB, Fab, Fv",,,Antibody Database Management...,Biologics
 biologics_antibody_prediction,"antibody modeling, Ab, Ab DB, Fab, Fv",,,,
@@ -129,9 +132,9 @@ biologics_rsam_manage_nsr,"residue scanning, affinity maturation, modified amino
 biologics_rsam_results,"residue scanning, affinity maturation, Amino Acid, alanine scanning, hot spots, protein stability, mutate, protein design, NNAA/NSAA",,,MM-GBSA Residue Scanning Results...,Biologics
 biologics_structure_quality,"report, quality, protein quality",,,Structure Quality Report...,Biologics
 boltzmann_average_gui.panel,"QM, quantum mechanics, VCD, ECD, IR, Infrared, Raman, dichroism, UV/vis, NMR, nuclear magnetic resonance, spectroscopy, Jaguar",,"<!-- c13 -->
-Calculate conformationally-averaged VCD, ECD, or NMR spectra for a molecule.<br/>Opens the Jaguar Spectroscopy Panel.<!-- Circular Dichroism Workflow panel-->",Spectroscopy Workflows...,Quantum Mechanics
+Calculate conformationally-averaged VCD, ECD, or NMR spectra for a molecule.<br/>Opens the Jaguar Spectroscopy Panel.<!-- Circular Dichroism Workflow panel-->",Spectroscopy Workflows...,More Molecular QM Tasks
 boltzmann_gui.panel,,,Calculate the Boltzmann populations of a set of structures at a specified temperature according to a specified energy property.<br/>Opens the Boltzmann Populations panel.,,
-bond_dissociation,"QM, quantum mechanics",,,Bond and Ligand Dissociation...,Quantum Mechanics
+bond_dissociation,"QM, quantum mechanics",,,Bond and Ligand Dissociation...,Workflows
 bond_dissociation_gui.panel,,,"Calculate the change in energy for dissociating one or more molecules into all possible or restricted combinations of two fragments that come from breaking covalent, non-ring single bonds (homolytic dissociation) or removing ligands from a metal atom.",,
 breed.panel,,,Generate new ligand structures from a set of aligned ligands by swapping groups whose bonds overlap. The swapping can be done multiple times.<br/>Opens the Breed panel.,,
 build:Atom Properties,,,"Modify atom properties, such as element, atom type, partial charge.<br/>Opens the Build Panel at the Atom Properties tab.",,
@@ -139,26 +142,32 @@ build:Build Toolbar,,,Display the Build toolbar in the main window.,,
 build:Fragments,,,"Add molecular fragments to a structure, or place them in the Workspace. <br/>Opens the Build Panel at the Fragments tab.",,
 build:Fragments Toolbar,,,Display the Fragments toolbar in the main window.,,
 build:Residue Properties,,,"Modify residue properties, such as residue type and residue number. Opens the Build Panel at the Residue Properties tab.",,
-build_breed_ligand_creation,"building, hybridization",,,BREED Ligand Creation...,Enumeration and Ideation
-build_combine_fragments,"building, fragment, linking",,,Combine Fragments...,Enumeration and Ideation
-build_crystal_structure,"crystal structure, crystallography",,,,
-build_slabs,interface,,,,
+build_breed_ligand_creation,"building, hybridization",,,BREED Ligand Creation...,Enumeration
+build_combine_fragments,"building, fragment, linking",,,Combine Fragments...,Enumeration
+build_crystal_structure,"crystal structure, crystallography",,,Crystal Structure...,Structure Builders
+build_nanoparticles,,,,Nanoparticles...,Structure Builders
+build_nanostructures,,,,Nanostructures...,Structure Builders
+build_polymer,,,,Polymer...,Structure Builders
+build_semi_crystalline_polymer,,,,Semicrystalline Polymer...,Structure Builders
+build_slabs,interface,,,Slabs and Interfaces...,Structure Builders
 calcprop,,,Add a variety of calculated structure-based properties to the selected entries. Opens the Calculate Properties panel.,,
 calculate_boltzman_pop,small molecule analysis,,,Calculate Boltzmann Populations...,Structure Analysis
 calculate_pmi,,,,Principal Moments of Inertia,Project Table and Project Operations
 calculate_pmi.run,,,Calculate the principal moments of inertia and their ratios for the selected entries and store them as entry properties.,,
 canvas_cluster_gui.panel,,,"Cluster the selected entries in the Project Table, based on a similarity metric derived from fingerprints.<br/>Opens the Canvas Similarity and Clustering panel.",,
 canvas_similarity,"cheminformatics, clustering, fingerprint",,,Fingerprint Similarity...,Ligand-Based Virtual Screening
-canvas_som_gui.panel,SOM,,Create and apply self-organizing maps from fingerprints or properties of a set of structures.<br/>Opens the Self-Organizing Map Panel.,Self-Organizing Map...,Discovery Informatics and QSAR
+canvas_som_gui.panel,SOM,,Create and apply self-organizing maps from fingerprints or properties of a set of structures.<br/>Opens the Self-Organizing Map Panel.,Self-Organizing Map...,Informatics
 cdr_grafting_gui.panel,,,"<!-- CDR grafting, replacement -->Replace the framework region of an antibody CDR structure with one derived from a human source. Identify residues in the vicinity of the resulting framework/hypervariable loop junction that may interfere with the conformation of the CDR loops and which should be examined for back mutation.<br/>Opens the Antibody Humanization: CDR Grafting panel.",,
 centroids,,,Place a dummy atom at the centroid of a set of atoms.<br/>Opens the Centroids panel.,,
 change_directory,,,"Change Maestro's working directory, using a directory chooser. You can also change the directory in the Commands text box with the <code>changedirectory</code> Maestro command.",,
+charge_mobility_gui,,,,Charge Mobility...,Optoelectronics
 charge_mobility_gui.panel,,,Calculate charge mobility from the results of an electron coupling calculation by percolation theory or by a method based on energy disorder.<br/>Opens the Charge Mobility panel.,,
 cleanup_geometry,,,"Clean up the geometry of the Workspace structure by minimizing its energy. By default the OPLS_2005 force field is used. If this does not include the atoms you need to minimize, you can set a preference to use the UFF force field, which covers a wider range of atoms but is slower.<br/>
 Keyboard shortcut: U.",,
+cleanup_structures_gui,,,,Clean Up Structures...,Tools
 cleanup_structures_gui.panel,,,"Perform force-field minimization of structures, both periodic and nonperiodic.<br/>Opens the Clean Up Structures panel.",,
-cluster_analysis_gui.panel,,,Analyze the geometrical properties and size distribution of molecular clusters from a trajectory as a function of simulation time.<br/>Opens the Cluster Analysis Panel.,,
-cluster_analysis_viewer_gui.panel,,,Display plots of surfactant cluster properties as a function of time and cluster compositions<br/>Opens the Cluster Analysis Viewer Panel.,,
+cluster_analysis_gui.panel,,,Analyze the geometrical properties and size distribution of molecular clusters from a trajectory as a function of simulation time.<br/>Opens the Cluster Analysis Panel.,Cluster Analysis Calculations...,Trajectory Analysis
+cluster_analysis_viewer_gui.panel,,,Display plots of surfactant cluster properties as a function of time and cluster compositions<br/>Opens the Cluster Analysis Viewer Panel.,Cluster Analysis Results...,Trajectory Analysis
 cm_10,,,Display atoms in adjacent unit cells (&quot;crystal mates&quot;) that are within 10&nbsp;&Aring; of the current unit cell.,,
 cm_4,,,Display atoms in adjacent unit cells (&quot;crystal mates&quot;) that are within 4&nbsp;&Aring; of the current unit cell.,,
 cm_6,,,Display atoms in adjacent unit cells (&quot;crystal mates&quot;) that are within 6&nbsp;&Aring; of the current unit cell.,,
@@ -166,17 +175,18 @@ cm_8,,,Display atoms in adjacent unit cells (&quot;crystal mates&quot;) that are
 cm_all,,,Display all atoms in the 26 unit cells (&quot;crystal mates&quot;) that are adjacent to the current unit cell.,,
 cm_none,,,Hide atoms in the adjacent unit cells.,,
 coarse_grain_ff_assignment_gui.panel,coarse grain,,"<!-- CG -->
-Assign force-field parameters to a coarse-grained model and create the Desmond CMS file for running a molecular dynamics simulation with this model.<br/>Opens the Coarse-Grained Force Field Assignment panel.",,
+Assign force-field parameters to a coarse-grained model and create the Desmond CMS file for running a molecular dynamics simulation with this model.<br/>Opens the Coarse-Grained Force Field Assignment panel.",Coarse-Grained Force Field Assignment...,Coarse Grain Models
 coarse_grain_ff_builder_gui.panel,,,"<!-- CG -->
-Build a coarse-grained force field from an all-atom system, by fitting parameters for coarse-grained simulations to reproduce all-atom simulations.<br/>Opens the Coarse-Grained Force Field Builder Panel.",,
+Build a coarse-grained force field from an all-atom system, by fitting parameters for coarse-grained simulations to reproduce all-atom simulations.<br/>Opens the Coarse-Grained Force Field Builder Panel.",Coarse-Grained Force Field Builder...,Coarse Grain Models
 coarse_grain_ff_builder_viewer_gui.panel,,,"<!-- CG -->
-View the results of a coarse-grained forcefield builder calculation.<br/>Opens the Coarse-Grained Force Field Viewer Panel.",,
+View the results of a coarse-grained forcefield builder calculation.<br/>Opens the Coarse-Grained Force Field Viewer Panel.",Coarse-Grained Force Field Builder Results...,Coarse Grain Models
+coarse_grain_import_structures_gui,,,,Import Coarse-Grained Structures...,Coarse Grain Models
 coarse_grain_import_structures_gui.panel,,,"<!-- CG -->
 Import coarse-grained molecules from the installation that are set up for use with the Martini force field, as project entries. These entries can be used to build coarse-grained systems.<br/>Opens the Import Martini Coarse-Grained Structures panel.",,
-coarse_grain_mapping_gui.panel,,,Map atoms to coarse-grained particles given an all-atom system.<br/>Opens the Coarse-Grained Mapping Panel.,,
+coarse_grain_mapping_gui.panel,,,Map atoms to coarse-grained particles given an all-atom system.<br/>Opens the Coarse-Grained Mapping Panel.,Coarse-Grained Mapping...,Coarse Grain Models
 coarse_grain_particulate_gui.panel,coarse grain,,"<!-- CG -->
-Iteratively select groups of atoms in a structure and specify them as coarse-grained particles for molecular dynamics simulations, then generate a project entry with the coarse-grained model.<br/>Opens the Map Atoms to Particles panel.",,
-coarse_grain_sketcher_gui,coarse grain,,,,
+Iteratively select groups of atoms in a structure and specify them as coarse-grained particles for molecular dynamics simulations, then generate a project entry with the coarse-grained model.<br/>Opens the Map Atoms to Particles panel.",Map Atoms to Particles...,Coarse Grain Models
+coarse_grain_sketcher_gui,coarse grain,,,Coarse-Grained Sketcher...,Coarse Grain Models
 coarse_grain_sketcher_gui.panel,,,"<!-- CG -->
 Sketch a coarse-grained structure using spherical particles that you define, and save it as a project entry.<br/>Opens the Coarse-Grained Sketcher panel.",,
 color_by_difference,"small molecule analysis, difference",,,Color by Difference,Structure Analysis
@@ -191,9 +201,10 @@ command_aliases,,,Create and edit aliases for commonly used Maestro commands.<br
 command_script_editor,,,Edit and replay a Maestro command script.<br/>Opens the Command Script Editor panel.,,
 compare_ligand_files,"small molecule analysis, difference",,,Compare Ligand Files...,Structure Analysis
 compare_ligand_files_gui.panel,,,"Compare two sets of structures by title, SMILES, or tautomer, and return the unique or common structures from either or both sets.<br/>Opens the Compare Ligand Files panel.",,
+complex_bilayer_builder,,,,Complex Bilayer Builder...,Structure Builders
 complex_bilayer_builder_gui.panel,,,...<br/>Opens the Complex Bilayer Builder Panel.,,
 complex_builder_gui.panel,,,"Build a single organometallic complex with one or two metal centers, with any geometry from 2-coordinate (linear) to 9-coordinate (tricapped trigonal prismatic).<br/>Opens the Build Single Complex panel.",,
-complex_enumeration_gui.panel,,,"Enumerate metal complexes defined by a central metal and a specified number of ligands. The ligands can be monodentate, bidentate, or haptic. Complexes can be composed of any combination of ligands of any type.<br/>Opens the Complex Enumeration panel",,
+complex_enumeration_gui.panel,,,"Enumerate metal complexes defined by a central metal and a specified number of ligands. The ligands can be monodentate, bidentate, or haptic. Complexes can be composed of any combination of ligands of any type.<br/>Opens the Complex Enumeration panel",Complexes...,Enumeration
 conf_search_advanced,"conformer generation, confgen, conformation, conformational search",,,Advanced Search...,Structure Analysis
 conf_search_bioactive,"conformer generation, confgen, conformation, conformational search",,,Bioactive Search...,Structure Analysis
 conf_search_complex,"conformer generation, confgen, conformation, conformational search",,,Ligand-Receptor Complex...,Structure Analysis
@@ -214,20 +225,21 @@ consensus_visualization_gui.panel,,,"<!-- homologs, structural water, superposit
 Import a series of related protein structures, superimpose those structures, and identify structural elements that repeatedly appear in common locations, such as structurally important waters, ions, and ligands.<br/>Opens the Consensus Visualization panel.",,
 constant_ph_simulations_gui.panel,,,"Run a series of MD simulations on a protein over a range of pH values with the continuous constant pH MD method, to determine pKa values for titratable residues.<br/>Opens the Protein Constant pH Simulations Panel.",,
 convergence_tests_viewer_gui.panel,,,"<!-- qe -->
-Display plots of the convergence of the periodic DFT energy with energy cutoff and number of k points.<br/>Opens the Convergence Tests Viewer panel.",,
+Display plots of the convergence of the periodic DFT energy with energy cutoff and number of k points.<br/>Opens the Convergence Tests Viewer panel.",Convergence Tests Viewer...,Quantum ESPRESSO
 coord_scan_relaxed,,jaguar_gui.relaxed_scan_panel,,,
 coord_scan_rigid,,jaguar_gui.rigid_scan_panel,,,
 core_hopping_isosteric_matching,"core hopping, scaffold hopping, scaffold, hop, r group, rgroup, r-group, ring swap, bioisoster",,,Isosteric Matching...,Lead Optimization
 core_hopping_ligand,"core hopping, scaffold hopping, scaffold, hop, ring swap, bioisoster",,,Ligand-Based...,Lead Optimization
 covalent_docking,"dock, docking, Glide, GOLD, covalent binding, covdock, warhead",,,Covalent Docking...,Receptor-Based Virtual Screening
 covalent_docking_gui.panel,,,Dock and covalently bind ligands to a protein target.<br/>Opens the Covalent Docking panel.,,
+create_pbc_gui,,,,Create PBC...,Tools
 create_pbc_gui.panel,,,Create simulation cells for a set of structures that do not have periodic boundary conditions.<br/>Opens the Create PBC Panel.,,
-create_reagent_library_gui.panel,,,,Create Reactant Library...,Enumeration and Ideation
+create_reagent_library_gui.panel,,,,Create Reactant Library...,Enumeration
 create_screening_database,,,,Create Screening Database...,Ligand-Based Virtual Screening
 create_screening_db_gui,"screening, filtering",,,,
 create_screening_db_gui.panel,,,"Create a database from a screening run, which can be used in the Hit Analyzer Panel.<br/>Opens the Create Screening Database Panel.",,
 create_shape_data_file,"virtual screen, screening, ligand shape, ROCS, shape",,,Create Shape Data File (For GPU)...,Ligand-Based Virtual Screening
-crest_gui.panel,,,Conformational search for small molecule using CREST<br/>Opens the CREST Panel.,,
+crest_gui.panel,,,Conformational search for small molecule using CREST<br/>Opens the CREST Panel.,CREST...,Workflows
 cross_link_proteins_gui.panel,,,"<!-- crosslink, circular permutation -->
 Cross-link two protein chains with a peptide linker connecting the termini. The linker can be composed of one or more monomer unit types, and each monomer unit can be composed of one or more user-specified amino acid types. The requested loop conformers are predicted using either known loop conformers in the curated PDB or using a de novo loop buildup process.<br/>Opens the Crosslink Proteins panel.",,
 crosslink_polymer,,polymer_crosslink_gui.panel,,,
@@ -239,7 +251,7 @@ csp_gui.panel,,,"<!-- CSP -->
 Predict possible crystal polymorphs and rank them by their energy.<br/>Opens the Crystal Structure Prediction Panel.",Crystal Structure Prediction...,Polymorph Prediction
 csp_viewer_gui.panel,,,"<!-- CSP -->
 View results from a crystal structure prediction calculation.<br/>Opens the Crystal Structure Prediction Viewer Panel.",Crystal Structure Prediction Analysis...,Polymorph Prediction
-custom_rgroup_enum_gui.panel,"fragment, enumeration, library, interactive enumeration, r group, rgroup, r-group",,"Add custom or standard fragment collections to selected positions on a core-containing structure, and enumerate the structures resulting from all possible combinations of fragments at each position.<br/>Opens the Custom R-Group Enumeration panel.",R-Group Enumeration...,Enumeration and Ideation
+custom_rgroup_enum_gui.panel,"fragment, enumeration, library, interactive enumeration, r group, rgroup, r-group",,"Add custom or standard fragment collections to selected positions on a core-containing structure, and enumerate the structures resulting from all possible combinations of fragments at each position.<br/>Opens the Custom R-Group Enumeration panel.",R-Group Enumeration...,Enumeration
 customize_menu,,,"Customize the menus in the main window. You can add, delete, or move items, menus, or submenus, and you can assign shortcut keys and mnemonics. <br/>Opens the Customize Menus panel.",,
 customize_mouse_actions,,,"Customize the actions performed in the Workspace by the mouse buttons or other pointing device, according to your hardware. Defaults are provided for several hardware configurations. <br/>Opens the Customize Mouse Actions panel.",,
 customize_profiles,,,"Save the current Maestro configuration as a new custom profile, or delete or reset a custom profile. The configuration includes the menus, toolbars, preferences, mouse actions.<br/>Opens the Customize Profiles panel.",,
@@ -249,13 +261,14 @@ Identify residue mutations that can be carried out to create new cysteine disulf
 data_fusion,"docking postprocessing, combine scores, Z-score",,,Data Fusion...,Receptor-Based Virtual Screening
 data_fusion_gui.panel,,,"Screen molecules with Glide, Shape, and Fingerprint screening, and combine the results based on standard Z-scores to select the top compounds.<br/>Opens the Data Fusion panel.",,
 deepchem_gui.panel,,,Use deep learning methods on large structure sets to generate and apply a QSAR model.<br/>Opens the DeepChem AutoQSAR panel.,DeepAutoQSAR...,Discovery Informatics and QSAR
-defect_correction_gui.panel,,,Calculate the defect correction energy for the formation energy of a point defect using the zero defect correction and alignment term.<br/>Opens the Defect Correction Panel.,,
-defect_setup_gui.panel,,,Create point defect structures from perfect crystal supercells and run defect calculations.<br/>Opens the Defect Setup Calculations Panel.,,
-delta_hf_gui.panel,"QM, quantum mechanics, Jaguar",,Calculate the heats (enthalpies) of formation and the atomization energies of organic molecules in kcal/mol. The heats of formation are calculated from the atomization energies and the experimental heats of formation of the gaseous atoms from the elements.<br/>Opens the Heat of Formation panel.,Heat of Formation...,Quantum Mechanics
+defect_correction_gui.panel,,,Calculate the defect correction energy for the formation energy of a point defect using the zero defect correction and alignment term.<br/>Opens the Defect Correction Panel.,Defect Correction...,Quantum ESPRESSO
+defect_setup_gui.panel,,,Create point defect structures from perfect crystal supercells and run defect calculations.<br/>Opens the Defect Setup Calculations Panel.,Defect Setup Calculations...,Quantum ESPRESSO
+delta_hf_gui.panel,"QM, quantum mechanics, Jaguar",,Calculate the heats (enthalpies) of formation and the atomization energies of organic molecules in kcal/mol. The heats of formation are calculated from the atomization energies and the experimental heats of formation of the gaseous atoms from the elements.<br/>Opens the Heat of Formation panel.,Heat of Formation...,More Molecular QM Tasks
 demo1,,,Play through a demonstration of some of the basic Maestro features.<br/>Opens the Maestro General Demo #1 panel.,,
+density_profile_gui,,,,Density Profile...,Tools
 density_profile_gui.panel,,,"Display a profile of the density along a selected axis, summed for atoms in slabs perpendicular to the axis, or a cross-section of the density perpendicular to the selected axis.<br/>Opens the Density Profile panel.",,
 deposition_gui.panel,,,Deposit molecules on a substrate in successive additions with MD equilibration to build up a layer on the substrate.<br/>Opens the Molecular Deposition panel.,,
-deposition_gui2.panel,,,Desposit molecules on a substrate in successive additions with MD equilibration to build up a layer on the substrate.<br/>Opens the Molecular Deposition Panel.,,
+deposition_gui2.panel,,,Desposit molecules on a substrate in successive additions with MD equilibration to build up a layer on the substrate.<br/>Opens the Molecular Deposition Panel.,Molecular Deposition...,Classical Mechanics
 deselect_duplicate_titles,,,,Deselect Duplicate Titles,Project Table and Project Operations
 deselect_duplicate_titles.run,,,"Remove entries from the Project Table selection that have identical titles, retaining only the first instance of each title.",,
 desmond_constant_ph_molecular_dynamics,"pKa, protein pKa, constant ph, ph, molecular dynamics, MD",,,Constant pH Simulations...,FEP+
@@ -263,8 +276,8 @@ desmond_fep_free_energy,"free energy, Desmond, FEP+, FEP, free energy perturbati
 desmond_fep_protein_mutation,"free energy, Desmond, FEP+, FEP, free energy perturbations, protein FEP",,,Protein FEP for Ligand Selectivity...,Free Energy Perturbation
 desmond_fep_protein_mutation_analysis,"free energy, Desmond, FEP+, FEP, free energy perturbations",,,,
 desmond_fep_scanning,,fep_scanning_gui.panel,,,
-desmond_metadynamics,"binding, free energy, Desmond, kinetics, unbinding",,,Metadynamics...,Classical Simulation
-desmond_metadynamics_analysis,"free energy, Desmond",,,Metadynamics Analysis...,Classical Simulation
+desmond_metadynamics,"binding, free energy, Desmond, kinetics, unbinding",,,Metadynamics...,More MD Tasks
+desmond_metadynamics_analysis,"free energy, Desmond",,,Metadynamics Analysis...,More MD Tasks
 desmond_metadynamics_analysis_gui.panel,,,"<!-- desmond -->
 Analyze the results of a metadynamics simulation.<br/>Opens the Metadynamics Analysis panel.",,
 desmond_metadynamics_gui.panel,,,"<!-- desmond -->
@@ -272,25 +285,28 @@ Run a metadynamics simulation on one or more collective variables.<br/>Opens the
 desmond_minimization,Desmond,,,Minimization...,Desmond
 desmond_minimization_gui.panel,,,"<!-- desmond, minimization -->
 Set up and submit jobs that relax a system into a local energy minimum, using a Brownian motion simulation.<br/>Opens the Minimization panel.",,
-desmond_molecular_dynamics,"Desmond, dynamics, GPU, molecular dynamics, MD, protein simulation",,,Molecular Dynamics...,Classical Simulation
+desmond_molecular_dynamics,"Desmond, dynamics, GPU, molecular dynamics, MD, protein simulation",,,Molecular Dynamics...,Molecular Dynamics
 desmond_molecular_dynamics_gui.panel,,,"<!-- desmond, MD -->
 Run or restart general-purpose molecular dynamics simulations under a chosen set of conditions. Includes optional relaxation of the model system prior to performing the simulation.<br/>Opens the Molecular Dynamics panel.",,
+desmond_multistage_simulation,,,,MD Multistage Workflow...,MD Simulations
 desmond_multistage_simulation_gui.panel,,,"Set up a multistage molecular dynamics simulation workflow, consisting of an optional relaxation protocol and an arbitrary number of stages, chosen from minimization, Brownian dynamics, molecular dynamics, simulated annealing, and analysis. The results of each stage are fed into the next stage.<br>Opens the Multistage Simulation Workflow panel.",,
-desmond_radial_distribution_function,"rdf, Desmond",,,,
+desmond_radial_distribution_function,"rdf, Desmond",,,Radial Distribution Function...,Trajectory Analysis
 desmond_replica_exchange_gui.panel,,,"<!-- desmond, REMD -->
 Run temperature replica exchange molecular dynamics simulations. You can specify the number of replicas, the temperature range and the temprerature profile.<br/>Opens the Replica Exchange panel.",,
-desmond_replica_exchange_review,"Desmond, replica exchange analysis",,,Replica Exchange Review...,Classical Simulation
+desmond_replica_exchange_review,"Desmond, replica exchange analysis",,,Replica Exchange Review...,Molecular Dynamics
 desmond_simulated_annealing_gui.panel,,,"<!-- desmond, MD -->
 Run a simulated annealing molecular dynamics simulation. You can specify the number of stages and the duration and temperature for each stage.<br/>Opens the Simulated Annealing panel.",,
-desmond_simulation_interaction_diagram,"torsion, analysis, sid, Desmond, analyze MD, dynamics, interaction, molecular dynamics, MD, trajectory analysis",,,Simulation Interactions Diagram...,Classical Simulation
-desmond_simulation_quality_analysis,"Desmond, analyze MD, MD quality",,,Simulation Quality Analysis...,Classical Simulation
-desmond_trajectory_clustering,"Desmond, cluster trajectory, clustering, dynamics, molecular dynamics, MD",,,Desmond Trajectory Clustering...,Classical Simulation
-desorption_enumeration_gui.panel,,,Build candidate geometries for all combinations of desorption of a set of molecules from a set of functionalized surfaces.<br/>Opens the Desorption Enumeration Panel.,,
-diffusion_coefficient_gui.panel,,,"Calculate the diffusion coefficient for either a type of atom or a type of molecule from an MD trajectory. The trajectory can be generated for the calculation, or an existing trajectory can be used.<br/>Opens the Diffusion Coefficient panel.",,
-diffusion_coefficient_gui.panel_ic,,,...<br/>Opens the Ionic Conductivity Panel.,,
-diffusion_coefficient_viewer_gui.panel,,,Display values of diffusion coefficients and plots of the mean square distance (MSD) against simulation time difference. The fit of the MSD to obtain the diffusion coefficient can be adjusted.<br/>Opens the Diffusion Coefficient Viewer panel.,,
-diffusion_coefficient_viewer_gui.panel_ic,,,...<br/>Opens the Ionic Conductivity Viewer Panel.,,
+desmond_simulation_interaction_diagram,"torsion, analysis, sid, Desmond, analyze MD, dynamics, interaction, molecular dynamics, MD, trajectory analysis",,,Simulation Interactions Diagram...,Molecular Dynamics
+desmond_simulation_quality_analysis,"Desmond, analyze MD, MD quality",,,Simulation Quality Analysis...,Trajectory Analysis
+desmond_trajectory_clustering,"Desmond, cluster trajectory, clustering, dynamics, molecular dynamics, MD",,,Desmond Trajectory Clustering...,Molecular Dynamics
+desorption_enumeration_gui.panel,,,Build candidate geometries for all combinations of desorption of a set of molecules from a set of functionalized surfaces.<br/>Opens the Desorption Enumeration Panel.,Desorption...,Enumeration
+diffusion_coefficient_gui.panel,,,"Calculate the diffusion coefficient for either a type of atom or a type of molecule from an MD trajectory. The trajectory can be generated for the calculation, or an existing trajectory can be used.<br/>Opens the Diffusion Coefficient panel.",Diffusion Coefficient Calculations...,Diffusion Coefficient
+diffusion_coefficient_gui.panel_ic,,,...<br/>Opens the Ionic Conductivity Panel.,Ionic Conductivity Calculations...,Ionic Conductivity
+diffusion_coefficient_viewer_gui.panel,,,Display values of diffusion coefficients and plots of the mean square distance (MSD) against simulation time difference. The fit of the MSD to obtain the diffusion coefficient can be adjusted.<br/>Opens the Diffusion Coefficient Viewer panel.,Diffusion Coefficient Results...,Diffusion Coefficient
+diffusion_coefficient_viewer_gui.panel_ic,,,...<br/>Opens the Ionic Conductivity Viewer Panel.,Ionic Conductivity Results...,Ionic Conductivity
+digitize_curves_gui,,,,Digitize Curves...,Tools
 digitize_curves_gui.panel,,,Digitize curves from an image to produce coordinates of the curve.<br/>Opens the Digitize Curves panel.,,
+disordered_system_builder,,,,Disordered System...,Structure Builders
 disordered_system_builder_gui.panel,,,"Build a randomized multi-component organic mixture of a given composition, either on its own, or on a substrate. The substrate can be a crystal surface, the exterior of a nanoparticle, or the interior of a &quot;container&quot; such as a nanotube. The resulting structure can be prepared for molecular dynamics simulations.<br/>Opens the Disordered System Builder panel.",,
 display_hydrophobic_interactions,"protein analysis, interaction, van der Waals interactions",,,Display Hydrophobic Interactions,Structure Analysis
 display_hydrophobic_interactions.run,,,Display good contacts between hydrophobic atoms of a ligand and hydrophobic residues of a receptor in the Workspace.,,
@@ -298,12 +314,13 @@ display_tile_entries,,,Arrange the Workspace entries or surfaces in a rectangula
 displayatom,,,Select the atoms to display or undisplay in the Workspace.<br/>Opens the Display/Undisplay Atoms panel.,,
 displayopt,,,"Set options for the Workspace appearance: background color, lighting and materials effects, 3D effects, and special screen effects. <br/>Opens the Appearance panel.",,
 displaystereo,,,Turn stereo viewing on or off.,,
+distribute_voids,,,,Distribute Voids...,Structure Builders
 distribute_voids_gui.panel,,,Create voids in a system of multiple molecules by randomly deleting molecules. The molecules can be all-atom or coarse-grained.<br/>Opens the Distribute Voids panel,,
 dos_viewer_gui.panel,periodic dft,,"<!-- qe -->
-Plot the density of states from a periodic DFT calculation as a function of energy.<br/>Opens the Density of States Viewer panel.",,
+Plot the density of states from a periodic DFT calculation as a function of energy.<br/>Opens the Density of States Viewer panel.",Density of States Viewer...,Quantum ESPRESSO
 drive,,,"Perform a coordinate scan of one or two coordinates of the same type (distance, angle, or dihedral) on specified structures, with optional constraints and minimization of the rest of the structure. The MMFF and the OPLS series of force fields with various electrostatic treatments, including GB/SA, can be used. Use Tools &rarr; Plot Coordinate Scan to view the results.<br/>Opens the Coordinate Scan panel.",,
-droplet_contact_analysis_gui.panel,,,Determine the contact angle of solvent droplets on a surface.<br/>Opens the Droplet Contact Analysis Panel.,,
-droplet_contact_analysis_viewer_gui.panel,,,Plot the results of a droplet contact analysis calculation.<br/>Opens the Droplet Contact Analysis Viewer Panel.,,
+droplet_contact_analysis_gui.panel,,,Determine the contact angle of solvent droplets on a surface.<br/>Opens the Droplet Contact Analysis Panel.,Droplet Contact Analysis Calculations...,Droplet Contact Analysis
+droplet_contact_analysis_viewer_gui.panel,,,Plot the results of a droplet contact analysis calculation.<br/>Opens the Droplet Contact Analysis Viewer Panel.,Droplet Contact Analysis Results...,Droplet Contact Analysis
 ecalc,,,"<!-- MacroModel, MMOD -->
 Calculate the force-field energy of a structure at its current geometry. The MMFF and the OPLS series of force fields with various electrostatic treatments, including GB/SA, can be used.<br/>Opens the Current Energy panel.",,
 edit_copy,,,"Copy the Workspace selection onto the clipboard, and copy an image of the Workspace. The clipboard stores the atoms in the selection in Maestro format and SMILES format, and an an image of the Workspace. The SMILES string and the image can be pasted into another application; the atoms can be pasted back into the Workspace. The resolution of the image is the current screen resolution, so if you want a higher resolution, you should use the Save Image panel. <br/>Keyboard shortcut: Ctrl+C (&#x2318;C).",,
@@ -339,12 +356,13 @@ edit_select_save_set8,,,Store the current atom selection in location 8.,,
 edit_select_save_set9,,,Store the current atom selection in location 9.,,
 edit_select_select,,,Select atoms using the Atom Selection dialog box.,,
 edit_undo,,,"Undo the last undoable action. The menu item changes to display the name of the last command executed. When you undo an action, the menu item changes to Redo. Undoing can also be performed with the Undo button on the Edit toolbar.",,
-elastic_constants_gui.panel,,,"Calculate strain properties of an orthorhombic system using molecular dynamics simulations. The properties are obtained by fitting, using small changes to the cell dimensions.<br/>Opens the Elastic Constants panel.",,
+elastic_constants_gui.panel,,,"Calculate strain properties of an orthorhombic system using molecular dynamics simulations. The properties are obtained by fitting, using small changes to the cell dimensions.<br/>Opens the Elastic Constants panel.",Elastic Constants Calculations...,Elastic Constants
 elastic_constants_viewer_gui.panel,,,"<!-- qe -->
-Plot the stress derived from the total energy or the stress computed directly, against the deformation, along with the parabolic or linear fit, for the results of an elastic constants calculation. Also display the stress tensor and the correlation coefficient. The panel can display results from either MD or QE calculations of the elastic constants.<br/>Opens the Elastic Constants Results Viewer panel",,
-electrolyte_analysis_gui.panel,,,Analyze the coordination between cations and counterions in molecular dynamics simulations. The coordination can be used to analyze the ion transport characteristics of electrolytes.<br/>Opens the Electrolyte Analysis Calculations Panel.,,
-electrolyte_analysis_viewer_gui.panel,,,"Display plots of numbers of interactions between ions in electrolyte materials. You can either plot an aggregate distribution of the numbers of coordinated oxygen atoms as a histogram, or you can plot the interaction partners of each cation over time.<br/>Opens the Electrolyte Analysis Viewer Panel.",,
-electroporation_gui.panel,,,Simulate pore formation by applying an electric field to membrane systems.<br/>Opens the Electroporation Calculation Panel.,,
+Plot the stress derived from the total energy or the stress computed directly, against the deformation, along with the parabolic or linear fit, for the results of an elastic constants calculation. Also display the stress tensor and the correlation coefficient. The panel can display results from either MD or QE calculations of the elastic constants.<br/>Opens the Elastic Constants Results Viewer panel",Elastic Constants Results...,Elastic Constants
+electrolyte_analysis_gui.panel,,,Analyze the coordination between cations and counterions in molecular dynamics simulations. The coordination can be used to analyze the ion transport characteristics of electrolytes.<br/>Opens the Electrolyte Analysis Calculations Panel.,Electrolyte Analysis Calculations...,Trajectory Analysis
+electrolyte_analysis_viewer_gui.panel,,,"Display plots of numbers of interactions between ions in electrolyte materials. You can either plot an aggregate distribution of the numbers of coordinated oxygen atoms as a histogram, or you can plot the interaction partners of each cation over time.<br/>Opens the Electrolyte Analysis Viewer Panel.",Electrolyte Analysis Results...,Trajectory Analysis
+electroporation_gui.panel,,,Simulate pore formation by applying an electric field to membrane systems.<br/>Opens the Electroporation Calculation Panel.,Electroporation,Classical Mechanics
+elemental_enumeration,,,,Elemental...,Enumeration
 elemental_enumeration_gui.panel,,,"<!-- transmutation, alchemical enumeration -->
 Use the Workspace structure to generate a set of modified structures in which selected atoms have been changed (transmuted) to another element. All possible transmutations are performed on the selected atoms, within defined bounds. The new structures are added to the project.<br/>Opens the Elemental Enumeration panel",,
 embrace,,,"<!-- MacroModel, MMOD, protein-ligand complex -->
@@ -355,29 +373,29 @@ energy_visualization,protein analysis,,,Energy Visualization...,Structure Analys
 enhance_depth_view,,,Enhance the perception of depth (with ambient spherical occlusion). This option is most useful for large structures.,,
 enrichment_calculator,"docking postprocessing, area, AUC, BEDROC, EF, enrichment, post process, ROC, under the curve",,,Enrichment Calculator...,Receptor-Based Virtual Screening
 enrichment_gui.panel,,,Calculate and plot enrichment metrics from the results of a virtual screen and a set of known actives.<br/>Opens the Enrichment Calculator panel.,,
-enumerate_disordered_systems_gui.panel,,,"Create binary disordered systems from all possible combinations of two molecule types taken from two sets of structures, with a specified ratio of the number of structures of each type.<br/>Opens the Enumerate Disordered Systems panel.",,
-enumlib_gui.panel,,,"Enumerate atomic substitutions in a periodic structure to generate new structures, for example with distributions of vacancies or dopants.<br/>Opens the Enumerate Periodic Structures panel",,
+enumerate_disordered_systems_gui.panel,,,"Create binary disordered systems from all possible combinations of two molecule types taken from two sets of structures, with a specified ratio of the number of structures of each type.<br/>Opens the Enumerate Disordered Systems panel.",Multiple Disordered Systems...,Enumeration
+enumlib_gui.panel,,,"Enumerate atomic substitutions in a periodic structure to generate new structures, for example with distributions of vacancies or dopants.<br/>Opens the Enumerate Periodic Structures panel",Periodic Systems...,Enumeration
 eos_viewer_gui.panel,,,"<!-- qe -->
-Display results of equation-of-state calculations<br/>Opens the Equation of State Viewer Panel.",,
+Display results of equation-of-state calculations<br/>Opens the Equation of State Viewer Panel.",Equation of State Viewer...,Quantum ESPRESSO
 epik,,,,Epik...,Other Applications
 epik_gui.panel,,,"<!-- acid, base -->
 Predict the p<i>K</i><sub>a</sub> of the ionizable atoms in ligand-sized structures, or generate probable variations in the location and number of protons based upon p<i>K</i><sub>a</sub> values and tautomeric preferences.<br/>Opens the Epik panel.",,
 epitope_identification_gui.panel,,,,,
 epsilon_viewer_gui.panel,,,"<!-- qe -->
-Plot the dielectric function from a Quantum ESPRESSO calculation.<br/>Opens the Dielectric Function Viewer panel",,
+Plot the dielectric function from a Quantum ESPRESSO calculation.<br/>Opens the Dielectric Function Viewer panel",Dielectric Function Viewer...,Quantum ESPRESSO
 esm_gui.panel,,,"<!-- qe, esm -->
-Run a periodic DFT calculation on a slab, with a continuum dielectric medium on either side of the slab. This medium can either represent the vacuum or a pair of metal electrodes of opposite polarity.<br/>Opens the Effective Screening Medium Calculations panel.",,
+Run a periodic DFT calculation on a slab, with a continuum dielectric medium on either side of the slab. This medium can either represent the vacuum or a pair of metal electrodes of opposite polarity.<br/>Opens the Effective Screening Medium Calculations panel.",Effective Screening Medium Calculations...,Quantum ESPRESSO
 esm_viewer_gui.panel,ESM,,"<!-- qe -->
-Display a plot of the charge density and the potential along the Z-axis through a slab, as evaluated from an effective screening medium (ESM) periodic DFT calculation.<br/>Opens the ESM: Density/Potential Profile panel.",,
-evaporation_gui.panel,,,Perform MD simulations to remove solvents from condensed all-atom and coarse-grained systems.<br/>Opens the Evaporation Panel.,,
-evaporation_viewer_gui.panel,,,Plot the results of an evaporation calculation.<br/>Opens the Evaporation Viewer Panel.,,
+Display a plot of the charge density and the potential along the Z-axis through a slab, as evaluated from an effective screening medium (ESM) periodic DFT calculation.<br/>Opens the ESM: Density/Potential Profile panel.",ESM: Density/Potential Profile...,Quantum ESPRESSO
+evaporation_gui.panel,,,Perform MD simulations to remove solvents from condensed all-atom and coarse-grained systems.<br/>Opens the Evaporation Panel.,Evaporation Calculations...,Evaporation
+evaporation_viewer_gui.panel,,,Plot the results of an evaporation calculation.<br/>Opens the Evaporation Viewer Panel.,Evaporation Results...,Evaporation
 event_analysis.show_panel,,,"<!-- desmond, MD -->
 Display information on protein-ligand interactions derived from a molecular dynamics simulation, in graphical form. The diagrams show RMSD and RMSF measures for proteins, including backbone, side-chain, and secondary structure changes; ligands, including internal and external motions; and  protein-ligand contacts, including H-bonds, hydrophobic, ionic, and water-bridge contacts.<br>Opens the Simulation Interactions Diagram panel.",,
-excited_state_analysis_gui.panel,,,Analyze the content of the excited states of a metal complex in terms of charge transfer to and from metal and ligand atoms.<br/>Opens the Excited State Analysis Panel.,,
-excited_state_analysis_viewer_gui.panel,,,Plot the results of an excited state analysis in terms of the fragments in the complex and charge transfer between the fragments.<br/>Opens the Excited State Analysis Viewer Panel.,,
+excited_state_analysis_gui.panel,,,Analyze the content of the excited states of a metal complex in terms of charge transfer to and from metal and ligand atoms.<br/>Opens the Excited State Analysis Panel.,Excited State Analysis...,Excited State Analysis
+excited_state_analysis_viewer_gui.panel,,,Plot the results of an excited state analysis in terms of the fragments in the complex and charge transfer between the fragments.<br/>Opens the Excited State Analysis Viewer Panel.,Excited State Analysis Results...,Excited State Analysis
 export_to_ld,"export, LiveDesign, LD",,,Export to LiveDesign...,Discovery Informatics and QSAR
 export_to_sarvision_biologics,,,"Export structures and properties from the Project Table to the SARvision | Biologics interface. Only available on Windows.<br/>Opens the Export to SARvision | Biologics dialog box, then the SARvision | Biologics interface.",Export to SARVision...,Biologics
-extract_clusters_gui.panel,,,"Extract dimers or clusters from a set of molecules that are displayed in the Workspace, and write them to a file or add them to the Maestro project. The set of molecules must be part of a Desmond model system.<br/>Opens the Extract Dimers panel.",,
+extract_clusters_gui.panel,,,"Extract dimers or clusters from a set of molecules that are displayed in the Workspace, and write them to a file or add them to the Maestro project. The set of molecules must be part of a Desmond model system.<br/>Opens the Extract Dimers panel.",Extract Clusters...,Structure Builders
 extract_dimers,dimer,,,,
 fep_leadopt_review.show_panel,,,Analyze the results of FEP calculations generated from an FEP map to produce estimates of the relative free energies for the perturbations and binding free energies for the ligands.<br/>Opens the FEP Mapper Analysis panel.,,
 fep_lig_prot_mutation_gui.panel,,,Evaluate the change in binding free energy on mutation of a protein residue in the presence of a ligand to determine whether the residue is important for ligand selectivity.<br/>Opens the FEP Protein Mutation for Ligand Selectivity panel.,,
@@ -397,14 +415,16 @@ field_based_qsar,,,,Field-Based QSAR...,Other Applications
 fieldqsar,,,"<!-- CoMFA, CoMSIA, 3D QSAR -->
 Build and apply a QSAR model for a set of ligands, based on electrostatic (force-field) and Gaussian fields.<br/>Opens the Field-Based QSAR panel.",,
 filter_duplicates.run,ligfilter,,"Remove duplicate compounds from the Project Table selection, taking into account ionization and tautomeric states.",Filter Duplicates,Project Table and Project Operations
-finite_dos_viewer_gui.panel,,,Plot the density of states from a molecular DFT calculation as a function of energy.<br/>Opens the Molecular Density of States Viewer Panel.,,
+finite_dos_viewer_gui.panel,,,Plot the density of states from a molecular DFT calculation as a function of energy.<br/>Opens the Molecular Density of States Viewer Panel.,Molecular Density of States Viewer...,Tools
 fix_bond_orders.fix_unsaturated_bond_orders,,,Assign bond orders to bonds that should be unsaturated.,,
 flex_ligand_alignment,,,,Ligand Alignment...,Structure Alignment
 flex_ligand_alignment_gui.panel,,,"Align a set of ligand structures flexibly with torsional variation, using the best available method.<br/>Opens the Ligand Alignment panel.",,
 flexligalign,,,"Perform a flexible alignment of the entries that are selected in the Project Table. The first selected entry is used as a template, and is kept as is. For the remaining ligands, a ligand torsional search is performed to find the conformer that has the best overlap with the template.<br/>Opens the Flexible Ligand Alignment panel.",,
 force_field_builder,"forcefield, force field, forcefield builder, force field builder, ffbuilder, torsion, FEP, free energy perturbations",ffbuilder_gui.panel,,Force Field Builder...,Free Energy Perturbation
 fragment_clustering,,,,2D Fragment Clustering,Discovery Informatics and QSAR
+free_volume_analysis_gui,,,,Free Volume Calculations...,Tools
 free_volume_analysis_gui.panel,,,"Determine the location and sizes of voids (free volume) in a set of structures, which can then be analyzed and displayed.<br/>Opens the Free Volume Analysis panel.",,
+free_volume_analysis_viewer_gui,,,,Free Volume Results...,Tools
 free_volume_analysis_viewer_gui.panel,,,Display plots of the distribution of sizes and location of voids (free volume) in a structure.<br/>Opens the Free Volume Analysis Viewer panel.,,
 function_key_macros,,,Function Key Macros</span></a>&mdash;Create and edit macros that can be bound to the F<i>n</i> function keys.<br/>Opens the Function Key Macros panel.,,
 gen_smarts,SMILES,,,Generate SMARTS,Project Table and Project Operations
@@ -436,7 +456,7 @@ glidextal_glide_em_gui,"glide, glidemap",,,GlideXtal (Beta)...,Other Application
 gpcr_generic_numbering.panel,,,Assign generic numbers to a GPCR structure in the Workspace using either the rhodopsin or beta-2 adrenergic receptor structures.<br/>Opens the GPCR Generic Numbering panel.,,
 gpu_similarity,"GPUsimFP, FPSim GPU, Fingerprint Similarity Search (GPU), FPsim-GPU, database screening, GPU",,,FPsim-GPU...,Ligand-Based Virtual Screening
 gpusimilarity_gui.panel,,,Search a selection of public databases for molecules that are similar to the input molecule.<br/>Opens the GPUSimilarity Search panel.,,
-grid_scan,"QM, quantum mechanics",,,Probe Grid Scan...,Quantum Mechanics
+grid_scan,"QM, quantum mechanics",,,Probe Grid Scan...,Workflows
 hartree_to_kcal,"QM, Jaguar",,,Jaguar/QSite Energy Converter,Project Table and Project Operations
 hartree_to_kcal.run,,,"Calculate the relative energy in kcal/mol based on the Jaguar or QSite QM Energy in hartrees for the selected entries in the Project Table, and add it as a property.",,
 hbonds_contacts_panel,,,Set the criteria for displaying H-bond and Contact markers in the Workspace and pick atoms to display the markers.<br/>Opens the H-Bonds and Contacts panel.,,
@@ -475,8 +495,9 @@ impact_minimization,,,"<!-- impact, minimization, optimization -->
 Minimize the geometry of a structure. Options include periodic boundary conditions, force-field and method selection, continuum solvation, and constraints.<br/>Opens the Impact Energy Minimization panel.",,
 impact_soak,,,"<!-- impact, solvent -->
 Surround a structure with a box of solvent water molecules.<br/>Opens the Soak panel.",,
-import_favorite_structures_gui.panel,,,"Import structures from a set of favorites, which you can also create and maintain in this panel.<br/>Opens the Import Favorite Structures Panel.",,
+import_favorite_structures_gui.panel,,,"Import structures from a set of favorites, which you can also create and maintain in this panel.<br/>Opens the Import Favorite Structures Panel.",Import Favorite Structures...,Tools
 import_from_ld,"LiveDesign, LD",,,Import from LiveDesign...,Discovery Informatics and QSAR
+import_slabs,,,,Import Slabs...,Tools
 import_slabs_gui.panel,,,"Import slabs from a library in the installation, which contains already prepared slabs of common materials.<br/>Opens the Import Slabs panel",,
 induced_fit_docking,"dock, docking, XP, SP, collapsed binding site, enhanced sampling, flexible, flexible receptor docking, ifd, induced, induced-fit",,,Induced Fit Docking...,Induced Fit Docking
 interaction_fingerprints,"cheminformatics, fingerprint, interaction, SIFT, SPLIF",,,Structural Interaction Fingerprints...,Biologics
@@ -485,32 +506,40 @@ interactive_pose_prediction_gui.panel,,,Interactively modify a ligand and predic
 ipython_terminal.panel,,,Open a panel with an IPython shell that is set up for access to the Schrodinger Python API.<br/>Opens the IPython with Maestro Integration panel.,,
 isosteric_matching_gui.show_panel,,,"Find alternative scaffolds for a template ligand by defining a scaffold, replacing the scaffold with a set of alternatives, and scoring the ligands based on their shape similarity to the template, with optional application of excluded volumes and flexible alignment (conformational adjustment).<br/>Opens the Isosteric Matching panel.",,
 jaguar_gui.autoconf_panel,"quantum mechanics, conformer generation, conformation, conformational search, conformer, tautomer, tautomer generator, ranking by energy",,,QM Conformer and Tautomer Predictor...,Quantum Mechanics
-jaguar_gui.counterpoise_panel,"QM, quantum mechanics, Jaguar",,Calculate the quantum mechanical dissociation energy of a nonbonded dimer by the counterpoise method.<br>Opens the Jaguar panel.,Counterpoise...,Quantum Mechanics
-jaguar_gui.fukui_panel,"QM, quantum mechanics, Jaguar",,"Calculate Fukui functions for addition and removal of electrons, by a finite difference method. The functions are stored on a grid and can be displayed in Maestro as surfaces.<br/>Opens the Jaguar panel.",Fukui Functions...,Quantum Mechanics
-jaguar_gui.hb_panel,"QM, quantum mechanics, Jaguar, hbond",,Calculate the binding energy of a pair of hydrogen-bonded molecules in the gas phase using quantum mechanical methods.<br/>Opens the Jaguar panel.,Hydrogen Bond Strength...,Quantum Mechanics
+jaguar_gui.counterpoise_panel,"QM, quantum mechanics, Jaguar",,Calculate the quantum mechanical dissociation energy of a nonbonded dimer by the counterpoise method.<br>Opens the Jaguar panel.,Counterpoise...,More Molecular QM Tasks
+jaguar_gui.fukui_panel,"QM, quantum mechanics, Jaguar",,"Calculate Fukui functions for addition and removal of electrons, by a finite difference method. The functions are stored on a grid and can be displayed in Maestro as surfaces.<br/>Opens the Jaguar panel.",Fukui Functions...,More Molecular QM Tasks
+jaguar_gui.hb_panel,"QM, quantum mechanics, Jaguar, hbond",,Calculate the binding energy of a pair of hydrogen-bonded molecules in the gas phase using quantum mechanical methods.<br/>Opens the Jaguar panel.,Hydrogen Bond Strength...,More Molecular QM Tasks
 jaguar_gui.initial_guess_panel,,,Generate an initial guess of the wave function for one or more molecules.<br/>Opens the Jaguar panel.,,
-jaguar_gui.kenny_panel,"QM, quantum mechanics, Jaguar, Kenny",,"Evaluate the electrostatic potential at specific points near hydrogen bond donors and acceptors, as a measure of the hydrogen bond strength.<br/>Opens the Hydrogen Bond Basicity Prediction panel.",Hydrogen Bond Basicity...,Quantum Mechanics
-jaguar_gui.optimization_panel,"QM, quantum mechanics, Jaguar, Normal Mode",,Optimize the geometry of structures by quantum-mechanical energy minimization.<br/>Opens the Jaguar panel.,Optimization...,Quantum Mechanics
-jaguar_gui.pka_panel,"QM, quantum mechanics, Jaguar-pKa, Jaguar pKa, micro pka, micropka, micro-pka, macro-pka, macro pka, macropka, Jaguar, acidity, protonation, QM pKa",,Predict the p<i>K</i><sub>a</sub> and p<i>K</i><sub>b</sub> of acidic or basic molecules using quantum mechanical methods.<br/>Opens the Jaguar panel.,pKa...,Quantum Mechanics
-jaguar_gui.reaction_coord_panel,"QM, quantum mechanics, Jaguar, IRC, intrinsic, intrinsic reaction coordinate",,"Calculate the quantum-mechanical energy of a structure along a reaction coordinate, from the transition state towards the reactant or product structures, or both.<br/>Opens the Jaguar panel.",Reaction Coordinate...,Quantum Mechanics
-jaguar_gui.reaction_panel,"QM, quantum mechanics, Jaguar",,Calculate the enthalpy of a reaction for a supplied set of reactants and products.<br/>Opens the Jaguar panel.,Reaction...,Quantum Mechanics
+jaguar_gui.kenny_panel,"QM, quantum mechanics, Jaguar, Kenny",,"Evaluate the electrostatic potential at specific points near hydrogen bond donors and acceptors, as a measure of the hydrogen bond strength.<br/>Opens the Hydrogen Bond Basicity Prediction panel.",Hydrogen Bond Basicity...,More Molecular QM Tasks
+jaguar_gui.optimization_panel,"QM, quantum mechanics, Jaguar, Normal Mode",,Optimize the geometry of structures by quantum-mechanical energy minimization.<br/>Opens the Jaguar panel.,Optimization...,More Molecular QM Tasks
+jaguar_gui.pka_panel,"QM, quantum mechanics, Jaguar-pKa, Jaguar pKa, micro pka, micropka, micro-pka, macro-pka, macro pka, macropka, Jaguar, acidity, protonation, QM pKa",,Predict the p<i>K</i><sub>a</sub> and p<i>K</i><sub>b</sub> of acidic or basic molecules using quantum mechanical methods.<br/>Opens the Jaguar panel.,pKa...,More Molecular QM Tasks
+jaguar_gui.reaction_coord_panel,"QM, quantum mechanics, Jaguar, IRC, intrinsic, intrinsic reaction coordinate",,"Calculate the quantum-mechanical energy of a structure along a reaction coordinate, from the transition state towards the reactant or product structures, or both.<br/>Opens the Jaguar panel.",Reaction Coordinate...,More Molecular QM Tasks
+jaguar_gui.reaction_panel,"QM, quantum mechanics, Jaguar",,Calculate the enthalpy of a reaction for a supplied set of reactants and products.<br/>Opens the Jaguar panel.,Reaction...,More Molecular QM Tasks
 jaguar_gui.relaxed_scan_panel,"QM, quantum mechanics, coordinate scan, Jaguar, scan, torsion scan",,"<!-- scan, relaxed -->
 Calculate the energy of a structure as a function of up to 5 selected coordinates, with other coordinates optimized, using quantum-mechanical methods.<br/>Opens the Jaguar panel.",QM Relaxed...,Structure Analysis
 jaguar_gui.rigid_scan_panel,"QM, quantum mechanics, coordinate scan, Jaguar, torsion scan",,"<!-- scan, rigid -->
 Calculate the energy of a structure as a function of up to 5 selected coordinates, with other coordinates fixed, using quantum-mechanical methods.<br/>Opens the Jaguar panel.",QM Rigid...,Structure Analysis
 jaguar_gui.run_batch_panel,,,Run a Jaguar batch job with a selected batch script and a set of structures.<br/>Opens the Jaguar - Run Batch File panel.,,
 jaguar_gui.run_input_panel,Jaguar,,Run Jaguar for a selected set of input files.<br/>Opens the Jaguar - Run Input Files panel.,Run Input Files...,Jaguar
-jaguar_gui.spe_panel,"QM, quantum mechanics, Jaguar",,Calculate the quantum-mechanical energy of structures at their current geometry.<br/>Opens the Jaguar panel.,Single Point Energy...,Quantum Mechanics
-jaguar_gui.transition_state_panel,"transition state, QM, quantum mechanics, Jaguar, reaction path",,"Search for a transition state between reactant and product structures, using quantum mechanical methods.<br/>Opens the Jaguar panel.",Transition State Search...,Quantum Mechanics
+jaguar_gui.spe_panel,"QM, quantum mechanics, Jaguar",,Calculate the quantum-mechanical energy of structures at their current geometry.<br/>Opens the Jaguar panel.,Single Point Energy...,More Molecular QM Tasks
+jaguar_gui.transition_state_panel,"transition state, QM, quantum mechanics, Jaguar, reaction path",,"Search for a transition state between reactant and product structures, using quantum mechanical methods.<br/>Opens the Jaguar panel.",Transition State Search...,More Molecular QM Tasks
+jaguar_multistage_workflow,,,,QM Multistage Workflow...,Molecular Quantum Mechanics
 jaguar_multistage_workflow_gui.panel,,,"Set up a multistage workflow of quantum mechanical single point, optimization, and transition state search jobs, in which the output from each stage is used as input to the next.<br/>Opens the QM Multistage Workflow panel.",,
 jobs_monitor,,,Manage and monitor the progress of any Schr&ouml;dinger computational job.<br/>Opens the Monitor panel.,,
 kinase_conservation_analysis,"kinase, conservation, selectivity",,,Kinase Conservation Analysis...,Structure Analysis
 kinase_conservation_gui.panel,,,Annotate ligand binding residues and calculate a position specific conservation score.<br/>Opens the Kinase Conservation Analysis Panel.,,
+kmc_analyze_energetic_disorder_gui,,,,Analyze Energetic Disorder...,KMC Charge Mobility
 kmc_analyze_energetic_disorder_gui.panel,,,Plot histograms of the variation in site energies and coupling integrals for a selected structure for which these properties have been calculated.<br/>Opens the Analyze Energetic Disorder panel.,,
+kmc_charge_injection_viewer_gui.panel,,,,Charge Injection Results...,KMC Charge Mobility
+kmc_compute_charge_mobility_gui,,,,Compute KMC Charge Mobility...,KMC Charge Mobility
 kmc_compute_charge_mobility_gui.panel,,,"Compute charge mobility in an amorphous solid using kinetic Monte Carlo methods for carrier hopping, based on hopping data from Jaguar and QSite calculations.<br/>Opens the Compute KMC Charge Mobility panel.",,
+kmc_database_browser_gui,,,,Browse Charge Hopping Data...,KMC Charge Mobility
 kmc_database_browser_gui.panel,,,View KMC Database data as tables and export data from the tables.<br/>Opens the KMC Database Browser panel.,,
+kmc_plot_charge_mobility_gui,,,,Plot KMC Charge Mobility...,KMC Charge Mobility
 kmc_plot_charge_mobility_gui.panel,,,Plot the charge mobility and velocity from kinetic Monte Carlo calculations against the applied field.<br/>Opens the Plot KMC Charge Mobility panel.,,
+kmc_restart_hopping_gui,,,,Restart Hopping Parameter Calculations...,KMC Charge Mobility
 kmc_restart_hopping_gui.panel,,,"Restart calculations for charge hopping parameters that failed, optionally with changed keywords and values.<br/>Opens the Restart Hopping Parameter Calculations panel.",,
+kmc_visualize_charge_transport_gui,,,,Visualize KMC Charge Transport...,KMC Charge Mobility
 kmc_visualize_charge_transport_gui.panel,,,"Visualize the results of kinetic Monte Carlo charge mobility calculations in the Workspace, using data from sites and nearest neighbors to configure the display.<br/>Opens the Visualize KMC Charge Transport panel.",,
 knime_connect,"exchange, connector, KNIME",,,Establish Structure Exchange with KNIME...,Project Table and Project Operations
 labelatom,,,Label atoms with one or more properties. The label can be composed of atom-level or entry-level properties.<br/>Opens the Atom Labels panel.,,
@@ -531,6 +560,7 @@ ligprep,"prepare, 2D, conversion, LigPrep, ligand preparation, Mol file, prepara
 ligprep_fep.panel,,,,Ligand FEP...,Desmond
 ligprep_gui.panel,,,"<!-- LigPrep, ligand preparation, stereoisomers, ring conformations -->
 Convert 1D (SMILES), 2D, or 3D structures to low-energy 3D structures, with possible elaboration of protonation and tautomeric states and stereochemistry.<br/>Opens the LigPrep panel.",,
+locate_ring_spears,,,,Locate Rings and Spears...,Tools
 locate_ring_spears_gui.panel,,,Locate parts of the structure in the Workspace that go through the middle of (&quot;spear&quot;) a ring.<br/>Opens the Locate Ring Spears panel.,,
 low_mode_gui.panel,,,Calculate the nontrivial low-frequency vibrational modes of a protein structure and visualize them as a movie.<br/>Opens the Low Mode Vibrational Sampling panel at the Calculate tab.,,
 low_mode_gui.results_panel,,,Calculate and visualize the low-frequency vibrational modes of a structure.<br/>Opens the Low Mode Vibrational Sampling panel at the Visualize tab.,,
@@ -543,7 +573,7 @@ macromodel_embrace,MacroModel,,,Embrace Minimization...,MacroModel
 macromodel_embrace_csearch,MacroModel,,,Embrace Conformational Search...,MacroModel
 macromodel_macrocycle_sampling,"MacroModel, sampling",,,Macrocycle Conformational Sampling...,MacroModel
 macromodel_mcsd,MacroModel,,,MC/SD...,MacroModel
-macromodel_minimization,MacroModel,,,Minimization...,MacroModel
+macromodel_minimization,MacroModel,,,Minimization...,Molecular Mechanics
 macromodel_start_job_from_file,MacroModel,,,Start Job From File...,MacroModel
 macromol_posefilter_gui.panel,,,,Macromolecular Pose Filter...,Biologics
 maestro_ld_export_gui.panel,,,Export structures and data from a Maestro project or file to a LiveDesign project.<br/>Opens the Maestro to LiveDesign Export Panel.,,
@@ -715,28 +745,34 @@ main_workspace_animation_settings,,,"Animate the Workspace by spinning it or roc
 main_workspace_clear,,,"Remove everything from the Workspace. If there are scratch entries in the Workspace, you may need to confirm their removal.",,
 main_workspace_fullscreen,,,Expand the size of the Workspace so that it occupies the entire screen of your monitor (or laptop).,,
 make_helices.panel,,,Create helical structures from sequences in a .seq file and add them as project entries. Opens a file selector to select the sequence file.,,
-manage_reagent_library_gui.panel,,,"Select, create, import, export, and delete reactant libraries, used in enumeration tools.<br/>Opens the Manage Reactant Libraries panel.",Manage Reactant Libraries...,Enumeration and Ideation
+manage_reagent_library_gui.panel,,,"Select, create, import, export, and delete reactant libraries, used in enumeration tools.<br/>Opens the Manage Reactant Libraries panel.",Manage Reactant Libraries...,Enumeration
 managecharts,,,Manage charts of property data generated from project entries<br/>Opens the Manage Charts Panel.,,
 managesurfaces,,,"Manage the surfaces associated with project entries. This includes selecting surfaces to display, setting parameters for the appearance and display of surfaces, importing and exporting surfaces, and deleting surfaces.<br/>Opens the Manage Surfaces panel.",,
+manipulate_cell,,,,Manipulate Cell...,Tools
 manipulate_cell_gui.panel,,,"Modify a simulation cell by swapping or flipping axes, aligning the origin or an interface, or straining the cell.<br/>Opens the Manipulate Cell Panel.",,
+mark_monomer,,,,Mark Monomer Head and Tail...,Tools
 mark_monomer_head_tail_gui.panel,,,"Mark the head and tail atoms of a monomer so that they can be identified in subsequent applications, such as for use in Canvas QSAR modeling.<br/>Opens the Mark Monomer Head and Tail panel.",,
 mark_target_entry,,,"Mark or clear the mark for the current entry, creating the Mark property as necessary.",,
-materials_conformational_search_gui.panel,,,"Perform a conformational search on an organometallic complex with the coordination around the metal held fixed, with optional QM refinement.<br/>Opens the Organometallic Conformational Search Panel.",,
-materials_explorer,cheminformatics,,,Materials Explorer...,Discovery Informatics and QSAR
+materials_conformational_search_gui.panel,,,"Perform a conformational search on an organometallic complex with the coordination around the metal held fixed, with optional QM refinement.<br/>Opens the Organometallic Conformational Search Panel.",Organometallic Conformational Search...,Molecular Mechanics
+materials_explorer,cheminformatics,,,Materials Explorer...,Informatics
+matsci_event_analysis,,,,MS MD Trajectory Analysis...,Trajectory Analysis
 matsci_event_analysis.panel,,,"Analyze a trajectory from a Desmond MD simulation and present information on bulk properties derived from the trajectory, such as plots of the density and the cohesive energy.<br/>Opens the MS MD Trajectory Analysis panel.",,
-matsci_meta_workflow_gui.panel,,,Set up workflows to combine multiple simulation tasks from a simulation protocol into one job.<br/>Opens the Meta Workflow Builder Panel.,,
+matsci_fep_solubility_gui.panel,,,,MS FEP Solubility...,Classical Mechanics
+matsci_meta_workflow_gui.panel,,,Set up workflows to combine multiple simulation tasks from a simulation protocol into one job.<br/>Opens the Meta Workflow Builder Panel.,Meta Workflow Builder...,Meta Workflows
 matsci_ml_prediction_gui.panel,,,"<!-- ML -->
-Use pre-built machine learning models to make predictions on various properties.<br/>Opens the Machine Learning Property Prediction Panel.",,
+Use pre-built machine learning models to make predictions on various properties.<br/>Opens the Machine Learning Property Prediction Panel.",Machine Learning Property Prediction...,Informatics
 matsci_panel_explorer_gui.panel,,,Learn which Schrödinger tools are the best fit for your research.<br/>Opens the Materials Science Panel Explorer Panel.,Find panels related to your interests...,Materials
+matsci_qrnn_md_gui.panel,,,,Running MD Simulation Using QRNN MLFF models...,MD Simulations
+matsci_restart,,,,Restart Workflows...,Tools
 matsci_restart_gui.panel,,,"Restart one of the restartable Materials Science workflows, chosen by job type. Restarting can be done on jobs that fail due to problems such as resource, hardware, or network issues.<br/>Opens the Restart Workflow panel</a>.",,
-matsci_run_meta_workflow_gui.panel,,,Apply built-in and previously saved meta workflows to systems of interest.<br/>Opens the Run Meta Workflow Panel.,,
-mc_sa_gui.panel,,,"Locate sites of adsorption of an adsorbate on a surface using Monte Carlo - Simulated Annealing simulation, and analyze the energetics of adsorption.<br/>Opens the Adsorption Site Finder panel</a>.",,
+matsci_run_meta_workflow_gui.panel,,,Apply built-in and previously saved meta workflows to systems of interest.<br/>Opens the Run Meta Workflow Panel.,Run Meta Workflow...,Meta Workflows
+mc_sa_gui.panel,,,"Locate sites of adsorption of an adsorbate on a surface using Monte Carlo - Simulated Annealing simulation, and analyze the energetics of adsorption.<br/>Opens the Adsorption Site Finder panel</a>.",Adsorption Site Finder...,Structure Builders
 mcs_docking_gui.panel,,,Align a set of congeneric ligands to a dynamically adjustable set of reference ligands using Glide docking with MCS core constraints.<br/>Opens the MCS Docking Ligand Alignment panel,,
 mcsd,,,"<!-- MacroModel, MMOD, MC, MD, SD, conformational search -->
 Run a Monte Carlo/Stochastic Dynamics calculation at constant temperature on a structure. The MMFF and the OPLS series of force fields with various electrostatic treatments, including GB/SA, can be used.<br/>Opens the MC/SD panel.",,
 mcsligalign,"alignment, mcsdocking, superimpose, superpose, superimposition, mcs",,,MCS Docking Ligand Alignment...,Structure Alignment
 md_descriptors_gui.panel,,,"<!-- MD descriptors, ML, descriptors, MD, molecular dynamics -->
-Calculate descriptors for molecular structures using molecular dynamics simulations, which can then be used in machine learning.<br/>Opens the MD Descriptors Panel.",,
+Calculate descriptors for molecular structures using molecular dynamics simulations, which can then be used in machine learning.<br/>Opens the MD Descriptors Panel.",Molecular Dynamics...,Informatics
 measurement_delete,,,Delete all measurement labels from the Workspace.,,
 measurement_panel_1h_nmr_coupling,,,Predict NMR spin-spin coupling constants for pairs of vicinial hydrogens.<br/>Opens the Measurements panel at the 1H NMR Coupling tab.,,
 measurement_panel_angle,,,Measure angles between sets of three atoms.<br/>Opens the Measurements panel at the Angles tab.,,
@@ -745,21 +781,26 @@ measurement_panel_distance,,,Measure distances between pairs of atoms.<br/>Opens
 measurement_panel_picked_reposition,,,Reposition measurement labels in the Workspace by dragging.,,
 measurement_pick,,,Pick atoms in the Workspace to make a measurement of the currently selected type.,,
 measurementx,,,"Make measurements of distances, angles, and dihedrals in the Workspace.<br/>Opens the Measure banner.",,
+mecp_gui,,,,Minimum Energy Crossing Point...,Minimum Energy Crossing Point
+mecp_viewer_gui,,,,Minimum Energy Crossing Point Viewer...,Minimum Energy Crossing Point
 medchem_confsearch_gui.panel,,,"Run a conformational search on the Workspace structure and plot the resulting conformer energies. A rapid or a thorough search can be performed, with a choice of solvent. <br/>Opens the Conformational Search panel.",,
 medchem_flexalign_gui.panel,,,Align the selected entries in the Project Table to the entry in the Workspace. Torsional adjustment is performed to obtain the best alignment. <br/>Opens the Flexible Ligand Alignment panel.,,
 medchem_minimization_gui.panel,,,"Minimize the Workspace structure using MacroModel, with a choice of solvents.<br/>Opens the Minimization panel.",,
 medchem_molprop_gui.panel,,,"Display properties of a structure: molecular weight, AlogP, polar surface area, rotatable bonds, H-bond donors and acceptors, and SMILES string. The properties are updated when you modify the structure. <br/>Opens the Interactive Properties panel.",,
-membrane_analysis_gui.panel,,,...<br/>Opens the Membrane Analysis Panel.,,
-membrane_analysis_viewer_gui.panel,,,...<br/>Opens the Membrane Analysis Viewer Panel.,,
+membrane_analysis_gui.panel,,,...<br/>Opens the Membrane Analysis Panel.,Membrane Analysis Calculations...,Trajectory Analysis
+membrane_analysis_viewer_gui.panel,,,...<br/>Opens the Membrane Analysis Viewer Panel.,Membrane Analysis Results...,Trajectory Analysis
 membrane_permeability_gui.panel,,,"Calcuate the passive membrane permeability of a congeneric set of ligands, based on calculations using continuum solvation models of both membrane and water.<br/>Opens the Membrane Permeability panel.",,
 membrane_permeability_gui.show_panel,,,"Calculate the passive membrane permeability of a congeneric set of ligands, based on calculations using continuum solvation models of both membrane and water.<br/>Opens the Membrane Permeability panel.",,
 menu_contacts_panel,,,"Display contacts in the Workspace, choose the types of contacts and the atoms they are displayed for, and set the color of the markers.<br/>Opens the Non-Bonded Interactions panel.",,
 menu_hbonds_panel,,,"Display hydrogen and halogen bonds in the Workspace, choose the types of bonds and the atoms they are displayed for, and set the color of the markers.<br/>Opens the Non-Bonded Interactions panel.",,
 menu_piinteractions_panel,,,"Display pi interactions in the Workspace, choose the types of interactions and the atoms they are displayed for, and set the color of the markers.<br/>Opens the Non-Bonded Interactions panel.",,
-merge_duplicates,,,,Merge Duplicate Ligands...,Project Table and Project Operations
+merge_duplicates,,,,Merge Duplicates...,More Tools
 merge_duplicates_gui.panel,,,"Combine a set of structures into a single file with elimination of duplicates. The elimination is done by comparing SMILES strings, and the output is either a SMILES file or a 2D SD file; in either case the output contains no 3D information other than chirality properties.<br/>Opens the Merge Duplicates panel.",,
+microkinetics_deposition_analysis_viewer_gui,,,,Microkinetic Deposition Analysis...,Surface Science
 microkinetics_deposition_analysis_viewer_gui.panel,,,Analyze microkinetic modeling calculation results for deposition processes.<br/>Opens the Microkinetics Deposition Analysis Panel.,,
+microkinetics_gui,,,,Microkinetic Modeling...,Surface Science
 microkinetics_gui.panel,,,Predict and understand rates of catalytic reactions of interest.<br/>Opens the Microkinetic Modeling Panel.,,
+microkinetics_viewer_gui,,,,Microkinetic Viewer...,Surface Science
 microkinetics_viewer_gui.panel,,,Plot the results of a microkinetic modeling calculation.<br/>Opens the Microkinetic Modeling Viewer Panel.,,
 mini,,,"Minimize the energy of one or more structures with respect to their geometries, using a force field and optional constraints. If the structures are conformers, redundancies can be removed and an energy filter applied. Structures can also be minimized in two solvents, to obtain partition coefficients. The MMFF and the OPLS series of force fields with various electrostatic treatments, including GB/SA, can be used.<br/>Opens the Minimization panel.",,
 minimization_ab_initio_qm,"minimization, Ab",,,Ab Initio QM...,General Modeling
@@ -772,25 +813,28 @@ minimize_tm_complexes.panel,,,Clean up the structure of one or more complexes by
 minimizerigid,,,"<!-- protein, rigid-body, rigid body -->
 Minimize portions of the structure as rigid bodies with respect to position and orientation. The minimization can also include freely moving atoms, and can optionally include periodic boundary conditions, an implicit solvent, and an implicit membrane.<br/>Opens the Minimize as Rigid Body panel.",,
 mixed_solvent_md,"MD, mxmd, mixed solvent, sitemap",,,Mixed Solvent MD...,Desmond
-ml_formulations_gui.panel,,,<!-- ML -->Build and apply machine learning models for predicting formulations properties.<br/>Opens the Formulation Machine Learning Panel.,,
-ml_formulations_optimization_gui.panel,,,Apply machine learning models for optimizing the formulation of a mixture.<br/>Opens the Formulation Machine Learning Optimization Panel.,,
+ml_formulations_gui.panel,,,<!-- ML -->Build and apply machine learning models for predicting formulations properties.<br/>Opens the Formulation Machine Learning Panel.,Formulation Machine Learning...,Informatics
+ml_formulations_optimization_gui.panel,,,Apply machine learning models for optimizing the formulation of a mixture.<br/>Opens the Formulation Machine Learning Optimization Panel.,Formulation Machine Learning Optimization...,Informatics
+ml_model_manager_gui,,,,ML Model Manager...,Informatics
 ml_model_manager_gui.panel,,,<!-- Machine Learning Model Manager -->Re-train machine learning models with the software release version in use.<br/>Opens the ML Model Manager Panel.,,
-ml_qsar_gui.panel,"ML, QSPR",,"<!-- QSPR, ML -->Build and apply individual QSAR models from a selection of regression and classification methods.<br/>Opens the Build and Apply QSAR Model Panel.",Build and Apply QSAR Model...,Discovery Informatics and QSAR
-mlff_gui.panel,,,Use pre-built machine learning force field models to make predictions on energy and geometry.<br/>Opens the MLFF Calculations (Beta) Panel.,,
+ml_qsar_gui.panel,"ML, QSPR",,"<!-- QSPR, ML -->Build and apply individual QSAR models from a selection of regression and classification methods.<br/>Opens the Build and Apply QSAR Model Panel.",Build and Apply QSAR Model...,Informatics
+mlff_gui.panel,,,Use pre-built machine learning force field models to make predictions on energy and geometry.<br/>Opens the MLFF Calculations (Beta) Panel.,MLFF Calculation...,Informatics
 mmod_to_kcal,,,,Convert MacroModel Energies to kcal/mol,Project Table and Project Operations
 mmod_to_kcal.mmod_to_kcal,,,"Convert all MacroModel energies from kJ/mol to kcal/mol, creating new project properties.",,
-mof_enumeration_gui.panel,,,Enumerate metal-organic frameworks from a chosen metal system and a library of organic linkers.<br/>Opens the Enumerate Metal-Organic Frameworks panel,,
+mof_enumeration_gui.panel,,,Enumerate metal-organic frameworks from a chosen metal system and a library of organic linkers.<br/>Opens the Enumerate Metal-Organic Frameworks panel,Metal-Organic Frameworks...,Enumeration
 mogul_analysis,mogul,,,CSD Analysis...,Structure Analysis
 mogul_query,mogul,,,CSD Search...,Structure Analysis
 moldyn,,,"Run a molecular dynamics or stochastic dynamics calculation on a non-periodic structure. The MMFF and the OPLS series of force fields with various electrostatic treatments, including GB/SA, can be used.<br/>Opens the Dynamics panel.",,
-molecular_descriptors,"cheminformatics, properties",,,Molecular Descriptors...,Discovery Informatics and QSAR
+molecular_descriptors,"cheminformatics, properties",,,Molecular Descriptors...,ADME/Tox
 molecular_descriptors.panel,,,"Compute topological descriptors, QikProp properties and semiempirical electronic (MOPAC) properties for a set of structures.<br/>Opens the Molecular Descriptors panel.",,
+molecular_materials_descriptors_gui,,,,Molecular...,Informatics
 molecular_materials_descriptors_gui.panel,,,"<!-- ML -->
 Generate molecular descriptors suitable for materials applications, to use in machine learning.<br/>Opens the Generate Molecular Materials Descriptors panel.",,
-mopac_main,minimization,,,Semiempirical,General Modeling
+mopac_main,minimization,,,Semiempirical,More Molecular QM Tasks
 mopac_main_gui.panel,,,Set up and run a semiempirical NDDO quantum chemical calculation with the MOPAC package.<br/>Opens the MOPAC Panel.,,
-morphology_gui.panel,,,Calculate surface energies of crystal surfaces for estimating relative growth rates and particle shapes.<br/>Opens the Crystal Morphology Calculations Panel.,,
+morphology_gui.panel,,,Calculate surface energies of crystal surfaces for estimating relative growth rates and particle shapes.<br/>Opens the Crystal Morphology Calculations Panel.,Crystal Morphology Calculations...,Crystal Morphology
 move_atoms,,,"Move a selected set of atoms by translation or by rotation about their centroid, and other similar actions.<br/>Opens the Move Atoms banner.",,
+move_selected_atoms_gui,,,,Move Selected Atoms...,Tools
 move_selected_atoms_gui.panel,,,"<!-- move atoms -->
 Move the atoms selected in the Maestro workspace through translation or rotation.<br/>Opens the Move Selected Atoms Panel.",,
 movie.movie_entries movie_entries.gif,,,Create a movie from the entries that are selected in the Project Table.,,
@@ -800,78 +844,83 @@ multicomplex_builder_gui.panel,,,"Build a set of organometallic complexes from a
 multiseqviewer,"chimeric, msv, multiple sequence alignment, multiple sequence viewer, sequence",,,Homology Modeling...,Protein Preparation and Refinement
 multiseqviewer.panel,,,"Visualize, manipulate, and align multiple sequences and their properties, and perform homology modeling with the aligned sequences.<br/>Opens the Multiple Sequence Viewer panel.",,
 multiseqviewer2,"homology modeling, chimeric, msv, multiple sequence alignment, multiple sequence viewer, sequence",,,Multiple Sequence Viewer/Editor...,Protein Preparation and Refinement
+multispectra_analysis_gui,,,,Multispectra Analysis...,Tools
 multispectra_analysis_gui.panel,,,Combine and adjust visible spectra to generate a spectrum and analyze its color properties.<br/>Opens the Multispectra Analysis Panel.,,
 mutate.panel,,,Create mutated structures from the Workspace structure by picking a residue to mutate and choosing a set of mutations. The mutated structures are added as new project entries.<br/>Opens the Mutate panel.,,
 mutation_gui.panel,,,Interactive tool to identify protein residues or loops and request mutations. Residue-based mutations include changes to other standard residues and chirality inversion. Loop-based mutations can request replacement of an existing loop with a second sequence of any length and any standard-residue composition. Loop replacement is carried out by identifying and grafting on an appropriate template in a curated PDB database.<br/>Opens the Residue and Loop Mutation panel.,,
 mxmd_gui.panel,,,Perform Mixed Solvent Molecular Dynamics (MxMD) simulations and view the results.<br/>Opens the Mixed Solvent MD Panel.,,
 nanoparticle_gui.panel,,,Build  a nanoparticle of a particular shape and size from the structure in the Workspace.<br/>Opens the Nanoparticle Builder panel.,,
-nanoreactor_gui.panel,,,Sample potential energy surfaces or determine elementary reaction networks using xTB metadynamics and optionally identify their thermodynamic sorting with free energy refinement.<br/>Opens the Nanoreactor Panel.,,
-nanoreactor_viewer_gui.panel,,,Plot the results of a nanoreactor calculation.<br/>Opens the Nanoreactor Viewer Panel.,,
+nanoreactor_gui.panel,,,Sample potential energy surfaces or determine elementary reaction networks using xTB metadynamics and optionally identify their thermodynamic sorting with free energy refinement.<br/>Opens the Nanoreactor Panel.,Nanoreactor Calculations...,Reaction Network
+nanoreactor_viewer_gui.panel,,,Plot the results of a nanoreactor calculation.<br/>Opens the Nanoreactor Viewer Panel.,Nanoreactor Results...,Reaction Network
 nanostructure_gui.nanosheet_panel,,,"Build nanosheets from a specified asymmetric unit, composition, and geometry to a given size. Multi-layer nanosheets can be constructed as well as single nanosheets. <br/>Opens the Nanostructure Builder panel.",,
 nanostructure_gui.nanotube_panel,,,"Build nanotubes from a specified asymmetric unit, composition, and geometry to a given size. Multi-walled nanotubes can be constructed as well as single-walled nanotubes, and nanotubes with a range of chiral indices can be generated. <br/>Opens the Nanostructure Builder panel.",,
 nanostructure_gui.panel,,,"Build nanotubes or nanosheets from a specified asymmetric unit, composition, and geometry to a given size. Multi-walled nanotubes and multi-layer nanosheets can be constructed as well as single-walled nanotubes and single nanosheets, and nanotubes with a range of chiral indices can be generated. <br/>Opens the Nanostructure Builder panel.",,
 neb_gui.panel,,,"<!-- qe, neb -->
-Generate a minimum energy path (MEP) between two minimized structures by the nudged elastic band method.<br/>Opens the Nudged Elastic Band Calculation panel.",,
+Generate a minimum energy path (MEP) between two minimized structures by the nudged elastic band method.<br/>Opens the Nudged Elastic Band Calculation panel.",Nudged Elastic Band Calculations...,Quantum ESPRESSO
 neb_monitor_gui.panel,,,"<!-- qe, neb -->
-Monitor the convergence of a nudged elastic band calculation.<br/>Opens the Nudged Elastic Band Monitor Panel.",,
+Monitor the convergence of a nudged elastic band calculation.<br/>Opens the Nudged Elastic Band Monitor Panel.",Nudged Elastic Band Convergence Monitor...,Quantum ESPRESSO
 neb_restart_gui.panel,,,"<!-- qe, neb -->
-Restart a failed or unconverged nudged elastic band job.<br/>Opens the Nudged Elastic Band Restart panel",,
-new_kmc_compute_charge_mobility_gui.panel,,,"Compute charge mobility in an amorphous solid using kinetic Monte Carlo methods for carrier hopping, based on hopping data from Jaguar and QSite calculations.<br/>Opens the Compute KMC Charge Mobility panel.",,
-new_kmc_hopping_params_gui.panel,,,Compute hopping parameters in an amorphous solid using Jaguar and QSite calculations.<br/>Opens the Compute KMC Hopping Parameters Panel.,,
-nmr_viewer_gui.panel,,,Plot NMR spectra from a Quantum ESPRESSO calculation.<br/>Opens the NMR Viewer Panel.,,
+Restart a failed or unconverged nudged elastic band job.<br/>Opens the Nudged Elastic Band Restart panel",Nudged Elastic Band Restart...,Quantum ESPRESSO
+new_kmc_compute_charge_mobility_gui.panel,,,"Compute charge mobility in an amorphous solid using kinetic Monte Carlo methods for carrier hopping, based on hopping data from Jaguar and QSite calculations.<br/>Opens the Compute KMC Charge Mobility panel.",New Compute KMC Charge Mobility...,KMC Charge Mobility
+new_kmc_hopping_params_gui.panel,,,Compute hopping parameters in an amorphous solid using Jaguar and QSite calculations.<br/>Opens the Compute KMC Hopping Parameters Panel.,New Compute KMC Hopping Parameters...,KMC Charge Mobility
+nmr_viewer_gui.panel,,,Plot NMR spectra from a Quantum ESPRESSO calculation.<br/>Opens the NMR Viewer Panel.,NMR Viewer...,Quantum ESPRESSO
 non_standard_residues_gui.panel,,,"Set up a database of nonstandard residues, by building new residues or importing existing residues, and choose the nonstandard residues that are shown in the residue selection tools for residue scanning.<br/>Opens the Nonstandard Residues panel.",,
+oled_ml_formulations_gui,,,,OLED Device Machine Learning...,Informatics
 oled_ml_formulations_gui.panel,,,Build and apply machine learning models for predicting OLED device properties.<br/>Opens the OLED Device Machine Learning Panel.,,
 one_step_glide_docking,"dock, docking, XP, SP, Glide, GOLD, one step",,,One-Step Ligand Docking...,Receptor-Based Virtual Screening
 one_step_glide_gui.panel,,,Perform Glide grid generation and docking in a single step with a limited range of options.<br/>Opens the One-Step Glide Docking panel.,,
 one_step_prepwizard_gui.panel,,,"Run protein preparation in a single step with a limited range of options, for multiple proteins.<br/>Opens the One-Step Protein Preparation panel.",,
+opto_device_designer_gui,,,,Optoelectronic Device Designer...,Tools
 opto_device_designer_gui.panel,,,Design optoelectronic devices and plot the device energy level diagram.<br/>Opens the Optoelectronic Device Designer Panel.,,
 opto_film_props_gui.panel,,,"<!-- transition dipole moment, order parameter, seet, singlet excition energy transfer, isc, intersystem crossing, refractive index, extinction coefficient, ellipsometry -->
-Calculate various optoelectronic film properties, such as transition dipole moment order parameter, singlet exciton energy transfer rate, intersystem crossing rate, refractive index, and extinction coefficient from molecular excited state properties.<br/>Opens the Optoelectronic Film Properties Panel.",,
+Calculate various optoelectronic film properties, such as transition dipole moment order parameter, singlet exciton energy transfer rate, intersystem crossing rate, refractive index, and extinction coefficient from molecular excited state properties.<br/>Opens the Optoelectronic Film Properties Panel.",Optoelectronic Film Properties...,Optoelectronic Film Properties
 opto_film_props_viewer_gui.panel,,,"<!-- transition dipole moment, order parameter, seet, singlet excition energy transfer, isc, intersystem crossing, refractive index, extinction coefficient, ellipsometry -->
-Plot the results from an optoelectronic film properties calculation including transition dipole moment order parameter, singlet exciton energy transfer, intersystem crossing, refractive index, and extinction coefficient.<br/>Opens the Optoelectronic Film Properties Viewer Panel.",,
+Plot the results from an optoelectronic film properties calculation including transition dipole moment order parameter, singlet exciton energy transfer, intersystem crossing, refractive index, and extinction coefficient.<br/>Opens the Optoelectronic Film Properties Viewer Panel.",Optoelectronic Film Properties Viewer...,Optoelectronic Film Properties
 optoelectronics_al_gui.panel,,,"<!-- ML -->
-Use an active learning workflow to arrive at a machine learning model for predicting electronic properties of molecules relevant to optoelectronics.<br/>Opens the Optoelectronics Active Learning Training Panel.",,
+Use an active learning workflow to arrive at a machine learning model for predicting electronic properties of molecules relevant to optoelectronics.<br/>Opens the Optoelectronics Active Learning Training Panel.",Optoelectronics Active Learning Training...,Informatics
 optoelectronics_al_predict_gui.panel,,,"<!-- ML -->
-Review machine learning models generated from the optoelectronics active learning workflow and use them to make predictions on optoelectronics properties.<br/>Opens the Review and Apply Optoelectronics Active Learning Model Panel.",,
-optoelectronics_electron_coupling,"fluorescence, optoelectronics",,,Electron Coupling...,Quantum Mechanics
-optoelectronics_genopt,"fluorescence, optoelectronics",,,Genetic Optimization...,Quantum Mechanics
+Review machine learning models generated from the optoelectronics active learning workflow and use them to make predictions on optoelectronics properties.<br/>Opens the Review and Apply Optoelectronics Active Learning Model Panel.",Optoelectronics Active Learning Prediction...,Informatics
+optoelectronics_electron_coupling,"fluorescence, optoelectronics",,,Electron Coupling...,Optoelectronics
+optoelectronics_genopt,"fluorescence, optoelectronics",,,Genetic Optimization...,Optoelectronics
 optoelectronics_genopt_gui.panel,,,Optimize one or more optoelectronic properties using a genetic algorithm for modifying the structure.<br/>Opens the Optoelectronics Genetic Optimization panel.,,
-optoelectronics_genopt_viewer,"fluorescence, optoelectronics",,,Genetic Optimization Monitoring...,Quantum Mechanics
+optoelectronics_genopt_viewer,"fluorescence, optoelectronics",,,Genetic Optimization Monitoring...,Optoelectronics
 optoelectronics_genopt_viewer_gui.panel,,,"Monitor the progress of a genetic optimization of optoelectronic properties while a job is running, or examine a completed job.<br/>Opens the Optoelectronics Genetic Optimization Viewer panel.",,
 optoelectronics_gui.panel,,,"Calculate electronic properties of molecules relevant to optoelectronics: oxidation and reduction potentials, hole and electron reorganization energies, singlet-triplet excitation energies, and electronic absorption spectra.<br/>Opens the Optoelectronics Calculations panel.",,
-optoelectronics_perform_calculations,"fluorescence, optoelectronics",,,Perform Calculations...,Quantum Mechanics
-optoelectronics_view_results,"fluorescence, optoelectronics",,,View Results...,Quantum Mechanics
+optoelectronics_perform_calculations,"fluorescence, optoelectronics",,,Optoelectronics Calculations...,Optoelectronics
+optoelectronics_view_results,"fluorescence, optoelectronics",,,Optoelectronics Results...,Optoelectronics
 optoelectronics_viewer_gui.panel,,,"View the results of optoelectronics calculations, as tabulated data and as scatter plots.<br/>Opens the Optoelectronics Results panel.",,
-order_parameter_gui.panel,,,Perform an order parameter analysis on an MD simulation.<br/>Opens the Perform Order Parameter Analysis panel.,,
-order_parameter_viewer_gui.panel,,,Plot the results of an order parameter analysis.<br/>Opens the Order Parameter Analysis Results Viewer panel.,,
-organometallic_complex_build_multiple,organometallic complexes,,,,
-organometallic_complex_build_single,organometallic complexes,,,,
-organometallic_complex_cleanup,organometallic complexes,,,,
+order_parameter_gui.panel,,,Perform an order parameter analysis on an MD simulation.<br/>Opens the Perform Order Parameter Analysis panel.,Order Parameter Calculations...,Trajectory Analysis
+order_parameter_viewer_gui.panel,,,Plot the results of an order parameter analysis.<br/>Opens the Order Parameter Analysis Results Viewer panel.,Order Parameter Results...,Trajectory Analysis
+organometallic_complex_build_multiple,organometallic complexes,,,Multiple Complexes...,Structure Builders
+organometallic_complex_build_single,organometallic complexes,,,Single Complex...,Structure Builders
+organometallic_complex_cleanup,organometallic complexes,,,Clean Up Complex...,Tools
 p450_calc_gui.panel,,,"<!-- P450, metabolism, CYP -->
 Predict the sites of metabolism on a set of ligands for various P450 isoforms.<br/>Opens the P450 Site of Metabolism - Perform Calculation panel.",,
-p450_calculate,"p450, reactivity",,,Perform Calculation...,ADME and Molecular Properties
-p450_results,"p450, reactivity",,,Examine Results...,ADME and Molecular Properties
+p450_calculate,"p450, reactivity",,,Perform Calculation...,ADME/Tox
+p450_results,"p450, reactivity",,,Examine Results...,ADME/Tox
 p450_results_gui.panel,,,"<!-- P450, metabolism, CYP -->
 Examine the predicted sites of metabolism for a set of ligands for various P450 isoforms, and visualize the associated predicted binding modes.<br/>Opens the P450 Site of Metabolism - Examine Results panel.",,
+partial_concentration_calculation_gui,,,,Partial Concentration Calculation...,Tools
 partial_concentration_calculation_gui.panel,,,Calculate the concentration of the various molecules in a periodic structure. The volume used is that of the periodic box.<br/>Opens the Partial Concentration Calculation Panel.,,
 patch_analyzer_gui.panel,"aggregation, aggscore, reactive",,"Analyze a protein surface into patches that represent distinct types of interactions: positively charged, negatively charged, and hydrophobic. For each patch a range of properties is calculated, to characterize the interaction and its intensity. These patches can be used to identify possible interaction hotspots or propensities to interact.<br/>Opens the Protein Surface Patches panel.",Protein Surface Analyzer...,Biologics
 pdbname.run,,,Assign PDB names to the atoms in the Workspace structure.,,
 pdbsearch_gui.panel,,,"Search the Prime PDB header database for structures that have specified text in the ID, title, compound, source, or hetname fields, and import the matching structures into Maestro.<br/>Opens the Search PDB Header Database panel.",,
-pdos_viewer_gui.panel,,,Plot the projected density of states from a periodic DFT calculation as a function of energy.<br/>Opens the Projected Density of States Viewer panel.,,
-penetrant_loading_gui.panel,,,"Add a rigid penetrant, such as water or methane, to vacancies in a condensed system. This is done in cycles that involve adjusting penetrant content followed by relaxation of the system.<br/>Opens the Penetrant Loading panel.",,
-penetrant_loading_viewer_gui.panel,,,Show plots of the results of a penetrant loading simulation.<br/>Opens the Penetrant Loading Viewer panel.,,
+pdos_viewer_gui.panel,,,Plot the projected density of states from a periodic DFT calculation as a function of energy.<br/>Opens the Projected Density of States Viewer panel.,Projected Density of States Viewer...,Quantum ESPRESSO
+penetrant_loading_gui.panel,,,"Add a rigid penetrant, such as water or methane, to vacancies in a condensed system. This is done in cycles that involve adjusting penetrant content followed by relaxation of the system.<br/>Opens the Penetrant Loading panel.",Penetrant Loading Calculations...,Penetrant Loading
+penetrant_loading_viewer_gui.panel,,,Show plots of the results of a penetrant loading simulation.<br/>Opens the Penetrant Loading Viewer panel.,Penetrant Loading Results...,Penetrant Loading
 pep_from_seq_gui.panel,,,"Build a peptide from a sequence, with options for control of the secondary structure.<br/>Opens the Build Peptide from Sequence dialog box.",,
 peptide_docking_gui.panel,,,"Dock peptides to a protein using Glide. The protein is treated as a rigid structure, but with some softening of the potentials for flexibility; the peptides are treated as flexible structures.<br/>Opens the Peptide Docking panel.",,
 peptide_helicity_gui.panel,,,Predict the stability of the alpha helical conformation of a set of small peptides using molecular dynamics.<br/>Opens the Peptide Helicity panel.,,
 peptide_qsar_gui.panel,,,"Build a QSAR model for a series of same-length peptides that have associated experimental observables. A variety of options are available for generating the fingerprints for the provided peptide sequences, and a partial least squares approach is used for associating the fingerprints with the observables.<br/>Opens the Peptide QSAR panel.",,
+periodic_descriptors_gui,,,,Periodic...,Informatics
 periodic_descriptors_gui.panel,,,"<!-- ML -->
 Calculate descriptors for a periodic system that can be used in machine learning.<br/>Opens the Periodic Descriptors panel.",,
 periodic_dft_gui.panel,periodic dft,,"<!-- qe -->
-Run a periodic DFT calculation with the Quantum Espresso package.<br/>Opens the Periodic DFT panel.",,
+Run a periodic DFT calculation with the Quantum Espresso package.<br/>Opens the Periodic DFT panel.",Quantum ESPRESSO Calculations...,Quantum ESPRESSO
 periodic_dft_import_gui.panel,,,"<!-- qe -->
-Import structures extracted from a Quantum ESPRESSO output file.<br/>Opens the Quantum ESPRESSO Import Panel.",,
-permittivity_gui.panel,,,"Calculate the refractive index, Abbe number, and static and complex permittivities for a set of amorphous polymers.<br/>Opens the Amorphous Dielectric Properties Panel.",,
-permittivity_viewer_gui.panel,,,Display plots of complex permittivity and fit the decay function data to extract dielectric constants.<br/>Opens the Amorphous Dielectric Viewer Panel.,,
+Import structures extracted from a Quantum ESPRESSO output file.<br/>Opens the Quantum ESPRESSO Import Panel.",Quantum ESPRESSO Import...,Quantum ESPRESSO
+permittivity_gui.panel,,,"Calculate the refractive index, Abbe number, and static and complex permittivities for a set of amorphous polymers.<br/>Opens the Amorphous Dielectric Properties Panel.",Amorphous Dielectric Properties Calculations...,Amorphous Dielectric Properties
+permittivity_viewer_gui.panel,,,Display plots of complex permittivity and fit the decay function data to extract dielectric constants.<br/>Opens the Amorphous Dielectric Viewer Panel.,Amorphous Dielectric Properties Results...,Amorphous Dielectric Properties
 phase.create_phase_db_gui.panel,"pharmacophore modeling, hypothesis, Phase, pharmacophore database",,"<!-- build, 3D database -->
 Generate a database of ligands for screening, with optional structure preparation, filtering by properties, duplicate elimination, conformer and site generation. The database can be used for shape and pharmacophore screening, and in the Virtual Screening Workflow for ligand docking.<br/>Opens the Generate Phase Database panel.",Create Database...,Ligand-Based Virtual Screening
 phase.create_shape_data_file_gui.panel,,,"<!-- 3D database -->Create a data file from a set of ligands that can be used for shape-based screening on a GPU.
@@ -893,16 +942,16 @@ phase_clustervis,,,Cluster a set of hypotheses and display information on the cl
 phase_convert_database,,,Convert a Phase database from an earlier format to the current format.<br/>Opens the Convert Phase Database panel.,,
 phase_create_hypothesis,,,"<!-- Phase, pharmacophore model -->
 Create a new pharmacophore hypothesis manually from a structure in the project.<br/>Opens the Choose Reference Ligand dialog box, then the New Hypothesis dialog box and the Manage Pharmacophore Hypotheses panel.",,
-phase_diagram_viewer_gui.panel,,,Plot the compositional phase diagram to understand the relative stability of compounds with respect to their composition.<br/>Opens the Phase Diagram Viewer Panel.,,
+phase_diagram_viewer_gui.panel,,,Plot the compositional phase diagram to understand the relative stability of compounds with respect to their composition.<br/>Opens the Phase Diagram Viewer Panel.,Phase Diagram Viewer...,Quantum ESPRESSO
 phase_gui,"epharmacophore, e-pharmacophore, pharmacophore modeling, pharmacophore hypothesis, hypothesis, Phase, build pharmacophore, generate pharmacophore, find matches, receptor pharmacophore",,,Develop Pharmacophore Hypothesis...,Phase
 phase_qsar,Phase,,,Atom-Based QSAR...,Phase
 phase_simple_gui,,phase_simple_hypo_gui.panel,,,
 phase_simple_hypo_gui.panel,,,"<!-- pharmacophore model -->
 Create a pharmacophore hypothesis from a ligand and screen compounds against this hypothesis.<br/>Opens the Simplified Pharmacophore Modeling and Screening panel.",,
 phband_structure_viewer_gui.panel,,,"<!-- qe -->
-Plot the phonon dispersion from a QE periodic DFT calculation<br/>Opens the Phonon Dispersion Viewer panel.",,
+Plot the phonon dispersion from a QE periodic DFT calculation<br/>Opens the Phonon Dispersion Viewer panel.",Phonon Dispersion Viewer...,Quantum ESPRESSO
 phdos_viewer_gui.panel,,,"<!-- qe -->
-Plot the phonon density of states from a periodic DFT calculation as a function of frequency. Also display the dielectric constant tensors.<br/>Opens the Phonon Density of States Viewer panel.",,
+Plot the phonon density of states from a periodic DFT calculation as a function of frequency. Also display the dielectric constant tensors.<br/>Opens the Phonon Density of States Viewer panel.",Phonon Density of States Viewer...,Quantum ESPRESSO
 pick_atom_label,,,"When picking in the Workspace, apply the action to the picked atom label.",,
 pick_atoms,,,"When picking in the Workspace, apply the action to the picked atom.",,
 pick_atoms_or_bonds,,,"When picking in the Workspace, apply the action to the picked atom or bond.",,
@@ -920,17 +969,21 @@ pka_empirical,"pKa, pKa prediction, tautomer",,,Empirical pKa...,Ligand Preparat
 pka_ml,"pKa, pKa prediction, ML, Epik, ML-Epik",,,ML Model pKa...,Ligand Preparation and Library Design
 pka_qm,"pKa, pKa prediction",,,Quantum-Mechanical...,Ligand Preparation and Library Design
 planar_angle_gui.panel,,,"Measure the angle between two planes, defined by two atom selections.<br/>Opens the Planar Angle panel.",,
-plane_shear_md_gui.panel,,,Simulate Couette flow by using non-equilibrium molecular dynamics to shear a system confined between two planes moving at constant velocity. Calculate the shear viscosity and friction coefficient of the system.<br/>Opens the Thin Plane Shear Panel.,,
-plane_shear_md_viewer_gui.panel,,,"Display the results of a thin plane shear calculation including plots of drag force, friction coefficient, and the velocity gradient.<br/>Opens the Thin Plane Shear Viewer Panel.",,
+plane_shear_md_gui.panel,,,Simulate Couette flow by using non-equilibrium molecular dynamics to shear a system confined between two planes moving at constant velocity. Calculate the shear viscosity and friction coefficient of the system.<br/>Opens the Thin Plane Shear Panel.,Thin Plane Shear Calculations...,Thin Plane Shear
+plane_shear_md_viewer_gui.panel,,,"Display the results of a thin plane shear calculation including plots of drag force, friction coefficient, and the velocity gradient.<br/>Opens the Thin Plane Shear Viewer Panel.",Thin Plane Shear Results...,Thin Plane Shear
 plot_coord_scan,coordinate scan,,,Plot Coordinate Scan...,Structure Analysis
 plot_coord_scan_gui.panel,,,"Plot energies from scans of one or two coordinates, such as from a MacroModel or Jaguar coordinate scan.<br/>Opens the Plot Coordinate Scan Results panel.",,
 plotxy,,,"Manage plots of project data: create, show, hide, delete, and rename.<br/>Opens the Manage Plots panel.",,
 polymer_builder_gui.panel,,,"Build a polymer from one or more monomer units. You can specify the composition, arrangement and configuration of the monomers; the initializer, cascader (if any), and terminator; backbone dihedrals and nonstandard couplings.<br/>Opens the Polymer Builder panel.",,
+polymer_chain_analysis,,,,Polymer Chain Analysis Calculations...,Trajectory Analysis
 polymer_chain_analysis_gui.panel,,,"Calculate properties of selected polymer molecules from one or more MD simulations, averaged over the selected molecules and the trajectory.<br/>Opens the Polymer Chain Analysis panel.",,
+polymer_chain_analysis_viewer,,,,Polymer Chain Analysis Results...,Trajectory Analysis
 polymer_chain_analysis_viewer_gui.panel,,,Show time and frequency plots of end to end distance from a polymer chain analysis calculation.<br/>Opens the Polymer Chain Analysis Viewer panel.,,
-polymer_crosslink,"QM, quantum mechanics",,,,
+polymer_crosslink,"QM, quantum mechanics",,,Crosslink Polymer Calculations...,Crosslink Polymers
 polymer_crosslink_gui.panel,,,"Build polymers from a box of monomers, by linking units according to a reaction scheme in which two specified bonds are broken and new bonds formed. Links are made when the atoms that form bonds are within a specified distance. MD at elevated temperature is used to &quot;shake up&quot; the mixture after each round of bond formation so that new bonds can be formed.<br/>Opens the Crosslink Polymers panel.",,
+polymer_crosslink_viewer,,,,Crosslink Polymer Results...,Crosslink Polymers
 polymer_crosslink_viewer_gui.panel,,,"Display and analyze the results of a cross-linking calculation. The panel provides the ability to color structures in the Workspace according to features relevant to the cross-linking calculation, and show plots as a function of time and histograms as a function of molecular weight of various properties.<br/>Opens the Crosslink Polymers Viewer panel.",,
+polymer_descriptors_gui,,,,Polymer...,Informatics
 polymer_descriptors_gui.panel,,,Calculate topological fingerprints and descriptors for polymers.<br/>Opens the Polymer Descriptors Panel.,,
 pose_explorer,"docking postprocessing, pose",,,Pose Explorer...,Receptor-Based Virtual Screening
 pose_explorer.materials_panel,,,"Cluster structures by sets of properties and explore the properties based on the clustering, in a self-organizing map.<br/>Opens the Materials Explorer panel.",,
@@ -939,7 +992,9 @@ pose_filter.show_panel,,,Filter poses of ligands docked to a receptor by criteri
 pose_filter_gui.panel,"docking postprocessing, pose filter, filter contacts, filter interactions, interaction, pose, ligfilter",,Filter out poses that do not match user-specified criteria for ligand interactions with the receptor.<br/>Opens the Pose Filter panel.,Filter Docked Poses...,Receptor-Based Virtual Screening
 pose_viewer_gui.panel,,,Set up the Workspace for stepping through poses from one or more Glide docking runs with the receptor fixed in the Workspace.<br/>Opens the Pose Viewer panel.,,
 poseviewer,,,"Display poses from a Glide docking run in the Workspace with the receptor. You can also display hydrogen bond and contact markers, and visualize per-residue interactions.<br/>Opens the Pose Viewer panel.",,
+powder_diffraction_pattern_gui,,,,Powder Diffraction Pattern Calculations...,Tools
 powder_diffraction_pattern_gui.panel,,,Calculate the powder diffraction pattern for a given X-ray source for a periodic structure.<br/>Opens the Powder Diffraction Pattern panel.,,
+powder_diffraction_pattern_viewer_gui,,,,Powder Diffraction Pattern Results...,Tools
 powder_diffraction_pattern_viewer_gui.panel,,,Plot powder diffraction pattern intensity as a function of scattering angle.<br/>Opens the Powder Diffraction Pattern Plot panel.,,
 pp_assign_numbering,"7TM, Ballesteros-Weistein numbering, G protein coupled receptor, GPCR",,,Assign GPCR Generic Numbering...,Protein Preparation and Refinement
 pp_build_biopolymer,,,,Build Biopolymer from Sequence...,Protein Preparation and Refinement
@@ -953,6 +1008,7 @@ pp_structure_morpher,"morph, transform",,,Structure Morpher...,Protein Preparati
 pred_tox_gui.panel,"pred tox, predictive toxicology, secondary pharmacology, tox, kinase panel",,,Predictive Toxicology...,Induced Fit Docking
 predictsidechains,,,"<!-- protein, sidechain -->
 Predict the conformation of a specified set of protein side chains. The sampling can also include various degrees of backbone relaxation, or can produce an ensemble of side chain conformations using Monte Carlo, and can optionally include periodic boundary conditions, an implicit solvent, and an implicit membrane.<br/>Opens the Predict Side Chains panel.",,
+prepare_for_md,,,,Prepare for Molecular Dynamics...,MD Simulations
 prepare_for_md_gui.panel,,,"Prepare the structure in the Workspace for MD simulations, by cleaning up bond orders, selecting a force field, and creating a simulation box by running the Desmond System Builder.<br/>Opens the Prepare for MD panel.",,
 prepwizard2_gui.panel,,,"<!-- ppw -->
 Locate and fix structural defects in imported protein structures and prepare them for use by various Schrödinger applications.<br/>Opens the Protein Preparation Workflow Panel.",,
@@ -967,7 +1023,7 @@ Visualize the Prime energy, the solvent-accessible surface area, and the predict
 prime_homology_modeling,,,"<!-- BLAST -->
 Predict the structure of a protein from its sequence by homology modeling.<br/>Opens the Homology Modeling panel, which offers the choice of the Structure Prediction panel or the Multiple Sequence Viewer panel as the modeling interface. You can choose one of these as the default, and bypass the Homology Modeling panel.",,
 prime_hybrid_mc,"protein refinement, Prime",,,Hybrid Monte Carlo...,Protein Preparation and Refinement
-prime_macrocycle_sampling,"Prime, cyclic peptide, macrocycle, macrocycle conformational sampling, macrocycle conformational, macrocycle conformation, macrocycle conf",,,Macrocycle Conformational Sampling...,Prime
+prime_macrocycle_sampling,"Prime, cyclic peptide, macrocycle, macrocycle conformational sampling, macrocycle conformational, macrocycle conformation, macrocycle conf",,,Macrocycle Sampling...,Molecular Mechanics
 prime_macrocycle_sampling.panel,,,Sample the conformations of a ligand-sized structure that contains macrocycles.<br/>Opens the Prime Macrocycle Sampling panel.,,
 prime_macrocycle_stability,"Prime, macrocycle",,,Macrocycle Propensity...,Structure Analysis
 prime_macrocycle_stability_gui.panel,,,Evaluate the propensity of a macrocyclic compound to adopt a conformation similar to that adopted by a known active linear compound in a binding site.<br/>Opens the Macrocycle Bioactive Conformation Propensity panel.,,
@@ -1176,6 +1232,7 @@ pt_sort_entries,,,"Sort the entries and entry groups in the Project Table by the
 pt_total_surface_area,,,,Add Total Surface Area...,Project Table and Project Operations
 pt_update_substructure_count,,,Update properties that are counts of substructures of project entries.<br/>Opens the Add Substructure Count Property Dialog Box.,,
 pt_view_chart,,,,View Chart...,Project Table and Project Operations
+pxrd_gui,,,,Powder Diffraction Indexing...,Tools
 pxrd_gui.panel,,,"Locate peaks in a plot of intensity against angle from an x-ray powder diffraction experiment, after removing background. Peaks can be detected automatically and adjusted or assigned manually.<br/>Opens the Powder Diffraction Indexing panel.",,
 pymol,,pymol4maestro.show_panel,,,
 pymol4maestro.show_panel,,,"View structures from Maestro in PyMOL. You can start and stop PyMOL, send structures from Maestro to PyMOL, and make settings for the PyMOL scene and image.<br/>Opens the PyMOL for Maestro panel.",,
@@ -1183,7 +1240,8 @@ python_shell,,,"Open a window that can be used to run Python commands, with the 
 qikprop,"caco, logBB, properties",,"<!-- ADME/T, logP, logS, Caco-2, MDCK, permeability, herg, QSPR, QikProp, quick -->
 Calculate ADME properties and 2D and 3D QSAR descriptors of small molecules.<br/>Opens the QikProp panel.",QikProp...,Other Applications
 qm_monitor_gui.panel,,,"<!-- qe -->
-Monitor the convergence of QM jobs (Jaguar or Quantum Espresso) while they are running.<br/>Opens the QM Monitor panel",QM Convergence Monitor...,Quantum Mechanics
+Monitor the convergence of QM jobs (Jaguar or Quantum Espresso) while they are running.<br/>Opens the QM Monitor panel",QM Convergence Monitor...,More Molecular QM Tasks
+qm_monitor_gui.panel_qxp,,,,QM Convergence Monitor...,Quantum ESPRESSO
 qpld_gui.panel,,,"<!-- qm, Jaguar, QPLD -->
 Use quantum mechanically-polarized ligand partial atomic charges and dock ligands to a protein target with Glide.<br/>Opens the QM-Polarized Ligand Docking panel.",,
 qsar,,,"Build a 3D QSAR model from a set of aligned ligands, and use the model to predict activities for other molecules. The model can be based on atom types, but not on pharmacophore types.<br/>Opens the Atom-Based QSAR panel.",,
@@ -1191,43 +1249,52 @@ qsar_atom_based,QSAR,,,Atom-Based...,Discovery Informatics and QSAR
 qsar_field_based,"QSAR, Comfa, Comsia",,,3D Field-Based...,Lead Optimization
 qsite,,,"<!-- impact, jaguar -->
 Perform mixed quantum mechanical/molecular mechanical (QM/MM) calculations on proteins and protein-ligand complexes.<br/>Opens the QSite panel.",QSite...,Other Applications
+qubec_gui.panel,,,,QUBEC Single Point Properties...,Molecular Quantum Mechanics
+query_bonds,,,,Query Bonds...,Tools
 query_bonds_gui.panel,,,"Find bonds in a structure by element pair, order, or length, and delete or change the order of selected bonds.<br/>Opens the Query Bonds Panel.",,
 query_csd_gui.panel,,,"Send a query to Mogul for a set of ligand molecules, to obtain a report on the match between the geometric parameters of the molecules and those found in the Cambridge Structural Database (CSD).<br/>Opens the Query Cambridge Structural Database panel.",,
+query_materials_local,,,,Query Local Materials...,Tools
 query_materials_local_gui.panel,,,"Search the local file system for structures that match an ASL expression or contain specified structure properties, and import the results into the project.<br/>Opens the Query Local Materials panel",,
+query_materials_mp,,,,Query Materials Project Database...,Tools
 query_materials_mp_gui.panel,,,Query the databases of the Materials Project.<br/>Opens the Query Materials Project Database panel,,
 quick_shape_screening,"virtual screen, Quick Shape Screening, screen, screening",,,Quick Shape Screening...,Ligand-Based Virtual Screening
 r_group_analysis.show_panel,,,"Identify the groups that are attached to a common core in a series of molecules and display properties of the identified R groups. The core can be taken from CombiGlide attachment bond labeling, specified by a SMARTS pattern, or determined by the maximum common substructure obtained from a Canvas MCS run.<br/>Opens the R-Group Analysis panel.<!-- SAR, structure-activity relationship -->",,
+r_group_library_gui.ligand_.panel,,,,Ligand Creator...,Enumeration
 r_group_library_gui.ligand_panel,,,Create and edit ligands for metal complexes and manage ligand libraries.<br/>Opens the Ligand Creator panel,,
-r_group_library_gui.panel,"fragment, enumeration, library, interactive enumeration, r group, rgroup, r-group",,"Create and edit R groups, and manage R-group libraries.<br/>Opens the R-Group Creator panel.",Create R-Group Library...,Enumeration and Ideation
+r_group_library_gui.panel,"fragment, enumeration, library, interactive enumeration, r group, rgroup, r-group",,"Create and edit R groups, and manage R-group libraries.<br/>Opens the R-Group Creator panel.",Create R-Group Library...,Enumeration
 rama_gui.panel,,,"<!-- torsion -->
 Display a Ramachandran plot of protein phi and psi dihedral angles.<br/>Opens the Ramachandran Plot panel.",,
 ramachandran_plot,protein analysis,,,Ramachandran Plot...,Structure Analysis
-rapid_torsion_scan,"torsion, small molecule analysis, rotamers, torsion scan",,,Rapid Torsion Scan...,Workspace Operations
+rapid_torsion_scan,"torsion, small molecule analysis, rotamers, torsion scan",,,Rapid Torsion Scan...,Molecular Mechanics
 rapid_torsion_scan_gui.panel,,,"Scan the orientations around a ligand bond or view rotamer states of a selected protein residue, and see a breakdown of the energy for each orientation or state. No relaxation of the structure is done during the scan.<br/>Opens the Rapid Torsion Scan panel.",,
 raytrace.run,,,"Create a ray trace image of the Workspace, using PyMOL.<br/>Opens a file browser to specify the output file.",,
 rdf_gui.panel,,,"<!-- desmond, analysis -->
 Calculate and plot radial distribution functions from a molecular dynamics simulation.<br/>Opens the Radial Distribution Function panel.",,
-reaction_based_enum_gui.panel,"reaction-based, enumeration, PathFinder",,Enumerate structures by substitution of R groups in the reactants and products of a single- or multi-step reaction.<br/>Opens the Reaction-Based Enumeration panel,Reaction-Based Enumeration...,Enumeration and Ideation
-reaction_energetics_enumeration,"QM, quantum mechanics",,,Reaction Energetics Enumeration...,Quantum Mechanics
+reaction_based_enum_gui.panel,"reaction-based, enumeration, PathFinder",,Enumerate structures by substitution of R groups in the reactants and products of a single- or multi-step reaction.<br/>Opens the Reaction-Based Enumeration panel,Reaction-Based Enumeration...,Enumeration
+reaction_channel_enumeration,,,,Reaction Channel...,Enumeration
+reaction_energetics_enumeration,"QM, quantum mechanics",,,Reaction Energetics Enumeration...,Workflows
 reaction_energetics_enumeration_gui.panel,,,"<!-- energy, enthalpy -->
 Calculate reaction barriers, enthalpies, and energies of intermediates for a series of related compounds, based on a prototype reaction, which can include multiple transition states and intermediates. The structures for the reactions are enumerated by addition of functional groups to the structures for the prototype reaction.<br/>Opens the Reaction Energetics Enumeration panel.",,
-reaction_profile_viewer_gui.panel,,,"Display a diagram of the energy for the stationary points in the progress of a reaction, derived from the energies of specified Maestro project entries.<br/>Opens the Reaction Profile Viewer panel",,
-reaction_workflow_gui.panel,,,"Run a set of optimizations with Jaguar on structures that are reactants, transition states, intermediates, or products in a reaction network, with an optional conformational search.<br/>Opens the Reaction Network Profiler panel.",,
-reaction_workflow_input_gui.panel,,,"Prepare input structures for each stage of a reaction network, annotated with the relevant properties. The prepared structures can then be used in the Reaction Network Profiler panel.<br/>Opens the Create Reaction Network Profiler Input Structures panel.",,
+reaction_path_interpolation,,,,Reaction Path Interpolation...,Structure Builders
+reaction_profile_viewer_gui.panel,,,"Display a diagram of the energy for the stationary points in the progress of a reaction, derived from the energies of specified Maestro project entries.<br/>Opens the Reaction Profile Viewer panel",Reaction Profile Viewer...,Tools
+reaction_workflow_gui.panel,,,"Run a set of optimizations with Jaguar on structures that are reactants, transition states, intermediates, or products in a reaction network, with an optional conformational search.<br/>Opens the Reaction Network Profiler panel.",Reaction Network Profiler Calculations...,Reaction Network
+reaction_workflow_input_gui.panel,,,"Prepare input structures for each stage of a reaction network, annotated with the relevant properties. The prepared structures can then be used in the Reaction Network Profiler panel.<br/>Opens the Create Reaction Network Profiler Input Structures panel.",Create Reaction Network Profiler Input...,Reaction Network
 reactiq_gui.panel,,,"Set up and run a transition state search. The setup involves providing a set of reactant and product structures, viewing the reactant and product complexes and an initial reaction path, adjusting these structures as necessary, then making settings and running the job.<br/>Opens the Transition State Search panel.",,
 reactiq_viewer_gui.panel,,,View the results of a transition state search.<br/>Opens the Transition State Search Viewer panel.,,
 reactive_protein_residues_gui.panel,,,"<!-- hot spots, reactivity -->
 Identify protein residues that have a propensity for deamidation, oxidation, glycosylation or proteolysis. Residues are identified based on canonical definitions reported in the literature plus filters based on solvent accessibility and b-factor. You can add search defintions using the extensible PROSITE syntax.<br/>Opens the Reactive Protein Residues panel.",,
 reagentprep,,,"Prepare reagent libraries for use in combinatorial screening or combinatorial library enumeration, by identifying the functional group and labeling the attachment bond.<br/>Opens the Reagent Preparation panel.",,
+redefine_lattice,,,,Redefine Lattice...,Tools
 redefine_lattice_gui.panel,,,"Redefine the lattice for a crystal structure, by specifying new lattice constants, defining a plane for one face of the new cell, supplying a transformation matrix, or converting to a primitive cell.<br/>Opens the Redefine Lattice panel.",,
 refinecomplex,,,"<!-- Prime --><br/>Optimize a docked ligand in the environment of its protein, taking protein flexibility into account. The optimization can be performed using a variety of protocols for both covalently-bound and non-covalently-bound ligands, and can optionally include periodic boundary conditions, an implicit solvent, and an implicit membrane.<br/>Opens the Refine Protein-Ligand Complex panel.",,
 refineloops,,,"<!-- Prime -->
 Refine the structure of loops in the protein that is displayed in the Workspace. The refinement can be run with periodic boundary conditions, in implicit solvent, and with an implicit membrane.<br/>Opens the Refine Loops panel.",,
 register_via_ld,"LiveDesign, LD",,,Register via LiveDesign...,Discovery Informatics and QSAR
+remove_molecules_from_system,,,,Remove Molecules from System...,MD Simulations
 remove_molecules_from_system_gui.panel,,,"Remove molecules from a system prepared for MD simulations, by random selection, preserving force-field information.<br/>Opens the Remove Molecules from System Panel.",,
 renameproperty,,,"Rename the property. You can change the visible name and the internal name, and you can also change the property type.<br/>Opens the Edit Property Name/Type dialog box.",,
 rep,,,Change the representation of atoms and bonds. You can choose the representation and apply it to all atoms or to selected atoms.<br/>Opens the Molecular Representation panel.,,
-replica_exchange,"Desmond, enhanced sampling, replica exchange analysis, sampling",,,Replica Exchange...,Classical Simulation
+replica_exchange,"Desmond, enhanced sampling, replica exchange analysis, sampling",,,Replica Exchange...,Molecular Dynamics
 replica_exchange_review_gui.panel,,,"<!-- desmond, REMD -->
 Analyze replica exchange simulations. Display plots of temperature replicas as functions of time.<br/>Opens the Replica Exchange Dynamics Review Panel.",,
 residue_analysis_gui.panel,,,"<!-- SASA, energy -->
@@ -1249,7 +1316,7 @@ sasa_panel.panel,,,"Compute the change in solvent-accessible surface area upon b
 save_image,,,"Save an image of the Workspace to a file in TIFF, JPEG, or PNG format.<br/>Opens the Save Image panel.",,
 scaffold_decomp,scaffold,,,Scaffold Decomposition...,Structure Analysis
 scaffold_decomp_launcher.show_panel,,,"Set up and run a job to decompose a set of structures into its constituent scaffolds, or cores.<br/>Opens the Scaffold Decomposition panel.",,
-scan_lrc_omega_gui.panel,,,Tune the range-separation parameter ω in long-range-corrected density functionals so that the ionization potential as calculated from separate DFT calculations is as close to the HOMO orbital energy as possible.<br/>Opens the Tune DFT Range-Separation Parameter Panel.,,
+scan_lrc_omega_gui.panel,,,Tune the range-separation parameter ω in long-range-corrected density functionals so that the ionization potential as calculated from separate DFT calculations is as close to the HOMO orbital energy as possible.<br/>Opens the Tune DFT Range-Separation Parameter Panel.,Tune DFT Range-Separation Parameter...,Workflows
 scenesmanage,,,"Add, delete, and export scenes, and make settings for scenes.<br/>Opens the Manage Scenes panel.",,
 scenesnew,,,"Create a new scene, which contains project entries and data as well as the Workspace view.",,
 scenesview,,,"Start viewing scenes. The <span class=""GUI"">Scenes</span> toolbar is displayed below the Workspace.",,
@@ -1257,6 +1324,7 @@ schrodinger.application.pymol.export_to_pymol_gui.panel,export,,,Export to PyMOL
 schrodinger.application.pymol.pymol4maestro.show_panel,export,,,Export to PyMOL...,Workspace Operations
 schrodinger.ui.qt.forcefield.ffprojectsettingsdlg.show_ff_project_settings_dlg,,,Specify the location of the OPLS4 custom parameters to be used with the current project.<br/>Opens the Set Custom Parameters Location Dialog Box.,,
 schrodinger.utils.documentation.show_legal_notice,,,,,
+sculpt_complex_gui,,,,Sculpt Complex...,Structure Builders
 sculpt_complex_gui.panel,,,"Build one or more complexes from a set of ligands and capping groups, by mapping the coordination sites on the complex to the attachment points on the ligands. The complexes are minimized using a force field.<br/>Opens the Sculpt Complex panel.",,
 sdgr_knowledge_bot_gui.help_panel,"Knowledge Bot, Maestro Assistant, Assistant, AI, Chat, Chatbot, Help",,,Maestro Assistant (Beta)...,Other Applications
 select_disallowed.run backbone,,,Select residues that have backbone dihedrals that are in the disallowed region.,,
@@ -1268,12 +1336,13 @@ select_top_poses_gui.panel,,,Select the top Glide poses from the selected projec
 semi_crystal_builder_gui.panel,,,"Build a semicrystalline polymer, consisting of crystalline and amorphous layers.<br/>Opens the Semicrystalline Polymer Builder panel.",,
 semi_emp_gui.panel,,,"Set up and run a semiempirical NDDO quantum chemical calculation on one or more structures, including geometry optimization, property evaluation, and generation of property surfaces.<br/>Opens the Semiempirical NDDO Module panel.",,
 sets,,,"Manage sets of atoms that are used in Maestro operations,such as selecting atoms in the Workspace.<br/>Opens the Manage Sets panel.",,
+setup_barrier_gui,,,,Setup Barrier Potential for MD...,MD Simulations
 setup_barrier_gui.panel,,,"<!--wall-->
 Add repulsive barriers to a system displayed in the Workspace, and save the updated system containing barrier information as a Desmond Model.<br/>Opens the Set Barrier Potential for MD Panel.",,
 shape_screening,"virtual screen, screening, ligand shape, ROCS, shape",,,Shape Screening...,Ligand-Based Virtual Screening
 sim_event_analysis.show_panel,,,"<!-- desmond, analysis, trajectory -->
 Analyze the output from a Desmond simulation and display the results of the analysis in various forms.<br/>Opens the Simulation Event Analysis panel.",,
-simulated_annealing,"Desmond, enhanced sampling, protein simulation, sampling",,,Simulated Annealing...,Classical Simulation
+simulated_annealing,"Desmond, enhanced sampling, protein simulation, sampling",,,Simulated Annealing...,Molecular Dynamics
 simulation_analysis_gui.panel,,,"Display various measures of the quality of a simulation, and plot various quantities as a function of simulation time.<br/>Opens the Simulation Quality Analysis panel.",,
 single_entry_feedback,,,"Display or undisplay entry information in the Workspace for a single &quot;target&quot; entry, subject to the related preference.",,
 sitemap,,,,SiteMap...,Other Applications
@@ -1283,18 +1352,19 @@ sketcher,,,"Draw and edit structures in 2D, then save them either as 2D structur
 sketcher-LID,,,Generate and display a 2D diagram of the interactions between a ligand and various protein residues.<br/>Opens the Ligand Interaction Diagram panel.,,
 smarts_index.panel,,,Evaluate a SMARTS pattern in the Workspace and identify the SMARTS atom index of atoms that you pick in the Workspace.<br/>Opens the SMARTS Index panel.,,
 smarts_match_gui.panel,,,"<!-- CG -->
-Refine a set of atom groups by SMARTS patterns for use in coarse-grained modeling, and run a job to locate and label the atom groups in a set of structures.<br/>Opens the Define Groups by SMARTS panel.",,
+Refine a set of atom groups by SMARTS patterns for use in coarse-grained modeling, and run a job to locate and label the atom groups in a set of structures.<br/>Opens the Define Groups by SMARTS panel.",Define Groups by SMARTS...,Coarse Grain Models
 solid_electrolyte_interphase_gui.panel,,,"<!-- sei -->
-Study the evolution of the solid electrolyte interphase using cycles of reaction-template based molecular dynamics simulations.<br/>Opens the Solid Electrolyte Interphase (SEI) Calculation Panel.",,
+Study the evolution of the solid electrolyte interphase using cycles of reaction-template based molecular dynamics simulations.<br/>Opens the Solid Electrolyte Interphase (SEI) Calculation Panel.",Solid Electrolyte Interphase Formation Calculations...,Solid Electrolyte Interphase Formation
 solid_electrolyte_interphase_viewer_gui.panel,,,"<!-- sei -->
-Plot the results of a solid electrolyte interphase calculation, view the evolution of species and their density over the course of the simulation.<br/>Opens the Solid Electrolyte Interphase (SEI) Viewer Panel.",,
-solvation_builder_gui.panel,,,Build a large solvated system around solutes or on a substrate. The resulting structure can be prepared for molecular dynamics simulations.<br/>Opens the Solvation Builder Panel.,,
+Plot the results of a solid electrolyte interphase calculation, view the evolution of species and their density over the course of the simulation.<br/>Opens the Solid Electrolyte Interphase (SEI) Viewer Panel.",Solid Electrolyte Interphase Formation Results...,Solid Electrolyte Interphase Formation
+solvation_builder_gui.panel,,,Build a large solvated system around solutes or on a substrate. The resulting structure can be prepared for molecular dynamics simulations.<br/>Opens the Solvation Builder Panel.,Solvate System...,Structure Builders
+solvent_corr_morphology_gui.panel,,,,Solvent Corrected Morphology...,Crystal Morphology
 spectral_cluster,"cheminformatics, clustering",,,Spectral Clustering...,Discovery Informatics and QSAR
 spectral_cluster_gui.panel,,,Cluster the selected entries in the Project Table panel by the spectral method.<br/>Opens the Spectral Clustering panel.,,
 spectrum_plot.panel,,,"<!-- c13 -->
-Plot UV/Visible, IR/Raman, phonon, VCD, ECD, and NMR spectra from information on line positions and intensities, as generated by Jaguar or Quantum ESPRESSO.<br/>Opens the Spectrum Plot panel.",,
+Plot UV/Visible, IR/Raman, phonon, VCD, ECD, and NMR spectra from information on line positions and intensities, as generated by Jaguar or Quantum ESPRESSO.<br/>Opens the Spectrum Plot panel.",Band Shape Results...,Band Shape
 spin.spin Y 10 0.05,,,Rotate the Workspace structure about the Y (vertical) axis.,,
-spin_states,"QM, quantum mechanics",,,Spin States...,Quantum Mechanics
+spin_states,"QM, quantum mechanics",,,Spin States...,Workflows
 spin_states_gui.panel,,,"<!-- multiplicity -->
 Calculate high-spin and low-spin states of transition metal complexes, exploring some or all of the possible states produced by the transition metal initial guess code. Calculations can also be done on organic molecules and on complexes with more than one transition metal.<br/>Opens the Spin States panel",,
 splicer_gui.panel,,,"Splice a contiguous set of residues from a source protein into an aligned target protein, removing residues from the target protein to accommodate the new protein segment. The region around the join points is minimized but no other refinement of the spliced segment is done.<br/>Opens the Protein Splicing panel.",,
@@ -1303,8 +1373,8 @@ start,,,"<!-- MacroModel, MMOD -->
 Start a MacroModel job based on a previously created command file.<br/>Opens the Start panel.",,
 strain_energy_calc,"docking postprocessing, ligand strain rescore",,,Strain Energy Rescoring...,Receptor-Based Virtual Screening
 strain_rescore_gui.panel,,,Calculate ligand strain energy from the difference between a tightly constrained minimization and an unconstrained minimization on each ligand pose.<br/>Opens the Strain Energy Calculation and Rescoring panel.,,
-stress_strain_gui.panel,,,"Calculate the stress on a system as a function of the von Mises strain, from a set of molecular dynamic simulations.<br/>Opens the Stress Strain panel.",,
-stress_strain_viewer_gui.panel,,,Display a plot of the stress vs the strain from a stress-strain calculation.<br/>Opens the Stress Strain Viewer Properties panel.,,
+stress_strain_gui.panel,,,"Calculate the stress on a system as a function of the von Mises strain, from a set of molecular dynamic simulations.<br/>Opens the Stress Strain panel.",Stress Strain Calculations...,Stress Strain
+stress_strain_viewer_gui.panel,,,Display a plot of the stress vs the strain from a stress-strain calculation.<br/>Opens the Stress Strain Viewer Properties panel.,Stress Strain Results...,Stress Strain
 strikeFA.strikeFA,,,"<!-- Strike, pca -->
 Perform principal component analysis of a set of descriptors and plot factors and loadings.<br/>Opens the Factor Analysis panel.",,
 strikeStats.strikeStats,,,"<!-- Strike -->
@@ -1319,38 +1389,42 @@ structalign,"alignment, superimpose, superpose, superimposition",,"<!-- protein 
 Align proteins to a reference protein structure as rigid bodies, making use of secondary structure information. The reference structure is the first included protein in the Project Table.<br/>Opens the Protein Structure Alignment panel.",Protein Structure Alignment...,Structure Alignment
 structconvert,,,,Structure File Converter...,Project Table and Project Operations
 structconvert_gui.panel,,,"Read structures from a structure file in one format, and write them out to another file in another format. The allowed formats are: Maestro, PDB, SD, SMILES, MOL2, and CIF, with any of the usual file extensions.<br/>Opens the Structure File Converter panel.",,
+structure_factor_gui,,,,Structure Factor Calculation...,Trajectory Analysis
 structure_factor_gui.panel,,,Calculate structure factors for a specified set of atoms from the structure in the Workspace.<br/>Opens the Structure Factor Calculation panel.,,
+structure_factor_viewer,,,,Structure Factor Results...,Trajectory Analysis
 structure_factor_viewer_gui.panel,,,Plot 1D and 2D structure factors from a structure factor calculation.<br/>Opens the Structure Factor Viewer panel.,,
 structure_morpher.panel,,,"Transform (morph) a structure with identical atoms from one conformation to another using an unphysical path in torsion space, creating structures along this path.<br/>Opens the Structure Morpher panel.",,
+structured_liquid_gui,,,,Structured Liquid...,Structure Builders
 structured_liquid_gui.panel,,,"Build surfactant systems such as micelles, liposomes and bilayers from multiple surfactant molecules and solvent molecules.<br/>Opens the Build Structured Liquid panel.",,
 superimpose,,,"<!-- align -->Perform rigid-body superposition of the structures that are included in the Workspace, or the structures that are selected in the Project Table, based on corresponding atom pairs defined by selection, ASL, or a SMARTS pattern.<br/>Opens the Superposition panel.",,
 superposition,"alignment, rmsd, superimpose, superpose, superimposition, align",,,Superposition...,Structure Alignment
 surface_display_toggle,,,,,
-surface_energy_gui.panel,,,Create slabs from a bulk structure and compute the surface energy.<br/>Opens the Surface Energy Calculations Panel.,,
+surface_energy_gui.panel,,,Create slabs from a bulk structure and compute the surface energy.<br/>Opens the Surface Energy Calculations Panel.,Surface Energy...,Workflows
 surface_import,,pt_import_surfaces,,,
-surface_tension_gui.panel,,,Calculate the surface tension of single phase systems from MD simulations.<br/>Opens the Surface Tension Calculation Panel.,,
-surface_tension_viewer_gui.panel,,,Plot the results of a surface tension calculation.<br/>Opens the Surface Tension Viewer Panel.,,
+surface_tension_gui.panel,,,Calculate the surface tension of single phase systems from MD simulations.<br/>Opens the Surface Tension Calculation Panel.,Surface Tension Calculations...,Surface Tension
+surface_tension_viewer_gui.panel,,,Plot the results of a surface tension calculation.<br/>Opens the Surface Tension Viewer Panel.,Surface Tension Results...,Surface Tension
 surface_undisplay_all,,,Remove all surfaces from the Workspace.,,
 surfaceadvanced,,,"Generate a surface for the selected atoms, with controls for the parameters of the surface.<br/>Opens the Advanced Surfaces panel.",,
 surfacepbrsp,,,"Calculate the electrostatic potential on a grid, using a Poisson-Boltzmann solver with the partial charges of the input structure, and generate isosurfaces and a mapping to the molecular surface.<br/>Opens the Electrostatic Potential Surface panel.",Poisson-Boltzmann ESP...,Structure Analysis
 surfaces_interfaces_gui.panel,,,"Build a slab of a specified thickness by slicing a crystal structure along a specified plane, and optionally add a second slab above or below the first, taken from another crystal structure. Multiple slabs can be generated that are sliced along different planes.<br/>Opens the Build Slabs and Interfaces panel.",,
 surfacevdw,,,Generate a surface for a set of atoms that consists of the outer surface of the atomic spheres whose radii are the van der Waals radii of the atoms.<br/>Opens the VDW Surface panel.,,
-surfactant_tilt_gui.panel,,,Calculate tilt and rotational angles of surfactants from an MD simulation.<br/>Opens the Surfactant Tilt Calculation Panel.,,
-surfactant_tilt_viewer_gui.panel,,,Show time series and histogram plots of tilt and rotational angles of surfactants.<br/>Opens the Surfactant Tilt Viewer Panel.,,
-swap_fragments_gui.panel,,,Replace a selected fragment in each of a set of reference structures with a selected fragment from another structure. The structures are aligned by superposition before replacement is done.<br/>Opens the Swap Fragments panel.,,
+surfactant_tilt_gui.panel,,,Calculate tilt and rotational angles of surfactants from an MD simulation.<br/>Opens the Surfactant Tilt Calculation Panel.,Surfactant Tilt Calculations...,Trajectory Analysis
+surfactant_tilt_viewer_gui.panel,,,Show time series and histogram plots of tilt and rotational angles of surfactants.<br/>Opens the Surfactant Tilt Viewer Panel.,Surfactant Tilt Results...,Trajectory Analysis
+swap_fragments_gui.panel,,,Replace a selected fragment in each of a set of reference structures with a selected fragment from another structure. The structures are aligned by superposition before replacement is done.<br/>Opens the Swap Fragments panel.,Swap Fragments...,Reaction Network
 symmetrize,,,Impose point-group symmetry on the atoms in the Workspace.<br>Opens the Symmetrize Workspace dialog box.,,
-system_builder,Desmond,,,System Builder...,Desmond
+system_builder,Desmond,,,System Builder...,More MD Tasks
 system_builder_gui.panel,,,"<!-- desmond, MD -->
 Set up a system for molecular dynamics simulations. The system can include proteins, ligands, explicit solvent, a membrane, and counter ions.<br/>Opens the System Builder panel.",,
-system_setup,"Desmond, dynamics, molecular dynamics, MD, setup MD, system setup",,,System Setup...,Classical Simulation
+system_setup,"Desmond, dynamics, molecular dynamics, MD, setup MD, system setup",,,System Setup...,Molecular Dynamics
 tasks_adme,,qikprop,,,
-tasks_adme_amphiphilic_moment,,,,Amphiphilic Moment...,ADME and Molecular Properties
+tasks_adme_amphiphilic_moment,,,,Amphiphilic Moment...,ADME/Tox
 tasks_adme_interactive_properties,ADME/tox,,,Interactive Properties...,Workspace Operations
-tasks_adme_membrane_permeability,,,,Physics-Based Membrane Permeability...,ADME and Molecular Properties
-tasks_adme_tox_prediction,ADME/tox,,,Ligand-Based ADME/Tox Prediction...,Ligand Preparation and Library Design
+tasks_adme_membrane_permeability,,,,Physics-Based Membrane Permeability...,ADME/Tox
+tasks_adme_tox_prediction,ADME/tox,,,Ligand-Based ADME/Tox Prediction...,ADME/Tox
 tasks_build_2d_sketcher,"draw, sketch, building, 2D, SMILES",,,2D Sketcher...,Ligand Preparation and Library Design
 tasks_build_lid,"ligand interaction diagram, lid, 2D",sketcher-LID,,Ligand Interaction Diagram...,Structure Analysis
 tasks_calculate_energy_ff,,,macromodel_current_energy,,
+tasks_csearch_advanced,,,,Conformational Search...,Molecular Mechanics
 tasks_csearch_montecarlo,,app_mcpro_monte,,,
 tasks_csearch_rce,"MacroModel, conformer",,,Redundant Conformer Elimination...,MacroModel
 tasks_docking_glide,,glide_docking_gui.panel,,,
@@ -1370,13 +1444,15 @@ tasks_protein_preparation,,prepwizard_gui.panel,,,
 tasks_quantum_optimization,,jaguar_gui.optimization_panel,,,
 tcr_structure_prediction_gui.panel,"TCR, T-cell receptor",,,TCR Structure Prediction...,Biologics
 template_ligand_finder_gui.panel,,,,Template Ligand Finder...,Receptor-Based Virtual Screening
-tg_loader_gui.panel,,,Load data from a Thermophysical Properties run so that it can be analyzed.<br/>Opens the Load Tg Data panel.,,
-thermal_conductivity_gui.panel,,,Calculate thermal conductivity using reverse nonequilibrium MD simulations.<br/>Opens the Thermal Conductivity Calculation Panel.,,
-thermal_conductivity_viewer_gui.panel,,,"Plot the results of a thermal conductivity calculation, perform fitting to obtain a temperature gradient value and calculate the thermal conductivity.<br/>Opens the Thermal Conductivity Viewer Panel.",,
-thermochemistry_viewer_gui.panel,,,Display plots of energy or thermodynamic properties as a function of temperature or pressure.<br/>Opens the Thermochemistry Viewer Panel.,,
+tg_loader_gui.panel,,,Load data from a Thermophysical Properties run so that it can be analyzed.<br/>Opens the Load Tg Data panel.,Load Tg Data...,Thermophysical Properties
+thermal_conductivity_gui.panel,,,Calculate thermal conductivity using reverse nonequilibrium MD simulations.<br/>Opens the Thermal Conductivity Calculation Panel.,Thermal Conductivity Calculations...,Thermal Conductivity
+thermal_conductivity_viewer_gui.panel,,,"Plot the results of a thermal conductivity calculation, perform fitting to obtain a temperature gradient value and calculate the thermal conductivity.<br/>Opens the Thermal Conductivity Viewer Panel.",Thermal Conductivity Results...,Thermal Conductivity
+thermochemistry_viewer_gui.panel,,,Display plots of energy or thermodynamic properties as a function of temperature or pressure.<br/>Opens the Thermochemistry Viewer Panel.,Thermochemistry Viewer...,Tools
+thermophysical_properties.panel,,,,Thermophysical Properties Calculations...,Thermophysical Properties
 thermophysical_properties_gui.panel,,,"Calculate the density of a model system as a function of temperature using MD simulations, to generate data for evaluation of the coefficient of thermal expansion and the glass transition temperature (T<sub>g</sub>). <br/>Opens the Thermophysical Properties panel.",,
+thermophysical_properties_viewer,,,,Thermophysical Properties Results...,Thermophysical Properties
 thermophysical_properties_viewer_gui.panel,,,"Analyze the density of a solid as a function of temperature to determine the coefficient of thermal expansion and the glass transition temperature. The densities are obtained from MD simulations at a set of temperatures in the NPT ensemble, and the uncertainties in the results due to the simulations can also be estimated.<br/>Opens the Thermophysical Properties Analysis panel.",,
-toggle_eta_style,,toggle_eta_style.run,,,
+toggle_eta_style,,toggle_eta_style.run,,Toggle Eta Bond Style,Tools
 toggle_eta_style.run,,,Switch the bonding style for eta-bonded organometallic complexes between a set of zero-order bonds to each eta-bonded atom and a one bond to the centroid of these atoms.,,
 toggle_table.panel,,,"Open the Toggle Table panel, which provides PyMOL-like interaction with the Workspace.",,
 tool_geom_cleanup,,,"Clean up the geometry of the Workspace structure by minimizing its energy. By default the OPLS_2005 force field is used. If this does not include the atoms you need to minimize, you can set a preference to use the UFF force field, which covers a wider range of atoms but is slower.",,
@@ -1395,33 +1471,38 @@ toolbar_wsassistant_rendering_balance,,,"Render Workspace objects with medium qu
 toolbar_wsassistant_rendering_performance,,,"Render Workspace objects with lower quality, to optimize the performance when rotating or translating. This includes using a simplified representation for atoms, bonds, and ribbons where necessary.",,
 toolbar_wsassistant_rendering_quality,,,Render Workspace objects with higher quality. The cost of rendering might affect performance when rotating or translating.,,
 tools_protein_sculpt,,,"Reposition atoms by dragging, with adustment of nearby atoms in a short force-field minimization.",,
+torsion_profile_analysis_gui,,,,Torsion Profile Analysis Calculations...,Tools
 torsion_profile_analysis_gui.panel,,,"Analyze profiles of torsional angles specified by  SMARTS patterns, for graphical display.<br/>Opens the Torsion Profile Analysis Panel.",,
+torsion_profile_analysis_viewer_gui,,,,Torsion Profile Analysis Results...,Tools
 torsion_profile_analysis_viewer_gui.panel,,,Display profiles of torsional angles as radial and histogram plots.<br/>Opens the Torsion Profile Analysis Viewer Panel.,,
 trajectory_cluster.panel,,,Perform hierarchical clustering on structures from a Desmond trajectory based on the RMSD matrix of a specified set of atoms.<br/>Opens the RMSD Based Clustering of Frames from Desmond Trajectory panel.,,
 trajectory_cluster_gui.panel,,,Perform hierarchical clustering on structures from a Desmond trajectory based on the RMSD matrix of a specified set of atoms.<br/>Opens the RMSD Based Clustering of Frames from Desmond Trajectory panel.,,
-trajectory_density_analysis_gui.panel,,,Generate density profiles and cross-sections from the frames of a trajectory that can be averaged over a range of the trajectory.<br/>Opens the Trajectory Density Analysis Panel.,,
-trajectory_density_analysis_viewer_gui.panel,,,"View 1D and 2D profiles of the averaged density from a trajectory, generated using the Trajectory Density Analysis Panel.<br/>Opens the Trajectory Density Analysis Viewer Panel.",,
-trajectory_esp_analysis_gui.panel,,,Calculate the charge density and the electrostatic potential of a planar interface or micelle from the frames of a trajectory.<br/>Opens the Trajectory Electrostatic Potential Analysis Panel.,,
-trajectory_esp_analysis_viewer_gui.panel,,,Plot the charge density and electrostatic potential from a trajectory analysis.<br/>Opens the Trajectory Electrostatic Potential Analysis Viewer Panel.,,
-tst_rate_calculation,"QM, quantum mechanics",,,TST Rate Calculation...,Quantum Mechanics
+trajectory_density_analysis_gui.panel,,,Generate density profiles and cross-sections from the frames of a trajectory that can be averaged over a range of the trajectory.<br/>Opens the Trajectory Density Analysis Panel.,Trajectory Density Analysis Calculations...,Trajectory Analysis
+trajectory_density_analysis_viewer_gui.panel,,,"View 1D and 2D profiles of the averaged density from a trajectory, generated using the Trajectory Density Analysis Panel.<br/>Opens the Trajectory Density Analysis Viewer Panel.",Trajectory Density Analysis Results...,Trajectory Analysis
+trajectory_esp_analysis_gui.panel,,,Calculate the charge density and the electrostatic potential of a planar interface or micelle from the frames of a trajectory.<br/>Opens the Trajectory Electrostatic Potential Analysis Panel.,Trajectory Electrostatic Potential Analysis Calculations...,Trajectory Analysis
+trajectory_esp_analysis_viewer_gui.panel,,,Plot the charge density and electrostatic potential from a trajectory analysis.<br/>Opens the Trajectory Electrostatic Potential Analysis Viewer Panel.,Trajectory Electrostatic Potential Analysis Results...,Trajectory Analysis
+tst_rate_calculation,"QM, quantum mechanics",,,TST Rate Calculation...,Workflows
 tst_rate_gui.panel,,,"<!-- transition state  -->
 Calculate the temperature-dependent rate constant of a reaction using transition state theory from the output of previous quantum mechanical calculations on the reactants and the transition state.<br/>Opens the TST Rate Calculation panel.",,
 tst_rate_viewer_gui.panel,,,"<!-- transition state  -->
-Plot the results of a TST Rate calculation.<br/>Opens the TST Rate Viewer Panel.",TST Rate Viewer...,Quantum Mechanics
+Plot the results of a TST Rate calculation.<br/>Opens the TST Rate Viewer Panel.",TST Rate Viewer...,Workflows
 two_d_viewer_gui.panel,,,"Display 2D structures for Project Table entries in a rectangular grid, and use them to select and include structures. Opens the 2D Viewer panel.",,
-umbrella_sampling_gui.panel,,,Perform MD sampling of a structure in a set of windows along a path perpendicular to a substrate.<br/>Opens the Umbrella Sampling Calculation (Beta) Panel.,,
-umbrella_sampling_viewer_gui.panel,,,View the free energy curve as a function of the collective variable from an umbrella sampling calculation.<br/>Opens the Umbrella Sampling Viewer Panel.,,
+umbrella_sampling_gui.panel,,,Perform MD sampling of a structure in a set of windows along a path perpendicular to a substrate.<br/>Opens the Umbrella Sampling Calculation (Beta) Panel.,Umbrella Sampling Calculations (Beta)...,Umbrella Sampling (Beta)
+umbrella_sampling_viewer_gui.panel,,,View the free energy curve as a function of the collective variable from an umbrella sampling calculation.<br/>Opens the Umbrella Sampling Viewer Panel.,Umbrella Sampling Viewer (Beta)...,Umbrella Sampling (Beta)
+uncertainty_quantification_gui,,,,Uncertainty Quantification Calculations...,Tools
 uncertainty_quantification_gui.panel,,,Calculate within-simulation uncertainty for multiple thermophysical property simulations.<br/>Opens the Uncertainty Quantification panel,,
+uncertainty_quantification_viewer_gui,,,,Uncertainty Quantification Results...,Tools
 uncertainty_quantification_viewer_gui.panel,,,Plot within-simulation and between-simulation uncertainties from an uncertainty quantification calculation.<br/>Opens the Uncertainty Quantification Viewer panel,,
 updatecoords,,,Change the coordinates of the entries in the Workspace to the coordinates of the current view.,,
 virtual_screening,"dock, docking, virtual screen, screening, XP, SP, HTVS, grid generation, glide grid, Glide, GOLD, database screening, ensemble, ensemble docking, find hits, high throughput screen, ligand screening, rigid receptor docking, VSW",,,Virtual Screening Workflow...,Receptor-Based Virtual Screening
-viscosity_gk_gui.panel,,,Calculate the shear viscosity from multiple equilibrium MD simulations with averaging and curve fitting to obtain the viscosity value.<br/>Opens the Shear Viscosity panel,,
-viscosity_viewer_gui.panel,,,Plot the results of a shear viscosity calculation and perform fitting to obtain a shear viscosity value.<br/>Opens the Shear Viscosity Viewer panel,,
+viscosity_gk_gui.panel,,,Calculate the shear viscosity from multiple equilibrium MD simulations with averaging and curve fitting to obtain the viscosity value.<br/>Opens the Shear Viscosity panel,Viscosity Calculations...,Viscosity
+viscosity_viewer_gui.panel,,,Plot the results of a shear viscosity calculation and perform fitting to obtain a shear viscosity value.<br/>Opens the Shear Viscosity Viewer panel,Viscosity Results...,Viscosity
 visualize_hbonds,"protein analysis, H-bonds, hydrogen bonds, show H-bonds",,,Visualize H-Bonds...,Structure Analysis
 visualize_hbonds.panel,,,"Display hydrogen bonds to the selected atoms, and label them with distances and donor-acceptor angle.<br/>Opens the Visualize H-bonds panel.",,
 visualize_restraints,restraints,,,,
+visualize_restraints_gui,,,,Visualize Restraints...,MD Simulations
 visualize_restraints_gui.panel,,,"Visualize restraints set on atom positions, bonds, angles, and dihedrals.<br/>Opens the Visualize Restraints Panel.",,
-visualize_transition_moment_gui.panel,,,Display transition moments from TDDFT calculations in the Workspace for a selected project entry.<br/>Opens the Visualize Transition Moment panel.,,
+visualize_transition_moment_gui.panel,,,Display transition moments from TDDFT calculations in the Workspace for a selected project entry.<br/>Opens the Visualize Transition Moment panel.,Visualize Transition Dipole Moment...,Tools
 volume_cluster.panel,,,"Cluster structures based on their volume overlap, as calculated by the Phase utility phase_volCalc.<br/>Opens the Clustering Based on Volume Overlap panel.",,
 volume_cluster_gui.panel,,,,Clustering of Ligands...,Discovery Informatics and QSAR
 vsw_gui.panel,,,"Screen ligands against one or more targets. The workflow includes ligand preparation, filtering based on properties, grid generation, and up to three docking stages, progressing from HTVS to SP to XP docking.<br/>Opens the Virtual Screening Workflow panel.
@@ -1469,7 +1550,7 @@ wstools_show_surface_manager,,,,Manage Surfaces...,Workspace Operations
 wstools_start_measurementx,measure,measurementx,,Measure,Structure Analysis
 wstools_style_selected_atoms,,,"Apply a style to the selected atoms, or to all atoms if none are selected. Same as clicking the Style button on the main toolbar.",Style Selected Atoms...,Workspace Operations
 wstools_view_measurements,measure,,View a table of the measurements made in the Workspace. Same as right-clicking the Measurements button on the lower toolbar.<br/>Opens the Measurements panel.,View Measurements...,Workspace Operations
-wulff_viewer_gui.panel,,,Predict the crystal shape from the energies of its surfaces with the Wulff construction method.<br/>Opens the Wulff Viewer Panel.,,
+wulff_viewer_gui.panel,,,Predict the crystal shape from the energies of its surfaces with the Wulff construction method.<br/>Opens the Wulff Viewer Panel.,Wulff Viewer...,Crystal Morphology
 xglide_gui.panel,,,Run Glide docking jobs in which multiple ligand sets are docked to multiple receptors (cross-docking).<br/>Opens the XGlide panel.,,
 xpvisualizer.panel,,,"<!-- glide, extra precision -->
 Visualize Glide XP scoring terms to understand protein-ligand interactions.<br/>Opens the Glide &mdash; XP Visualizer panel.",,

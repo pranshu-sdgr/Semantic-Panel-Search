@@ -4,6 +4,7 @@ from datetime import datetime
 from database import vdao
 from fastapi import APIRouter, HTTPException, Query
 from model.transformer import get_transformer_model
+from model.vector_search import search_local_vector_mapping
 from pydantic import BaseModel
 
 
@@ -38,3 +39,26 @@ async def search_custom_dataset(request: SearchRequest):
         "results": results,
         "response_time": response_time
     }
+
+@router.post("/local-vector-mapping/search/")
+async def search_local_mapping(
+    query: str = Query(..., description="The search query string"),
+    local_vectors_path: str = Query('/app/data/vectors/mappings.json', description="Path to the local vector mappings JSON file"),
+    top_k: int = Query(5, description="Number of top similar results to return")
+):
+    """
+    Search local vector mappings from a JSON file.
+    """
+    start = datetime.now()
+    try:
+        results = search_local_vector_mapping(
+            query=query,
+            local_vectors_path=local_vectors_path,
+            top_k=top_k
+        )
+    except Exception as e:
+        raise HTTPException(status_code=http.HTTPStatus.INTERNAL_SERVER_ERROR, detail=str(e))
+    end = datetime.now()
+    response_time = (end - start).total_seconds()
+    results['response_time'] = response_time
+    return results

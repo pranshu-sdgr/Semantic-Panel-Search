@@ -118,11 +118,20 @@ def populate_action_title_application_mapping(action_title_application_type_mapp
                 if len(items) == 1 and 'action' not in items[0]:
                     continue
                 for action_dict in items:
+                    if task := action_dict.get('task', None):
+                        name = action_dict.get('name', None)
+                        keys.append({'task': task, 'name': name})
+                        continue
                     action = action_dict.get('action', None)
                     title = action_dict.get('name', None)
                     if action and title:
                         action_title_application_type_mapping[action] = (title, application_type)
-    
+        else:
+            if action := item.get('action', None):
+                print(f"Processing action: {action}")
+                title = item.get('name', None)
+                application_type = 'Unknown'
+                action_title_application_type_mapping[action] = (title, application_type)
 
 def action_title_application_csv():
     """
